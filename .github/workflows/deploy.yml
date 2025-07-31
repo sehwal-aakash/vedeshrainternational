@@ -23,7 +23,7 @@ jobs:
         run: |
           ssh -o StrictHostKeyChecking=no vedeshra.in@ssh.gb.stackcp.com << 'EOF'
             cd public_html/breeze/new/vedeshracom
-            # git pull origin main
+            git pull origin main
             php84 /usr/bin/composer update  --ignore-platform-req=ext-mongodb
             php artisan migrate --force
             php artisan config:cache
