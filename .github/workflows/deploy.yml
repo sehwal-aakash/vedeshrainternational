@@ -1,0 +1,35 @@
+name: 🚀 Deploy Vedeshra to Server
+
+on:
+  push:
+    branches:
+      - main  # or whichever branch you're deploying from
+
+jobs:
+  deploy:
+    name: Deploy to Production
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📦 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 🔐 Set up SSH Agent
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: 🚀 Deploy via SSH
+        run: |
+          ssh -o StrictHostKeyChecking=no vedeshra.in@ssh.gb.stackcp.com << 'EOF'
+            cd public_html/breeze/new/vedeshracom
+            git pull origin main
+            composer install --no-dev --optimize-autoloader
+            php artisan migrate --force
+            php artisan config:cache
+            php artisan route:cache
+            php artisan view:cache
+            php artisan storage:link
+            chmod -R 775 storage bootstrap/cache
+            chown -R www-data:www-data .
+          EOF
