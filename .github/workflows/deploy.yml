@@ -19,10 +19,9 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: 📎 Add Server to Known Hosts
+      - name: ✅ Test if SSH key is present
         run: |
-          mkdir -p ~/.ssh
-          ssh-keyscan -H ssh.gb.stackcp.com >> ~/.ssh/known_hosts
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" | head -n 5
 
       - name: 🚀 Deploy via SSH
         run: |
