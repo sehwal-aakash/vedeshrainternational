@@ -7,25 +7,20 @@ on:
 
 jobs:
   deploy:
-    name: Deploy to Production
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📦 Checkout Repository
+      - name: 📦 Checkout Code
         uses: actions/checkout@v3
 
-      - name: 🔐 Set up SSH Agent
+      - name: 🔐 Setup SSH
         uses: webfactory/ssh-agent@v0.9.0
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: ✅ Test if SSH key is present
+      - name: 🚀 Deploy to Server
         run: |
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" | head -n 5
-
-      - name: 🚀 Deploy via SSH
-        run: |
-          ssh -o StrictHostKeyChecking=no -T vedeshra.in@ssh.gb.stackcp.com << 'EOF'
+          ssh -o StrictHostKeyChecking=no vedeshra.in@ssh.gb.stackcp.com << 'EOF'
             cd public_html/breeze/new/vedeshracom
             git pull origin main
             composer install --no-dev --optimize-autoloader
