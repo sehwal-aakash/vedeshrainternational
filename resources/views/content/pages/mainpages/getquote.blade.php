@@ -57,7 +57,7 @@
       "logo": "https://vedeshra.com/assets/img/logo/vedeshra_logo_180w_tr.png",
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+17374436593",
+        "telephone": "+12134447693",
         "contactType": "customer service",
         "email": "sales@vedeshra.com",
         "areaServed": ["US", "GB", "CA", "AF"],
@@ -258,7 +258,7 @@
                         <div class="getquoteformcaption">
                             <p>
                                 In a hurry? Give us a call now at
-                                <a href="tel:+17374436593">737-443-6593</a>
+                                <a href="tel:+12134447693">737-443-6593</a>
                             </p>
                         </div>
                     </div>
@@ -315,7 +315,7 @@
                             <p class="contact-address-title">Headquarters:</p>
                             <p>5101 Santa Monica Blvd Ste 8 Los Angeles, CA 90029</p>
                             <div class="contact-phone-number">
-                                <a href="tel:+17374436593">+1 (737) 4436-593</a>
+                                <a href="tel:+12134447693">+1 (737) 4436-593</a>
                             </div>
                         </div>
                         <div class="contact-address-box">
@@ -324,7 +324,7 @@
                             <div class="mainphonenumber">
                                 <span class="phone-title">Main Phone:</span>
                                 <div class="contact-phone-number">
-                                    <a href="tel:+17374436593">+1 (737) 4436-593</a>
+                                    <a href="tel:+12134447693">+1 (737) 4436-593</a>
                                 </div>
                             </div>
                         </div>

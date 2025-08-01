@@ -38,7 +38,7 @@
   "logo": "https://vedeshra.com/assets/img/logo/vedeshra_logo_180w_tr.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+17374436593",
+    "telephone": "+12134447693",
     "contactType": "customer service",
     "email": "sales@vedeshra.com",
     "areaServed": ["US", "GB", "CA", "AF"],
@@ -120,7 +120,7 @@
                     <p class="companyname">Vedeshra Technologies</p>
                     <p><strong>Address:</strong> VPO Sangwari, Rewari, Haryana 123401</p>
                     <p><strong>Email:</strong><a href="mailto:info@vedeshra.com">info@vedeshra.com</a></p>
-                    <p><strong>Mobile:</strong><a href="tel:+17374436593">+1 (737) 4436-593</a></p>
+                    <p><strong>Mobile:</strong><a href="tel:+12134447693">+1 (737) 4436-593</a></p>
                 </div>
             </div>
         </div>

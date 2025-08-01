@@ -31,10 +31,10 @@
                     <div class="announcement-bar-contact-item-box">
                         <div class="announcement-bar-contact-flexbox">
                             <div class="announcement-bar-icon-box">
-                                <a href="tel:+17374436593"><i class="fa-solid fa-phone"></i></a>
+                                <a href="tel:+12134447693"><i class="fa-solid fa-phone"></i></a>
                             </div>
                             <div class="announcement-bar-content-box">
-                                <a href="tel:+17374436593">+1 (737) 4436 593</a>
+                                <a href="tel:+12134447693">+1 (213) 444 7693</a>
                             </div>
                         </div>
                     </div>

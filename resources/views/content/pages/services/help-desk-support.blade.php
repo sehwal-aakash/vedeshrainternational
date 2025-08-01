@@ -46,7 +46,7 @@
   "logo": "https://vedeshra.com/assets/img/logo/vedeshra_logo_180w_tr.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+17374436593",
+    "telephone": "+12134447693",
     "contactType": "customer service",
     "email": "sales@vedeshra.com",
     "areaServed": ["US", "GB", "CA", "AF"],
@@ -676,7 +676,7 @@
                         </div>
                     </div>
                     <div class="faq-accordion-answer">
-                        <p>You can reach us via <a href="tel:+17374436593"><strong>phone</strong><a>, <a href="mailto:sales@vedeshra.com"><strong>email</strong></a>, or our <a href="{{ route('contact') }}"> <strong>online support portal.</strong></a> Our dedicated IT team is ready to assist you with all your technical needs.</p>
+                        <p>You can reach us via <a href="tel:+12134447693"><strong>phone</strong><a>, <a href="mailto:sales@vedeshra.com"><strong>email</strong></a>, or our <a href="{{ route('contact') }}"> <strong>online support portal.</strong></a> Our dedicated IT team is ready to assist you with all your technical needs.</p>
                     </div>
                 </div>
             </div>
