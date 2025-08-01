@@ -1,0 +1,1314 @@
+/*
+    Theme: Vedeshra Technologies
+    Author: Vedeshra Technologies
+    Version: 1.0
+*/
+
+@media (min-width: 1920px){
+    .container{
+        max-width: 1800px;
+        max-width: 100%;
+        padding: 0 40px;
+    }
+
+    :root{
+        /* Heading Desktop Font Size */
+        --h1-desktop-size:104px;
+        --h2-desktop-size:64px;
+        --h3-desktop-size:54px;
+        --h4-desktop-size:44px;
+        --h5-desktop-size:28px;
+        --h6-desktop-size:24px;
+
+        /* Paragraph Font Size */
+        --paragraph-title-size:34px;
+        --paragraph-subtitle-size:32px;
+        --paragraph-regular-size:28px;
+        --paragraph-small-size:24px;
+        --paragraph-smallest-size:20px;
+    }
+
+    .herosectionflexcontentbox h1 span.beforefocussedtext{
+        display: inline;
+    }
+
+    section.announcement-bar-section{
+        padding: 20px 0;
+    }
+
+    .socialflexbox{
+        gap: 18px;
+    }
+
+    .desktopheaderlogobox a,
+    .footerlogobox a{
+        max-width: 280px;
+    }
+
+    .desktopmenubox ul a::after{
+        bottom: -36px;
+    }
+
+    button, .button{
+        max-width: 200px;
+        padding: 16px 18px;
+    }
+
+    .desktopheaderbox{
+        padding: 15px 0;
+    }
+
+    .desktopquotebuttonbox{
+        max-width: 200px;
+    }
+
+    .section{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .herosectionflexcontentbox h1{
+        max-width: 75%;
+    }
+
+    .herosectionflexbox{
+        gap: 100px;
+    }
+
+    .herosectionfleximagebox{
+        max-width: calc(50% - 100px);
+    }
+
+    section.partner-section.section{
+        padding: 50px 0;
+    }
+
+    .partnerflexbox{
+        gap: 30px;
+    }
+
+    .partnerflexitembox{
+        max-width: calc((100% - 150px)/6);
+    }
+
+    .partnerflexitembox *{
+        width: 100%;
+    }
+
+    .whychooseusflexitembox{
+        padding: 30px;
+    }
+
+    .whychooseusflexbox{
+        gap: 30px;
+    }
+
+    .whychooseusflexitembox{
+        max-width: calc((100% - 60px)/3);
+    }
+
+    .whychooseusimagebox{
+        max-width: 100px;
+    }
+
+    .imagewithtextcontent p {
+        margin-bottom: 35px;
+        font-size: 28px;
+        padding-right: 30px;
+    }
+
+    .servicessliderbox .servicescardbox{
+        padding: 30px;
+    }
+
+    .servicessliderbox .servicesslide .servicescardicon{
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 40px;
+    }
+
+    .servicessliderbox .servicesslide .servicescardcontent h3{
+        min-height: 70px;
+    }
+
+    .cta-text-center.section{
+        padding: 50px 0;
+    }
+
+    .ctatextcentersectionbox h2{
+        max-width: 75%;
+        margin: 0 auto 20px;
+    }
+
+    .ctatextcentersectionbox .button{
+        max-width: 320px;
+    }
+
+    .industries-slide-grid-item-box{
+        padding: 25px 20px;
+    }
+
+    .industries-slide-grid-icon-box{
+        width: 100px;
+        height: 100px;
+    }
+
+    .industries-slide-grid-content-box{
+        max-width: calc(100% - 120px);
+    }
+
+    .industries-slide-grid-content-box h3{
+        font-size: var(--h5-desktop-size);
+    }
+
+    .steps-section-icon-box{
+        max-width: 100px;
+        margin: 0 auto 30px;
+    }
+
+    .technology-icon a{
+        width: 180px;
+        height: 120px;
+    }
+
+    .formflexitembox input.forminputfield, .formflexitembox select, .formflexitembox textarea.forminputmessagefield{
+        padding: 15px 25px;
+        font-size: var(--paragraph-regular-size);
+    }
+
+    .contactsectionflexform{
+        padding: 30px;
+    }
+
+    .formflexbox{
+        padding-bottom: 30px;
+        gap: 30px;
+    }
+
+    .formflexitembox.box-50{
+        max-width: calc((100% - 30px) / 2);
+    }
+
+    .newsletterform form{
+        gap: 30px;
+    }
+
+    .newsletterformsubmitbox{
+        max-width: 200px;
+    }
+
+    .newsletterforminputbox{
+        max-width: calc(100% - 230px);
+    }
+
+    .newsletterforminputbox input#newsletterforminput{
+        padding: 12px 24px;
+    }
+
+    .footerotherlinkcontainerbox{
+        padding: 40px 30px;
+    }
+
+    .footerotherlinkcontainerbox:not(:last-child){
+        margin-bottom: 40px;
+    }
+
+    section.footer-city-section{
+        padding: 80px 0;
+    }
+
+    section.copyright-section{
+        padding: 20px 0;
+    }
+
+    section.sectionbannersection.section{
+        padding: 180px 0;
+    }
+
+    body.services .imagewithtextcontentbox h2 br{
+        display: none;
+    }
+
+    .sectiontitlebox{
+        margin-bottom: 40px;
+    }
+
+    .featureflexsectionbox{
+        gap: 30px;
+    }
+
+    .featureflexitembox{
+        max-width: calc((100% - 150px) / 6);
+        padding: 30px 20px;
+    }
+
+    .featureiconbox{
+        width: 120px;
+        height: 120px;
+        max-width: 120px;
+        margin: 0 auto 30px;
+    }
+
+    .servicesgridbox{
+        gap: 30px;
+    }
+
+    .servicesgriditembox{
+        padding: 30px;
+        max-width: calc((100% - 90px) / 4);
+    }
+
+    .servicesiconbox{
+        width: 110px;
+        height: 110px;
+        margin-bottom: 20px;
+    }
+
+    .servicescontentbox h3{
+        font-size: var(--h5-desktop-size);
+        min-height: 81px;
+        margin-bottom: 15px;
+    }
+
+    .ctacontentflexbuttonbox,.ctacontainersectionflexbuttonbox{
+        max-width: 200px;
+    }
+
+    section.cta-section.section{
+        padding: 60px 0;
+    }
+
+    .bookmeetingbuttonbox .button{
+        max-width: 260px;
+    }
+
+    .left-arrow-box{
+        width: 80px;
+        height: 80px;
+    }
+
+    .contact-title-content{
+        flex: 0 0 calc(100% - 80px);
+    }
+
+    .contact-title-content h2{
+        font-size: var(--h4-desktop-size);
+        margin-bottom: 10px;
+    }
+
+    .contact-steps-number-box span{
+        width: 80px;
+        height: 80px;
+    }
+
+    .contact-form-title{
+        padding-bottom: 30px;
+    }
+
+    .getquoteformbox{
+        padding: 40px 30px;
+    }
+
+    .policycontentbox{
+        max-width: 1600px;
+        padding: 50px 30px;
+    }
+
+    .policycontentbox p{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .policycontent ol{
+        padding-bottom: 40px;
+    }
+
+    .policycontent ol li, .policycontent ul li{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    section.newsletter-form-section{
+        padding: 50px 0;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1920px){
+    .container{
+        max-width: 1800px;
+        padding: 0 30px;
+    }
+
+    :root{
+        /* Heading Desktop Font Size */
+        --h1-desktop-size:64px;
+        --h2-desktop-size:48px;
+        --h3-desktop-size:36px;
+        --h4-desktop-size:28px;
+        --h5-desktop-size:24px;
+        --h6-desktop-size:20px;
+
+        /* Paragraph Font Size */
+        --paragraph-title-size:22px;
+        --paragraph-subtitle-size:20px;
+        --paragraph-regular-size:18px;
+        --paragraph-small-size:16px;
+        --paragraph-smallest-size:14px;
+    }
+
+    .herosectionflexcontentbox h1 span.beforefocussedtext{
+        display: inline;
+    }
+
+    section.announcement-bar-section{
+        padding: 20px 0;
+    }
+
+    .socialflexbox{
+        gap: 18px;
+    }
+
+    .desktopheaderlogobox a,
+    .footerlogobox a{
+        max-width: 240px;
+    }
+
+    .desktopmenubox ul a::after{
+        bottom: -30px;
+    }
+
+    .herosectionflexcontentbox h1{
+        max-width: 75%;
+    }
+
+    .herosectionflexcontentbox p {
+        max-width: 90%;
+    }
+
+    button, .button{
+        padding: 15px 20px;
+        max-width: 180px;
+    }
+
+    .desktopquotebuttonbox{
+        max-width: 160px;
+    }
+
+    section.partner-section.section{
+        padding: 40px 0;
+    }
+
+    .partnerflexbox{
+        gap: 25px;
+    }
+
+    .partnerflexitembox{
+        max-width: calc((100% - 125px)/6);
+    }
+
+    .partnerflexitembox *{
+        width: 100%;
+    }
+
+    .whychooseusflexitembox{
+        padding: 25px;
+    }
+
+    .whychooseusflexbox{
+        gap: 25px;
+    }
+
+    .whychooseusflexitembox{
+        max-width: calc((100% - 50px)/3);
+    }
+
+    .whychooseusimagebox{
+        max-width: 80px;
+    }
+
+    .imagewithtextcontent p {
+        margin-bottom: 20px;
+        font-size: 24px;
+        padding-right: 24px;
+    }
+
+    body.services-detail-page .imagewithtextcontent p,
+    body.industries-detail-page .imagewithtextcontentbox p{
+        font-size: 20px;
+    }
+
+    body.services-detail-page .imagewithtextcontentbox h2,
+    body.industries-detail-page .imagewithtextcontentbox h2{
+        font-size: 32px;
+    }
+
+    .imagewithtextcontent ul li a{
+        font-size: 22px;
+    }
+
+    .technology-icon a{
+        width: 140px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 1300px){
+    .mainphonenumber{
+        flex-wrap: wrap;
+    }
+
+    .getquoteformboxcontainer{
+        padding-right: 40px;
+    }
+
+    body.services .imagewithtextcontent p,
+    body.industries .imagewithtextcontentbox p{
+        font-size: var(--paragraph-regular-size);
+    }
+
+    body.services .imagewithtextcontentbox h2 br,
+    body.industries .imagewithtextcontentbox h2 br{
+        display: none;
+    }
+
+    .book-meeting-contentbox > .container{
+        height: 100%;
+    }
+
+    .book-meeting-contentflexbox{
+        height: 100%;
+    }
+
+    .book-meeting-contentflex-contentbox h2{
+        font-size: var(--h3-desktop-size);
+    }
+
+    section.book-a-meeting-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .book-meeting-bgcolorbox{
+        display: none;
+    }
+
+    .book-meeting-bgimagebox{
+        order: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    section.book-a-meeting-section .book-meeting-backgroundflexbox{
+        order: 1;
+    }
+
+    .book-meeting-contentbox{
+        position: static;
+        background-color: var(--primary-bg-color);
+    }
+
+    .book-meeting-bgimagebox img{
+        height: auto;
+    }
+
+    .book-meeting-contentflex-contentbox{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .book-meeting-contentflex-contentbox h2 span.focussedtext{
+        display: inline;
+    }
+
+    /* Inner Services Page */
+    .innerheroformbox{
+        padding-left: 0;
+    }
+
+    .innerheroflexbox {
+        column-gap: 0;
+    }
+
+    .innerherocontentbox, .innerheroformbox {
+        max-width: 50%;
+    }
+
+    .four-column-flex-item-box{
+        max-width: calc((100% - 30px)/2);
+    }
+
+    .platform-grid-item-box{
+        max-width: calc(100% / 2);
+    }
+
+    .platform-grid-item-box:not(:nth-child(3n)){
+        border-right: none;
+    }
+
+    .platform-grid-item-box:not(:nth-child(2n)){
+        border-right: none;
+    }
+
+    .platform-grid-item-box:nth-child(odd){
+        border-right: 1px solid var(--white-font-color);
+    }
+
+    .platform-grid-item-box:nth-child(7), .platform-grid-item-box:nth-child(8){
+        border-bottom: 1px solid var(--white-font-color);
+    }
+
+    section.faq-section.section .sectiontitlebox p,
+    .faq-accordion-container{
+        max-width: 65%;
+    }
+
+}
+
+
+
+@media (max-width: 991px) {
+
+    .desktopheaderbox{
+        display: none;
+    }
+
+    .mobileheaderbox{
+        display: block;
+        padding: 8px 0;
+        box-shadow: var(--tertiary-box-shadow);
+    }
+
+    .mobileheaderflexbox {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .mobilenavigationmenucontainerbox {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: var(--white-font-color);
+        transform: translateX(100%);
+        transition: all 0.6s ease;
+    }
+
+    .mobilenavigationmenucontainerbox.active{
+        transform: translateX(0);
+        transition: all 0.6s ease;
+    }
+
+    .mobilenavigationmenucontainer {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .mobilelogowithcrossbuttonflexbox {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 20px;
+        align-items: center;
+        box-shadow: var(--tertiary-box-shadow);
+    }
+
+    .mobilenavigationmenuclosebutton {
+        display: flex;
+        padding: 4px;
+        border-radius: 50%;
+        background: var(--primary-bg-color);
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: var(--primary-box-shadow);
+    }
+
+    .mobilenavigationmenuclosebutton i {
+        display: block;
+        color: var(--white-font-color);
+    }
+
+    .mobilenavigationmenuboxcontainer {
+        height: calc(100% - 70px);
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 40px;
+        background-color: #f9f9f9;
+    }
+
+    .mobilenavigationmenubox ul li {
+        display: block;
+        padding: 10px 0;
+        border-bottom: 2px solid var(--primary-bg-color-lightest);
+    }
+
+    .mobilenavigationmenubox ul li a {
+        display: block;
+        font-weight: 500;
+    }
+
+    .mobilenavigationmenubox ul li:last-child {
+        border-bottom: none;
+    }
+
+    .mobilenavigationquotebuttonsocialbox {
+        padding: 20px 0 0;
+        border-top: 2px solid var(--primary-bg-color-lightest);
+    }
+
+    .mobilenavigationsocialbox {
+        padding-top: 20px;
+    }
+
+    .mobilenavigationsocialbox .socialflexbox {
+        justify-content: flex-start;
+    }
+
+    .mobilesocialheading h3 {
+        font-size: var(--h5-desktop-size);
+        color: var(--secondary-font-color);
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .mobilelogo a {
+        display: block;
+        max-width: 190px;
+        padding: 0 20px 0 0;
+    }
+
+    .mobilemenuicon i {
+        display: block;
+        font-size: var(--paragraph-title-size);
+        color: var(--primary-bg-color);
+    }
+
+    .herosectionflexcontentbox h1 span.beforefocussedtext{
+        display: inline;
+    }
+
+    .herosectionflexcontentbox p{
+        padding-right: 25px;
+    }
+
+    .partnerflexitembox{
+        max-width: calc((100% - 40px)/3);
+    }
+
+    .whychooseusflexitembox{
+        max-width: calc((100% - 20px)/2);
+    }
+
+    .imagewithtextcontentbox{
+        padding-right: 0;
+    }
+
+    .imagewithtextsection.reversed .imagewithtextcontentbox{
+        padding-left: 0;
+    }
+
+    .servicessectiontitleflexbox{
+        gap: 40px;
+    }
+
+    .servicessectiontitlebox{
+        max-width: 50%;
+    }
+
+    .servicessectioncontentbox{
+        max-width: calc(50% - 40px);
+        padding-left: 40px;
+    }
+
+    .ctatextcentersectionbox h2{
+        max-width: 75%;
+        margin: 0 auto 10px;
+    }
+
+    .industries-slider-section-flex-box{
+        flex-wrap: wrap;
+    }
+
+    .industries-slider-section-content-box, .industries-slider-section-slider-box{
+        max-width: 100%;
+    }
+
+    .industries-slider-grid-box{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .industries-slider-section-content-box h2.title{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .industries-slider-section-content-box p.subtitle{
+        text-align: center;
+    }
+
+    .industries-slider-section-content-box p.content{
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+
+    .industries-slider-section-content-box .button{
+        margin: auto;
+    }
+
+    .steps-section-flex-item-box{
+        padding: 20px 10px;
+
+    }
+
+    .steps-section-flex-item{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+    .steps-section-icon-box{
+        margin: 0;
+    }
+
+    .technology-item-box{
+        max-width: calc((100% - 60px)/4);
+    }
+
+    .contactsectioncontentbox,
+    .contactsectionflexformbox{
+        max-width: 100%;
+    }
+
+    .contactsectioncontentbox{
+        display: flex;
+        gap: 40px;
+    }
+
+    .contactsectiontitlebox{
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 60%;
+    }
+
+    .contactaddressiconboxcontainer{
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: calc(40% - 40px);
+    }
+
+    .contactsectiontitlebox p.content{
+        max-width: 100%;
+    }
+
+    .newslettersectionflexbox{
+        justify-content: center;
+    }
+
+    .newslettercontentbox{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .newsletterformbox{
+        max-width: calc(60% - 40px);
+    }
+
+    .footerflexitembox:first-child{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .footerflexitembox{
+        max-width: calc((100% - 80px)/3);
+    }
+
+    .footerlogobox a{
+        max-width: 280px;
+        margin: auto;
+    }
+
+    .socialflexbox{
+        justify-content: center;
+    }
+
+    .whatwedoflexitembox{
+        max-width: calc((100% - 25px)/2);
+    }
+
+    .ctacontainersectionflexbox{
+        justify-content: center;
+    }
+
+    .ctacontainersectionflexcontentbox{
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .featureflexitembox{
+        max-width: calc((100% - 40px) / 3);
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding: 20px 10px;
+    }
+
+    .featureiconbox{
+        width: 60px;
+        height: 60px;
+        margin: 0;
+    }
+
+    .featurecontentbox{
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: calc(100% - 80px);
+    }
+
+    .featurecontentbox p br{
+        display: none;
+    }
+
+    .servicesgriditembox{
+        max-width: calc((100% - 20px) / 2);
+    }
+
+    .contactpageimagecontentboxflexitembox{
+        max-width: 100%;
+    }
+
+    .getquoteformboxcontainer{
+        max-width: 100%;
+        order: 1;
+        padding-right: 0;
+        padding-top: 60px;
+    }
+
+    .getquotecontentboxcontainer{
+        order: 0;
+        max-width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .left-arrow-box i.fa-solid.fa-arrow-left {
+        transform: rotate(-90deg);
+    }
+
+    .contact-title-content {
+        padding-bottom: 40px;
+    }
+
+    .contact-steps-item-box {
+        justify-content: flex-start;
+    }
+
+    .contact-steps-number-box {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 45px;
+    }
+
+    .contact-steps-content {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: calc(100% -  45px);
+    }
+
+    .mainpopupboxcontainer{
+        max-width: 80%;
+    }
+
+    .inner-services-grid-item-box{
+        max-width: calc((100% - 30px)/2);
+    }
+
+    .tools-flex-item-box{
+        max-width: calc((100% - 40px)/3);
+    }
+
+    .strategy-steps-grid-item-box{
+        max-width: calc((100% - 20px)/2);
+    }
+
+    section.faq-section.section .sectiontitlebox p,
+    .faq-accordion-container,
+    section.platform-section.section .sectiontitlebox p{
+        max-width: 85%;
+    }
+
+    .technology-grid-item-box{
+        max-width: calc((100% - 20px)/2);
+    }
+
+    .techhnology-grid-section.section .sectiontitlebox p br{
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    :root{
+        --h1-desktop-size:34px;
+        --h2-desktop-size:28px;
+        --h3-desktop-size:24px;
+        --h4-desktop-size:20px;
+        --h5-desktop-size:18px;
+        --h6-desktop-size:16px;
+    }
+
+    .herosectionflexbox,
+    .imagewithtextflexbox{
+        flex-direction: column-reverse;
+    }
+
+    .imagewithtextsection.reversed .imagewithtextflexbox{
+        flex-direction: column;
+    }
+
+    .herosectionflexcontentbox,.herosectionfleximagebox{
+        max-width: 100%;
+    }
+
+    .imagewithtextcontentbox, .imagewithtextfleximagebox{
+        max-width: 100%;
+    }
+
+    .servicessectiontitlebox, .servicessectioncontentbox{
+        max-width: 100%;
+    }
+
+    .servicessectioncontentbox{
+        padding-left: 0;
+    }
+
+    .servicessubtitlebox{
+        justify-content: center;
+    }
+
+    .servicestitlebox{
+        max-width: 75%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .industries-slider-grid-box{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .steps-section-flex-item-box{
+        max-width: calc((100% - 20px)/2);
+    }
+
+    .technology-item-box{
+        max-width: calc((100% - 40px)/3);
+    }
+
+    .contactsectioncontentbox{
+        flex-wrap: wrap;
+    }
+
+    .contactsectiontitlebox,.contactaddressiconboxcontainer{
+        max-width: 100%;
+    }
+
+    .contactsectiontitlebox h2 br{
+        display: none;
+    }
+
+    .copyrightflexbox{
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .announcement-bar-social-itembox .socialflexbox{
+        justify-content: center;
+    }
+
+    .aboutcontentflexitembox{
+        max-width: 100%;
+    }
+
+    .featureflexitembox{
+        max-width: calc((100% - 20px) / 2);
+    }
+
+    body.industries .imagewithtextcontentbox{
+        max-width: 100%;
+    }
+
+    body.industries .imagewithtextfleximagebox{
+        max-width: 100%;
+    }
+
+    .contactpageflexitemboxcontent{
+        max-width: 100%;
+        padding-right: 0;
+        padding-bottom: 40px;
+    }
+
+    .contactpageflexitemboxform{
+        padding-left: 0;
+        border-left: none;
+        border-top: 1px solid var(--primary-bg-color);
+        padding-top: 40px;
+        max-width: 100%;
+    }
+
+    .contactpageimagecontentboxflexitembox{
+        max-width: calc((100% - 25px)/2);
+    }
+
+    .mainpopupfleximagebox{
+        display: none;
+    }
+
+    .mainpopupflexcontentbox{
+        max-width: 100%;
+    }
+
+    .popupcontentbox h2,
+    .popupcontentbox p{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .innerherocontentbox, .innerheroformbox,
+    .innerheroformbox .contactformsection,
+    section.inner-services-grid-section.section .sectiontitlebox p,
+    section.tools-section.section .sectiontitlebox p,
+    section.faq-section.section .sectiontitlebox p,
+    .faq-accordion-container, section.platform-section.section .sectiontitlebox p,
+    body.services\/photography section.faq-section.section .sectiontitlebox p,
+    body.services-detail-page section.faq-section.section .sectiontitlebox p{
+        max-width: 100%;
+    }
+
+    .innerherocontent p{
+        padding-right: 0;
+        max-width: 100%;
+    }
+
+
+}
+
+@media (max-width: 640px){
+
+    .announcment-bar-flexbox{
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .announcement-bar-social-itembox,.announcement-bar-contact-mobile-itembox{
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .announcement-contact-information-flexbox{
+        justify-content: center;
+    }
+
+    .herosectionflexcontentbox p{
+        padding-right: 0;
+    }
+
+    .whychooseusflexitembox{
+        max-width: 100%;
+    }
+
+    .partnerflexitembox{
+        max-width: calc((100% - 20px)/2);
+    }
+
+    .imagewithtextcontent ul{
+        grid-template-columns: 1fr;
+    }
+
+    .imagewithtextcontent p, .servicessectioncontentbox p{
+        padding-right: 0;
+    }
+
+    .servicestitlebox{
+        max-width: 100%;
+    }
+
+    .ctatextcentersectionbox h2,.ctatextcentersectionbox p{
+        max-width: 100%;
+    }
+
+    .industries-slider-section-content-box h2.title{
+        display: block;
+        text-align: center;
+    }
+
+    .industries-slider-section-content-box h2.title span{
+        display: inline;
+    }
+
+    .industries-slider-section-content-box p.content{
+        max-width: 100%;
+    }
+
+    .industries-slider-grid-box{
+        grid-template-columns: 1fr;
+    }
+
+    .steps-section-flex-item-box{
+        max-width: 100%;
+    }
+
+    .steps-section-flex-item{
+        justify-content: flex-start;
+    }
+
+    .technology-tab-button-box ul.tabs{
+        flex-wrap: wrap;
+        gap: 10px;
+        border-bottom: none;
+    }
+
+    .technology-tab-button-box ul.tabs li.tab-link{
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        padding: 8px 10px;
+        box-shadow: var(--tertiary-box-shadow);
+    }
+
+    .technology-tab-button-box ul.tabs li.tab-link.current,
+    .technology-tab-button-box ul.tabs li.tab-link:hover{
+        border-bottom: none;
+        background-color: var(--primary-bg-color);
+        color: var(--white-font-color);
+    }
+
+    .technology-tab-button-box{
+        padding-bottom: 30px;
+        border-bottom: 1px solid var(--primary-bg-color);
+    }
+
+    .technology-tab-wrapper-content-box .tab-content{
+        padding: 20px 0 0;
+    }
+
+    .technology-item-box{
+        max-width: calc((100% - 20px)/2);
+    }
+
+    .formflexitembox.box-50{
+        max-width: 100%;
+    }
+
+    .newsletterformbox{
+        max-width: 100%;
+    }
+
+    .footerlogobox a{
+        max-width: 200px;
+        margin-left: 0;
+    }
+
+    .footerflexitembox:first-child{
+        text-align: left;
+    }
+
+    .socialflexbox{
+        justify-content: flex-start;
+    }
+
+    .footerflexitembox{
+        max-width: 100%;
+    }
+
+    .whatwedoflexitembox{
+        max-width: 100%;
+    }
+
+    .featureflexitembox{
+        max-width: 100%;
+    }
+
+    .servicesgriditembox{
+        max-width: 100%;
+    }
+
+    .ctaflexbox{
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .contactpageimagecontentboxflexitembox{
+        max-width: 100%;
+    }
+
+    .contactpageflexitemboxcontent p.content{
+        padding-right: 0;
+        font-size: var(--paragraph-regular-size);
+    }
+
+    .contactpagecontentbox .text p.text:not(:last-child){
+        margin-bottom: 10px;
+    }
+
+    .contact-address-box{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .getquoteformbox{
+        padding: 30px 20px;
+    }
+
+    .sectionbannersection p.bannercontent,
+    .four-column-flex-item-box,
+    .inner-services-grid-item-box,
+    .strategy-steps-grid-item-box{
+        max-width: 100%;
+    }
+
+    .platform-grid-item-box{
+        max-width: 100%;
+        border-right: none !important;
+        border-bottom: 1px solid var(--white-font-color) !important;
+    }
+
+    .platform-grid-item-box:last-child{
+        border-bottom: none !important;
+    }
+
+    .tools-flex-item-box{
+        max-width: calc((100% - 20px)/2);
+    }
+
+    .technology-grid-item-box{
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 400px){
+    .announcement-contact-information-flexbox{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
