@@ -148,7 +148,7 @@ Route::middleware([
     // Locations Pages
     Route::get('/nimdav/pages/locations/listlocations', function () {
         // return view('dashboard');
-        return view('admin.pages.locations.listlocations');
+        return view('admin.pages.locations.listlocation');
     })->name('List Locations');
 
     // Services Pages
