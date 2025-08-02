@@ -126,13 +126,13 @@
                     </div>
                     <div class="policycontent">
                         <h2>Contacting us</h2>
-                        <p>If you have questions or concerns about these Privacy Policy statements, please contact us at <a href="mailto:info@vedeshra.com">info@vedeshra.com</a> or call at <a href="tel:+12134447693">+1 (737) 4436-593</a> and send a letter to –</p>
+                        <p>If you have questions or concerns about these Privacy Policy statements, please contact us at <a href="mailto:info@vedeshra.com">info@vedeshra.com</a> or call at <a href="tel:+12134447693">+1 (213) 4447-693</a> and send a letter to –</p>
                     </div>
                     <div class="policyaddress">
                         <p class="companyname">Vedeshra Technologies</p>
                         <p><strong>Address:</strong> VPO Sangwari, Rewari, Haryana 123401</p>
                         <p><strong>Email:</strong><a href="mailto:info@vedeshra.com">info@vedeshra.com</a></p>
-                        <p><strong>Mobile:</strong><a href="tel:+12134447693">+1 (737) 4436-593</a></p>
+                        <p><strong>Mobile:</strong><a href="tel:+12134447693">+1 (213) 4447-693</a></p>
                     </div>
                 </div>
             </div>

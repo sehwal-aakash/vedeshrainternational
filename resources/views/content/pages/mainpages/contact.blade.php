@@ -112,7 +112,7 @@
                                 <div class="contactpagecontentbox">
                                     <h3>Phone Number</h3>
                                     <p class="text">
-                                        <a href="tel:+12134447693">+1-(737) 4436-593</a>
+                                        <a href="tel:+12134447693">+1-(213) 4447-693</a>
                                     </p>
                                 </div>
                             </div>
@@ -144,7 +144,7 @@
                         @include('content.forms.contactform')
                         <div class="contactpagesubmessagebox">
                             <p>
-                                In a hurry? Give us a call now at <a href="tel:+12134447693">+1-(737) 4436-593</a>
+                                In a hurry? Give us a call now at <a href="tel:+12134447693">+1-(213) 4447-693</a>
                             </p>
                         </div>
                     </div>
