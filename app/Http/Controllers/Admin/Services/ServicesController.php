@@ -33,7 +33,7 @@ class ServicesController extends Controller
             'slug' => \Str::slug($request->slug),
             'title' => $request->title,
             'short_description' => $request->short_description,
-            'icon' => $request->icon, // Just save the string (URL or filename)
+            'icon' => '/assets/img/icons/services/' . $request->icon, // Just save the string (URL or filename)
         ]);
     
         return redirect()->route('admin.services.list')->with('success', 'Service added successfully!');
@@ -71,7 +71,7 @@ class ServicesController extends Controller
             'slug' => \Str::slug($request->slug),
             'title' => $request->title,
             'short_description' => $request->short_description,
-            'icon' => $request->icon,
+            'icon' => '/assets/img/icons/services/' . $request->icon,
         ]);
 
         return redirect()->route('admin.services.list')->with('success', 'Service updated successfully!');
