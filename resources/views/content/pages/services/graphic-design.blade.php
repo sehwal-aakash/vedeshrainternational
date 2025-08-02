@@ -146,7 +146,7 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/low-code-development-vector-img.png" loading="lazy" alt="Web Development Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/graphic-design-vector-img-01.png" loading="lazy" alt="Graphic Design Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Transforming Ideas into Stunning Visuals</h2>
@@ -307,7 +307,7 @@
                     </div>
                 </div>
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/web-developer-courses.png" loading="lazy" alt="Web Development Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/graphic-design-vector-img-02.png" loading="lazy" alt="Graphic Design Vector Image">
                 </div>
             </div>
         </div>
@@ -591,7 +591,7 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/website-designer-concept.png" loading="lazy" alt="Web Designer Concept Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/graphic-design-vector-img-03.png" loading="lazy" alt="Graphic Design Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Elevate Your Brand with Expert Graphic Design</h2>
