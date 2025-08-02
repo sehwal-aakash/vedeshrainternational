@@ -51,7 +51,7 @@ Content Marketing Services | Vedeshra Technologies: Drive Traffic & Engagement
   "logo": "https://vedeshra.com/assets/img/logo/vedeshra_logo_180w_tr.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+17374436593",
+    "telephone": "+12134447693",
     "contactType": "customer service",
     "email": "sales@vedeshra.com",
     "areaServed": ["US", "GB", "CA", "AF"],

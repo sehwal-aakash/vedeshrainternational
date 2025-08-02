@@ -34,7 +34,7 @@
   "areaServed": ["US", "GB", "CA", "AF"],
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+17374436593",
+    "telephone": "+12134447693",
     "contactType": "customer service",
     "email": "sales@vedeshra.com",
     "areaServed": ["US", "GB", "CA", "AF"],

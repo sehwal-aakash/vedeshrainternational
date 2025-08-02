@@ -49,7 +49,7 @@
     },
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+17374436593",
+        "telephone": "+12134447693",
         "contactType": "customer service",
         "email": "sales@vedeshra.com",
         "areaServed": ["US", "GB", "CA", "AF"],
@@ -112,7 +112,7 @@
                                 <div class="contactpagecontentbox">
                                     <h3>Phone Number</h3>
                                     <p class="text">
-                                        <a href="tel:+17374436593">+1-(737) 4436-593</a>
+                                        <a href="tel:+12134447693">+1-(737) 4436-593</a>
                                     </p>
                                 </div>
                             </div>
@@ -144,7 +144,7 @@
                         @include('content.forms.contactform')
                         <div class="contactpagesubmessagebox">
                             <p>
-                                In a hurry? Give us a call now at <a href="tel:+17374436593">+1-(737) 4436-593</a>
+                                In a hurry? Give us a call now at <a href="tel:+12134447693">+1-(737) 4436-593</a>
                             </p>
                         </div>
                     </div>
