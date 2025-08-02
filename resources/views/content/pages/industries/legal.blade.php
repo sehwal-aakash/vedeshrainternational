@@ -66,7 +66,7 @@
                         <p>Whether you're a corporate legal team or a boutique law firm, Vedeshra’s secure and scalable LegalTech platforms are designed to meet your unique needs. With a commitment to innovation, compliance, and user-friendly design, we ensure your legal practice remains competitive and future-ready in an increasingly digital legal landscape.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

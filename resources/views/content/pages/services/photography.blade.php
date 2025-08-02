@@ -80,7 +80,7 @@
 
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">
@@ -289,7 +289,7 @@
                     @include('content.popups.mainpopup')
                 </div>
                 <div class="inner-page-cta-button-flex-item-box">
-                    <a href="" class="button secondary">Contact Us</a>
+                    <a href="{{ route('contact') }}" class="button secondary">Contact Us</a>
                 </div>
             </div>
         </div>

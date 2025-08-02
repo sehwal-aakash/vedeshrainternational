@@ -80,7 +80,7 @@
                         <p><strong> Know the Market. Beat the Market.</strong></p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get a Free Competitive Analysis Now</a>
+                        <a href="{{ route('contact') }}/" class="button">Get a Free Competitive Analysis Now</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

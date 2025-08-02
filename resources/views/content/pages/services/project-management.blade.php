@@ -79,7 +79,7 @@
                         <p>Partner with us to experience <strong> seamless project execution,</strong> improved collaboration, and result-driven strategies that drive business growth.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get a Free Consultation</a>
+                        <a href="{{ route('contact') }}/" class="button">Get a Free Consultation</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

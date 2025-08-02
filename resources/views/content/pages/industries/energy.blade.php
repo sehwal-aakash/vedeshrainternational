@@ -66,7 +66,7 @@
                         <p>With increasing pressure to shift towards clean energy and carbon-neutral practices, Vedeshra Technologies partners with energy enterprises to build future-ready systems. Whether you’re transitioning to renewables, enhancing grid intelligence, or leveraging big data for energy forecasting, our solutions are designed to accelerate your digital sustainability journey.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

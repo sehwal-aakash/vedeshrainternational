@@ -89,7 +89,7 @@
                         </h2>
                         <p>Looking to bring your ideas to life? Our team at Vedeshra Technologies is ready to collaborate with you. Schedule a meeting with us today to explore customized solutions tailored to your unique business needs.</p>
                         <div class="bookmeetingbuttonbox">
-                            <a class="button" href="/contact/">Book a Meeting</a>
+                            <a class="button" href="{{ route('contact') }}/">Book a Meeting</a>
                         </div>
                     </div>
                 </div>

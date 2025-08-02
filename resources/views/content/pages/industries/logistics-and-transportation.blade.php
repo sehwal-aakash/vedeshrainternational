@@ -65,7 +65,7 @@
                         <p>Partnering with Vedeshra Technologies means transforming your transportation and logistics operations with scalable digital infrastructure. From GPS-enabled fleet monitoring to predictive analytics and API integrations with TMS/ERP systems, our customized solutions deliver measurable ROI while preparing your enterprise for a digitally connected future.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

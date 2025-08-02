@@ -79,7 +79,7 @@
                         <p><strong> Let’s build your content strategy today!</strong></p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get a Free Consultation</a>
+                        <a href="{{ route('contact') }}/" class="button">Get a Free Consultation</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

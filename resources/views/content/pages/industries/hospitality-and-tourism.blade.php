@@ -65,7 +65,7 @@
                         <p>With a deep understanding of the evolving tourism and hospitality technology landscape, Vedeshra Technologies stands as your innovation partner. Whether you're looking to boost direct bookings, integrate smart room controls, or offer immersive virtual tours, our scalable tech solutions help you stay ahead in a highly competitive market. Let's redefine hospitality together — where technology meets experience.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

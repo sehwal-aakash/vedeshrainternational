@@ -66,7 +66,7 @@
                         <p>Join the ranks of next-gen creators who are redefining the future of play. With Vedeshra Technologies, you gain a competitive edge in the ever-evolving gaming tech landscape—boosting engagement, retention, and revenue. Explore how our custom gaming solutions and dedicated development support can unlock new levels of success for your brand.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

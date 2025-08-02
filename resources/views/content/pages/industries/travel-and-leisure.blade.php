@@ -65,7 +65,7 @@
                         <p>With deep industry insight and a user-centric approach, we help you stay ahead of changing travel trends, market demands, and customer expectations. At Vedeshra Technologies, we don’t just build platforms — we create digital experiences that inspire exploration, foster loyalty, and drive sustainable growth in the travel and leisure industry.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

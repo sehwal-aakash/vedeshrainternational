@@ -79,7 +79,7 @@
                         <p><strong>Ready to rank higher? Let's grow your business with expert SEO!</strong></p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get a Free SEO Consultation</a>
+                        <a href="{{ route('contact') }}/" class="button">Get a Free SEO Consultation</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

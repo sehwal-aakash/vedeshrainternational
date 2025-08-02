@@ -66,7 +66,7 @@
                         <p>From smart inventory management to digital loyalty programs and custom mobile commerce apps, our retail technology services are built for growth and scalability. Partner with Vedeshra Technologies to stay competitive in today’s fast-paced digital retail landscape.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

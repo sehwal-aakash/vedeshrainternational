@@ -65,7 +65,7 @@
                         <p>From pharmaceutical CRM systems to intelligent manufacturing and patient engagement tools, Vedeshra Technologies provides scalable, secure, and compliant technology for every stage of the pharmaceutical value chain. Let us help you transform your digital infrastructure and drive measurable outcomes.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

@@ -75,7 +75,7 @@
                     <p>
                         Focus on the eye of B2B, B2C, and D2C brands, Vedeshra Technologies helps companies grow by tackling their biggest problems, like social media engagement, website performance, customer retention, and brand positioning, and assuring better knowledge and planning.
                     </p>
-                    <a href="/contact/" class="button">Let's Connect</a>
+                    <a href="{{ route('contact') }}/" class="button">Let's Connect</a>
                 </div>
                 <div class="herosectionfleximagebox">
                     <img src="/assets/img/sections/herosection/herobanner.webp" loading="eager" fetchpriority="high" alt="Web Designing and Development Image">
@@ -116,7 +116,7 @@
                         </ul>
                     </div>
                     <div class="imagewithtextbuttonbox">
-                        <a class="button" href="/contact/">Learn More</a>
+                        <a class="button" href="{{ route('contact') }}/">Learn More</a>
                     </div>
                 </div>
                 <div class="imagewithtextfleximagebox">
@@ -156,7 +156,7 @@
                         </ul>
                     </div>
                     <div class="imagewithtextbuttonbox">
-                        <a class="button" href="/contact/">Learn More</a>
+                        <a class="button" href="{{ route('contact') }}/">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -172,7 +172,7 @@
             <div class="ctatextcentersectionbox">
                 <h2>Empower your Business Evolution with Vedeshra Technologies</h2>
                 <p>Experience Business Transformation with Vedeshra Technologies - pioneering solutions that empower evolution, drive innovation, and elevate your enterprise to new heights of success and efficiency</p>
-                <a href="/contact/" class="button">Unlock Transformation</a>
+                <a href="{{ route('contact') }}/" class="button">Unlock Transformation</a>
             </div>
         </div>
     </section>

@@ -65,7 +65,7 @@
                         <p>With a deep understanding of the education industry's digital evolution, we deliver tailor-made tech solutions that align with your academic goals. From curriculum digitization to remote learning support, Vedeshra Technologies is your trusted partner in driving academic success through innovation. Let’s build a smarter, more connected educational future—together.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

@@ -65,7 +65,7 @@
                         <p>With deep domain expertise and a passion for innovation, Vedeshra Technologies helps you embrace digital transformation in media and entertainment. We deliver scalable, secure, and intelligent systems to elevate content creation, distribution, and engagement across all channels.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

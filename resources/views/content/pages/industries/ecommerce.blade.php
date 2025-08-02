@@ -65,7 +65,7 @@
                         <p>Join hands with Vedeshra Technologies to stay ahead in the ever-evolving e-commerce landscape. Our expertise in cloud infrastructure, inventory management systems, and secure checkout solutions ensures that your online store is not just functional—but future-ready. Let us help you deliver unmatched value to your customers while scaling your e-commerce business sustainably.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

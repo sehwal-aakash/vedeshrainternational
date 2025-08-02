@@ -65,7 +65,7 @@
                         <p>Whether you're building a SaaS product, optimizing enterprise IT systems, or launching next-gen platforms, Vedeshra Technologies is your trusted partner for sustainable growth in the technology sector. We combine future-ready infrastructure with strategic consulting to help you lead in a rapidly evolving digital economy.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

@@ -79,7 +79,7 @@
                         <p><strong>Let's give your brand a voice that not only speaks — but sells.</strong></p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get a Free Consultation</a>
+                        <a href="{{ route('contact') }}/" class="button">Get a Free Consultation</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

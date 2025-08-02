@@ -66,7 +66,7 @@
                         <p>Vedeshra Technologies delivers cost-effective, scalable technology designed for service-based professionals. Whether you're a solo entrepreneur or managing multiple locations, our solutions grow with you. Let us help you digitize your operations, reach more clients, and deliver seamless, modern service every step of the way.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

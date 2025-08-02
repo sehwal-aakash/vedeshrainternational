@@ -65,7 +65,7 @@
                         <p>Join the leaders transforming the future of food. With Vedeshra Technologies as your innovation partner, your brand stays ahead of the curve—ensuring product traceability, inventory accuracy, and sustainable operations. Let's cook up a smarter, more connected future for the food and beverage industry.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

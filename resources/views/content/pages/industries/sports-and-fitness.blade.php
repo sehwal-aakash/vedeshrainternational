@@ -65,7 +65,7 @@
                         <p>Whether you're building a sports management system, launching a fitness tracking app, or integrating smart devices, Vedeshra Technologies delivers data-driven, future-ready technology that fuels athletic performance and business growth</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

@@ -65,7 +65,7 @@
                         <p>Vedeshra Technologies is committed to being a trusted partner for non-profits seeking digital transformation. Whether you're looking to build a digital presence, launch an awareness campaign, or automate back-end processes, we bring the right mix of innovation, empathy, and expertise to help your cause thrive in a digital-first world.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

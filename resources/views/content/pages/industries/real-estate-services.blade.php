@@ -65,7 +65,7 @@
                         <p>From AI-driven property recommendations to custom-built platforms for leasing, buying, and property management, Vedeshra Technologies delivers end-to-end real estate digital transformation services. We help your brand stay ahead in a highly competitive and evolving property market.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

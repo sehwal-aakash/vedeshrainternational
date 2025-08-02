@@ -65,7 +65,7 @@
                         <p>With expertise in AI, IoT, and cloud technologies, we enable healthcare businesses to automate workflows, reduce errors, and gain actionable insights for better decision-making. Whether you're a hospital network or a health tech startup, Vedeshra Technologies equips you with future-ready digital tools that empower care delivery and scale with your growth.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

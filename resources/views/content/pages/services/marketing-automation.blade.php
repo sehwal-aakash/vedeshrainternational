@@ -79,7 +79,7 @@
                         <p><strong> Boost engagement, generate qualified leads, and increase ROI with our result-driven marketing automation services customized for your business.</strong></p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">
@@ -288,7 +288,7 @@
                     @include('content.popups.mainpopup')
                 </div>
                 <div class="inner-page-cta-button-flex-item-box">
-                    <a href="" class="button secondary">Contact Us</a>
+                    <a href="{{ route('contact') }}" class="button secondary">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -649,7 +649,7 @@
                         </div>
                     </div>
                     <div class="faq-accordion-answer">
-                        <p>Getting started is easy! Contact us for a <a href="/contact/"><strong>free consultation,</strong></a> where our experts will <strong> analyze your marketing needs, recommend the best automation tools, and develop a tailored strategy </strong> to help you scale efficiently.</p>
+                        <p>Getting started is easy! Contact us for a <a href="{{ route('contact') }}/"><strong>free consultation,</strong></a> where our experts will <strong> analyze your marketing needs, recommend the best automation tools, and develop a tailored strategy </strong> to help you scale efficiently.</p>
                     </div>
                 </div>
             </div>

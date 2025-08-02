@@ -677,7 +677,7 @@
                         </div>
                     </div>
                     <div class="faq-accordion-answer">
-                        <p>Getting started is simple! Fill out our <a href="/contact/"><strong>contact form,</strong></a> where we'll discuss your requirements, business goals, and the best web design strategy for you. <strong>Our team will guide you through the entire process </strong> to ensure a seamless experience.</p>
+                        <p>Getting started is simple! Fill out our <a href="{{ route('contact') }}/"><strong>contact form,</strong></a> where we'll discuss your requirements, business goals, and the best web design strategy for you. <strong>Our team will guide you through the entire process </strong> to ensure a seamless experience.</p>
                     </div>
                 </div>
             </div>

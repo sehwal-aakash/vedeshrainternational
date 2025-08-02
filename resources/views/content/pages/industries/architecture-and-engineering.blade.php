@@ -67,7 +67,7 @@
                         {{-- <p><strong> Let’s transform your architectural and engineering projects with our cutting-edge technology solutions</strong></p> --}}
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

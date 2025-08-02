@@ -65,7 +65,7 @@
                         <p>Partner with Vedeshra Technologies to embrace digital transformation in finance. Our deep domain expertise and agile approach ensure your organization stays ahead in a highly competitive market, driving innovation while meeting the highest standards of security, compliance, and data integrity.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

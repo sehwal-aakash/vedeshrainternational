@@ -65,7 +65,7 @@
                         <p>Partner with us to harness the power of AI-driven fintech, secure digital wallets, and compliance-ready platforms that are future-proof and user-centric. At Vedeshra Technologies, we don’t just build fintech products — we enable your business to scale confidently in an ever-evolving financial landscape.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

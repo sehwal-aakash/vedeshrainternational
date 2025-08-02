@@ -65,7 +65,7 @@
                         <p>Stay future-ready with our AI-powered human resources solutions that simplify decision-making and optimize talent strategies. We combine deep HR domain expertise with cutting-edge tech to help organizations attract, retain, and nurture top talent. Trust Vedeshra Technologies to be your strategic partner in building a smarter, people-first future.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

@@ -82,7 +82,7 @@ Content Marketing Services | Vedeshra Technologies: Drive Traffic & Engagement
                         <p><strong>Ready to elevate your content marketing strategy? Partner with Vedeshra Technologies for results-driven content solutions that generate leads and drive revenue.</strong></p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get Started</a>
+                        <a href="{{ route('contact') }}/" class="button">Get Started</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

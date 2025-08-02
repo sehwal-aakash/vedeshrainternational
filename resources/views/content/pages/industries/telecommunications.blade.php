@@ -66,7 +66,7 @@
                         <p>Partnering with Vedeshra means more than just adopting technology—it’s about embracing digital innovation in telecommunications. With our domain expertise, deep tech capabilities, and commitment to excellence, we help telecom operators build resilient, customer-centric networks that drive long-term growth and digital inclusion.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

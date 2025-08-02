@@ -79,7 +79,7 @@
                         <p><strong> Ready to transform your email marketing strategy? Let's craft high-impact email campaigns that fuel your business growth!</strong></p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get Started</a>
+                        <a href="{{ route('contact') }}/" class="button">Get Started</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

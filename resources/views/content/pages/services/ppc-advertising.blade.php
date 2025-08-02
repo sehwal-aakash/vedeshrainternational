@@ -79,7 +79,7 @@
                         <p><strong>Let  Vedeshra Technologies help you scale your business with high-impact PPC advertising that drives results.</strong></p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get Started</a>
+                        <a href="{{ route('contact') }}/" class="button">Get Started</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">
@@ -288,7 +288,7 @@
                     @include('content.popups.mainpopup')
                 </div>
                 <div class="inner-page-cta-button-flex-item-box">
-                    <a href="/contact/" class="button secondary">Contact Us</a>
+                    <a href="{{ route('contact') }}" class="button secondary">Contact Us</a>
                 </div>
             </div>
         </div>

@@ -78,7 +78,7 @@
                         <p><strong> From Conversations to Communities — Build Stronger Connections</strong></p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get Started Today</a>
+                        <a href="{{ route('contact') }}/" class="button">Get Started Today</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

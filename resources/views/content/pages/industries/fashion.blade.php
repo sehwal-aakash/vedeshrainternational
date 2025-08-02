@@ -65,7 +65,7 @@
                         <p>Stay relevant, responsive, and revolutionary with our comprehensive suite of digital solutions for fashion brands. Whether you're launching a new label or digitizing a heritage brand, Vedeshra Technologies ensures your journey is data-driven, user-focused, and future-ready.</p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">

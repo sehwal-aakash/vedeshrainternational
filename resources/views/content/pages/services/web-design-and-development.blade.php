@@ -79,7 +79,7 @@
                         <p><strong> Let's build something amazing together!</strong></p>
                     </div>
                     <div class="innerherobutton">
-                        <a href="/contact/" class="button">Get in Touch</a>
+                        <a href="{{ route('contact') }}/" class="button">Get in Touch</a>
                     </div>
                 </div>
                 <div class="innerheroformbox">
@@ -676,7 +676,7 @@
                         </div>
                     </div>
                     <div class="faq-accordion-answer">
-                        <p>Getting started is simple! Contact us for a <a href="/contact/"><strong>free consultation,</strong></a> where we'll discuss your requirements, business goals, and the best web design strategy for you. <strong>Our team will guide you through the entire process </strong> to ensure a seamless experience from design to launch.</p>
+                        <p>Getting started is simple! Contact us for a <a href="{{ route('contact') }}/"><strong>free consultation,</strong></a> where we'll discuss your requirements, business goals, and the best web design strategy for you. <strong>Our team will guide you through the entire process </strong> to ensure a seamless experience from design to launch.</p>
                     </div>
                 </div>
             </div>
