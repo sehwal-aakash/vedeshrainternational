@@ -145,7 +145,7 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/low-code-development-vector-img.png" loading="lazy" alt="Web Development Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/video-production-img-01.png" loading="lazy" alt="Video Production Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Transforming Ideas into Stunning Visuals</h2>
@@ -286,7 +286,7 @@
                     @include('content.popups.mainpopup')
                 </div>
                 <div class="inner-page-cta-button-flex-item-box">
-                    <a href="" class="button secondary">Contact Us</a>
+                    <a href="{{ route('contact') }}" class="button secondary">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -306,7 +306,7 @@
                     </div>
                 </div>
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/web-developer-courses.png" loading="lazy" alt="Web Development Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/video-production-img-02.png" loading="lazy" alt="Video Production Vector Image">
                 </div>
             </div>
         </div>
