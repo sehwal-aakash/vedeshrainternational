@@ -1,4 +1,4 @@
-<link rel="icon" type="image/png"  href="{{ asset('assets/admin/images/favicon.png') }}" sizes="16x16">
+<link rel="icon" type="image/png"  href="{{ asset('assets/img/favicon/favicon.ico') }}" sizes="16x16">
     <!-- remix icon font css  -->
     <link rel="stylesheet"  href="{{ asset('assets/admin/css/remixicon.css') }}">
     <!-- BootStrap css -->
