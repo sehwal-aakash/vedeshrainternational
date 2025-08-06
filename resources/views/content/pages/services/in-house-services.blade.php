@@ -307,7 +307,7 @@
                     </div>
                 </div>
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/web-developer-courses.png" loading="lazy" alt="Web Development Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/web-analytics-vector-img-03.png" loading="lazy" alt="Web Analytics Vector Image">
                 </div>
             </div>
         </div>
@@ -591,7 +591,7 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/website-designer-concept.png" loading="lazy" alt="Web Designer Concept Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/email-marketing-image-03.png" loading="lazy" alt="Email Marketing Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Experience Seamless Execution with In-House Excellence</h2>

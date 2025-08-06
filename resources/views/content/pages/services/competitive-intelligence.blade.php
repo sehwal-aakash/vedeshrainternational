@@ -147,7 +147,7 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/low-code-development-vector-img.png" loading="lazy" alt="Web Development Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/competitive-analysis-img-01.png" loading="lazy" alt="Competitive Analysis Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Unlock Market Advantage with Competitive Intelligence</h2>
@@ -308,7 +308,7 @@
                     </div>
                 </div>
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/web-developer-courses.png" loading="lazy" alt="Web Development Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/competitive-analysis-img-02.png" loading="lazy" alt="Competitive Analysis Vector Image">
                 </div>
             </div>
         </div>
@@ -592,7 +592,7 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/website-designer-concept.png" loading="lazy" alt="Web Designer Concept Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/competitive-analysis-img-03.png" loading="lazy" alt="Competitive Analysis Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Transform Raw Data into Competitive Advantage</h2>

@@ -147,7 +147,7 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/low-code-development-vector-img.png" loading="lazy" alt="Web Development Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/help-desk-support-img-01.png" loading="lazy" alt="Customer Support Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Why Customer Support is Essential for Your Business</h2>
@@ -308,7 +308,7 @@
                     </div>
                 </div>
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/web-developer-courses.png" loading="lazy" alt="Web Development Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/help-desk-support-img-02.png" loading="lazy" alt="Customer Support Vector Image">
                 </div>
             </div>
         </div>
@@ -592,14 +592,14 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/website-designer-concept.png" loading="lazy" alt="Web Designer Concept Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/help-desk-support-img-03.png" loading="lazy" alt="Customer Support Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
-                    <h2>Transforming Ideas into Stunning Websites</h2>
+                    <h2>Delivering Exceptional Customer Support Solutions</h2>
                     <div class="imagewithtextcontent">
-                        <p>A well-designed website is more than just visuals—it's a <strong>powerful tool that enhances brand identity and user engagement. </strong> At <strong>Vedeshra Technologies,</strong> we craft websites that combine creativity, functionality, and seamless user experience. Our designs ensure businesses leave a lasting impression in the digital world.</p>
-                        {{-- <p>Every project begins with a <strong>deep understanding of your brand, audience, and goals.</strong> We focus on intuitive navigation, responsive layouts, and modern aesthetics, ensuring your website performs flawlessly across all devices. Our approach blends strategic planning with cutting-edge technology for a truly engaging digital presence.</p> --}}
-                        <p>With our expertise in <strong>UI/UX, performance optimization, and interactive design, </strong> we build websites that not only <strong>attract visitors but also convert them into loyal customers. </strong> Whether you need an eCommerce store, a corporate site, or a portfolio, we ensure it's <strong>fast, secure, and tailored to your business success.</strong></p>
+                        <p>Customer support is more than just answering queries—it's about <strong>building trust, enhancing satisfaction, and driving long-term loyalty.</strong> At <strong>Vedeshra Technologies,</strong> we provide tailored customer support solutions that ensure your clients receive timely, professional, and effective assistance at every touchpoint.</p>
+                        <p>Every support strategy starts with a <strong>deep understanding of your business, audience expectations, and service workflows.</strong> We design scalable and intuitive support systems—from help desks and chatbots to omnichannel ticketing platforms—that deliver seamless experiences across all communication channels.</p>
+                        <p>With our expertise in <strong>automation, live support integration, and customer experience optimization,</strong> we help businesses <strong>improve response times, reduce churn, and boost customer satisfaction. </strong> Whether you're a startup or an enterprise, our solutions are <strong>fast, reliable, and customized to support your growth.</strong></p>
                     </div>
                 </div>
             </div>

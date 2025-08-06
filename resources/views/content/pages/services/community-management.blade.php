@@ -145,7 +145,7 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/low-code-development-vector-img.png" loading="lazy" alt="Web Development Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/vector-img-03.png" loading="lazy" alt="Community Management Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Why Community Management is Crucial for Your Brand's Success</h2>
@@ -306,7 +306,7 @@
                     </div>
                 </div>
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/web-developer-courses.png" loading="lazy" alt="Web Development Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/vector-img-01.png" loading="lazy" alt="Web Development Vector Image">
                 </div>
             </div>
         </div>
@@ -635,7 +635,7 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/website-designer-concept.png" loading="lazy" alt="Web Designer Concept Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/vector-img-06.png" loading="lazy" alt="Web Designer Concept Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Build Thriving Communities That Strengthen Your Brand</h2>

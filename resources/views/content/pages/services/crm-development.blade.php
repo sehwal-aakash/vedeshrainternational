@@ -149,7 +149,7 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/low-code-development-vector-img.png" loading="lazy" alt="Web Development Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/crm-development-img-01.png" loading="lazy" alt="CRM Development Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Transform Your Customer Relationships with a Powerful CRM</h2>
@@ -310,7 +310,7 @@
                     </div>
                 </div>
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/web-developer-courses.png" loading="lazy" alt="Web Development Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/crm-development-img-02.png" loading="lazy" alt="CRM Development Vector Image">
                 </div>
             </div>
         </div>
@@ -594,7 +594,7 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/website-designer-concept.png" loading="lazy" alt="Web Designer Concept Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/crm-development-img-03.png" loading="lazy" alt="CRM Development Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Empower Your Business with Smarter CRM Solutions</h2>

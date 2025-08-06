@@ -145,7 +145,7 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/low-code-development-vector-img.png" loading="lazy" alt="Web Development Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/influencer-marketing-img-01.png" loading="lazy" alt="Influencer Marketing Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Unlock New Audiences with Influencer Marketing Expertise</h2>
@@ -306,7 +306,7 @@
                     </div>
                 </div>
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/web-developer-courses.png" loading="lazy" alt="Web Development Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/influencer-marketing-img-02.png" loading="lazy" alt="Influencer Marketing Vector Image">
                 </div>
             </div>
         </div>
@@ -590,7 +590,7 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/website-designer-concept.png" loading="lazy" alt="Web Designer Concept Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/influencer-marketing-img-03.png" loading="lazy" alt="Influencer Marketing Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Elevate Your Brand with Strategic Influencer Marketing</h2>
