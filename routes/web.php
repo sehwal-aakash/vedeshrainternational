@@ -11,6 +11,7 @@ use App\Models\Services;
 use App\Models\Industries;
 
 use App\Http\Controllers\Admin\Services\ServicesController;
+use App\Http\Controllers\Admin\MainPages\MainPagesController;
 use App\Http\Controllers\Admin\Industries\IndustriesController;
 
 Route::get('/', function () {
@@ -131,10 +132,10 @@ Route::middleware([
     // Pages
 
     // Main Pages
-    Route::get('/nimdav/pages/mainpages/listmainpages', function () {
-        // return view('dashboard');
-        return view('admin.pages.mainpages.listmainpages');
-    })->name('List Main Pages');
+    // Route::get('/nimdav/pages/mainpages/listmainpages', function () {
+    //     // return view('dashboard');
+    //     return view('admin.pages.mainpages.listmainpages');
+    // })->name('List Main Pages');
 
     // Industry Pages
     Route::get('/nimdav/pages/industries/listindustries', [IndustriesController::class, 'listindustries'])->name('admin.industries.list');
@@ -160,6 +161,14 @@ Route::middleware([
     Route::post('/nimdav/pages/services/updateservice/{id}', [ServicesController::class, 'updateservice'])->name('admin.services.update');
     Route::delete('/nimdav/pages/services/deleteservice/{id}', [ServicesController::class, 'deleteservice'])->name('admin.services.delete');
 
+    // Main Pages
+    Route::get('/nimdav/pages/mainpages/listmainpages', [MainPagesController::class, 'listmainpages'])->name('admin.mainpages.list');
+    Route::get('/nimdav/pages/mainpages/addmainpage', [MainPagesController::class, 'addmainpage'])->name('admin.mainpages.add');
+    Route::post('/nimdav/pages/mainpages/addmainpagepost', [MainPagesController::class, 'addmainpagePost'])->name('admin.mainpages.add.post');
+    Route::get('/nimdav/pages/mainpages/viewmainpage/{id}', [MainPagesController::class, 'viewmainpage'])->name('admin.mainpages.view');
+    Route::get('/nimdav/pages/mainpages/editmainpage/{id}', [MainPagesController::class, 'editmainpage'])->name('admin.mainpages.edit');
+    Route::post('/nimdav/pages/mainpages/updatemainpage/{id}', [MainPagesController::class, 'updatemainpage'])->name('admin.mainpages.update');
+    Route::delete('/nimdav/pages/mainpages/deletemainpage/{id}', [MainPagesController::class, 'deletemainpage'])->name('admin.mainpages.delete');
 
     // Forms
 
