@@ -48,6 +48,8 @@ class ColdEmailController extends Controller
         // Send email
         Mail::to($data['email'])->send(new SendCampaignMail($data));
 
+        \Log::info('Email sent successfully.', $data);
+
         return redirect()->back()->with('success', 'Email sent successfully.');
     }
 
