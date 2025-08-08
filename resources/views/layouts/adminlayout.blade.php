@@ -41,6 +41,7 @@
     </main>
 
     @include('layouts.partials.admin.script')
+    @yield('scripts')
 
 </body>
 </html>
