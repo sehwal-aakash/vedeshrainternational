@@ -11,7 +11,7 @@ class MainPagesController extends Controller
 {
     public function listmainpages(){
         $mainpages = MainPages::all();
-        return view('admin.pages.mainpages.listmainpages', compact('mainpage'));
+        return view('admin.pages.mainpages.listmainpages', compact('mainpages'));
     }
 
     // public function listmainpagesfrontend(){
@@ -19,7 +19,7 @@ class MainPagesController extends Controller
     //     return view('content.pages.mainpages.services', compact('mainpage'));
     // }
 
-    public function addservicePost(Request $request){
+    public function addmainpagePost(Request $request){
         $request->validate([
             'name' => 'required|string|max:255',
             'slug' => 'required|string|max:255',
@@ -45,13 +45,13 @@ class MainPagesController extends Controller
 
     public function viewmainpage($id){
         $mainpage = MainPages::findOrFail($id);
-        return view('admin.pages.mainpages.viewmainpage', compact('mainpage'));
+        return view('admin.pages.mainpages.viewmainpages', compact('mainpage'));
     }
 
     public function editmainpage($id)
     {
         $mainpage = MainPages::findOrFail($id);
-        return view('admin.pages.mainpages.editmainpage', compact('mainpage'));
+        return view('admin.pages.mainpages.editmainpages', compact('mainpage'));
     }
 
     public function updatemainpage(Request $request, $id)
