@@ -14,6 +14,9 @@ use App\Http\Controllers\Admin\Services\ServicesController;
 use App\Http\Controllers\Admin\MainPages\MainPagesController;
 use App\Http\Controllers\Admin\Industries\IndustriesController;
 
+use App\Http\Controllers\Admin\Emails\ColdEmailController;
+
+
 Route::get('/', function () {
     return view('content.pages.mainpages.home');
 });
@@ -204,6 +207,11 @@ Route::middleware([
         // return view('dashboard');
         return view('admin.users.listusers');
     })->name('List Users');
+
+    Route::prefix('admin/emails')->name('admin.emails.')->group(function () {
+    Route::get('/send', [ColdEmailController::class, 'form'])->name('form');
+    Route::post('/send', [ColdEmailController::class, 'send'])->name('send');
+});
 
 });
 

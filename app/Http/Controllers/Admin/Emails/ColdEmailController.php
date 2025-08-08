@@ -58,4 +58,10 @@ class ColdEmailController extends Controller
         }
         return $template;
     }
+
+    public function form()
+{
+    $templates = EmailTemplate::all();
+    return view('admin.emails.send', compact('templates'));
+}
 }
