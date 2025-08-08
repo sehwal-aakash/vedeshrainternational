@@ -1,16 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>{{ $campaign->subject }}</title>
+    <meta charset="utf-8">
+    <title>{{ $data['subject'] }}</title>
 </head>
 <body>
-    <p>Hi {{ $contact->full_name ?? 'there' }},</p>
-
-    {!! $campaign->email_body !!}
-
-    <p style="font-size: 12px; color: #999;">
-        If you no longer want to receive these emails, <a href="{{ route('unsubscribe', ['email' => $contact->email]) }}">unsubscribe here</a>.
-    </p>
+    {!! $data['content'] !!}
 </body>
 </html>

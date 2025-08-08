@@ -2,29 +2,25 @@
 
 namespace App\Mail;
 
-use App\Models\Campaign;
-use App\Models\Contacts;
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
+use Illuminate\Queue\SerializesModels;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
-use Illuminate\Queue\SerializesModels;
+use Illuminate\Contracts\Queue\ShouldQueue;
 
 class SendCampaignMail extends Mailable implements ShouldQueue
 {
     use Queueable, SerializesModels;
 
-    public Campaign $campaign;
-    public Contacts $contact;
+    public array $data;
 
     /**
      * Create a new message instance.
      */
-    public function __construct(Campaign $campaign, Contacts $contact)
+    public function __construct(array $data)
     {
-        $this->campaign = $campaign;
-        $this->contact = $contact;
+        $this->data = $data;
     }
 
     /**
@@ -33,8 +29,8 @@ class SendCampaignMail extends Mailable implements ShouldQueue
     public function envelope(): Envelope
     {
         return new Envelope(
-            from: [$this->campaign->sender_email => $this->campaign->sender_name],
-            subject: $this->campaign->subject,
+            from: [$this->data['from_email'] ?? config('mail.from.address') => $this->data['from_name'] ?? config('mail.from.name')],
+            subject: $this->data['subject'] ?? 'Campaign Mail'
         );
     }
 
@@ -45,10 +41,7 @@ class SendCampaignMail extends Mailable implements ShouldQueue
     {
         return new Content(
             view: 'emails.campaign',
-            with: [
-                'campaign' => $this->campaign,
-                'contact' => $this->contact,
-            ]
+            with: ['data' => $this->data]
         );
     }
 
