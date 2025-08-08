@@ -62,6 +62,6 @@ class ColdEmailController extends Controller
     public function form()
 {
     $templates = EmailTemplate::all();
-    return view('admin.emails.send', compact('templates'));
+    return view('admin.emails.manual.addemail', compact('templates'));
 }
 }
