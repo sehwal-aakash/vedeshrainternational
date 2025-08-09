@@ -63,7 +63,7 @@ class ColdEmailController extends Controller
 
         return redirect()->back()->with('success', 'Email sent successfully.');
 
-        // return response()->json(['message' => 'Email sent successfully!']);
+        // return response()->json(['message' => 'Email sent successfully!']); 
     }
 
     private function replaceTemplateVariables(string $template, array $vars): string
