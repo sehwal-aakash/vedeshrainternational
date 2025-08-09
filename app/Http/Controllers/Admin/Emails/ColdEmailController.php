@@ -7,14 +7,15 @@ use Illuminate\Http\Request;
 use App\Mail\SendCustomEmails;
 use Illuminate\Support\Facades\Mail;
 use App\Models\EmailTemplate;
+use App\Models\manual_email;
 
 class ColdEmailController extends Controller
 {
     public function send(Request $request)
     {
         $request->validate([
-            'name' => 'required|string|max:255',
-            'email' => 'required|email',
+            'recipient_name' => 'required|string|max:255',
+            'recipient_email' => 'required|email',
             'subject' => 'required|string|max:255',
             'content_type' => 'required|in:template,message',
             'template_id' => 'required_if:content_type,template',
@@ -23,8 +24,8 @@ class ColdEmailController extends Controller
         ]);
 
         $data = [
-            'name' => $request->name,
-            'email' => $request->email,
+            'recipient_name' => $request->recipient_name,
+            'recipient_email' => $request->recipient_email,
             'subject' => $request->subject,
         ];
 
@@ -46,7 +47,7 @@ class ColdEmailController extends Controller
         }
 
         // Send email
-        Mail::to($data['email'])->send(new SendCustomEmails($data));
+        Mail::to($data['recipient_email'])->send(new SendCustomEmails($data));
 
         \Log::info('Email sent successfully.', $data);
 

@@ -13,12 +13,12 @@
 
                     <div class="mb-3">
                         <label for="name" class="form-label">Recipient Name</label>
-                        <input type="text" name="name" id="name" class="form-control" required>
+                        <input type="text" name="recipient_name" id="name" class="form-control" required>
                     </div>
 
                     <div class="mb-3">
                         <label for="email" class="form-label">Recipient Email</label>
-                        <input type="email" name="email" id="email" class="form-control" required>
+                        <input type="email" name="recipient_email" id="email" class="form-control" required>
                     </div>
 
                     <div class="mb-3">
