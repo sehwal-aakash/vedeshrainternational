@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>{{ $data['subject'] }}</title>
+    <title>{{ $name }}</title>
 </head>
 <body>
-    {!! $data['content'] !!}
+    <h2>Hello, {{ $name }}</h2>
+    <p>{{ $content }}</p>
+    <hr>
+    <small>Sender Email: {{ $email }}</small>
 </body>
 </html>

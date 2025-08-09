@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Admin\Emails;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Mail\SendCampaignMail;
+use App\Mail\SendCustomEmails;
 use Illuminate\Support\Facades\Mail;
 use App\Models\EmailTemplate;
 
@@ -46,11 +46,13 @@ class ColdEmailController extends Controller
         }
 
         // Send email
-        Mail::to($data['email'])->send(new SendCampaignMail($data));
+        Mail::to($data['email'])->send(new SendCustomEmails($data));
 
         \Log::info('Email sent successfully.', $data);
 
-        return redirect()->back()->with('success', 'Email sent successfully.');
+        // return redirect()->back()->with('success', 'Email sent successfully.');
+
+        return response()->json(['message' => 'Email sent successfully!']);
     }
 
     private function replaceTemplateVariables(string $template, array $vars): string
