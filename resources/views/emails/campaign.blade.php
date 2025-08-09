@@ -5,7 +5,7 @@
 </head>
 <body>
     <h2>Hello, {{ $name }}</h2>
-    <p>{{ $content }}</p>
+    {!! $data['content'] !!}
     <hr>
     <small>Sender Email: {{ $email }}</small>
 </body>
