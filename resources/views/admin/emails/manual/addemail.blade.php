@@ -5,7 +5,7 @@
     <div class="col-lg-10 mx-auto">
         <div class="card">
             <div class="card-header">
-                <h5 class="mb-0">Send Cold Email</h5>
+                <h5 class="mb-0">Send Email</h5>
             </div>
             <div class="card-body">
                 <form action="{{ route('admin.emails.send') }}" method="POST">
