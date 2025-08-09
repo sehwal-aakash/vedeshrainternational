@@ -49,6 +49,16 @@ class ColdEmailController extends Controller
         // Send email
         Mail::to($data['recipient_email'])->send(new SendCustomEmails($data));
 
+        manual_email::create([
+            'recipient_name'     => $data['recipient_name'],
+            'recipient_email'    => $data['recipient_email'],
+            'subject'            => $data['subject'],
+            'content_type'       => $request->content_type,
+            'template_id'        => $request->content_type === 'template' ? $request->template_id : null,
+            'template_variables' => $request->template_variables,
+            'message'            => $request->content_type === 'message' ? $request->message : null,
+        ]);
+
         \Log::info('Email sent successfully.', $data);
 
         return redirect()->back()->with('success', 'Email sent successfully.');
