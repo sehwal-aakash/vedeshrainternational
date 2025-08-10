@@ -23,8 +23,8 @@
                                 @forelse($sentemails as $sentemail)
                                 <tr>
                                     <td>{{ $loop->iteration }}</td>
-                                    <td>{{ $sentemail->name }}</td>
-                                    <td>{{ $sentemail->email }}</td>
+                                    <td>{{ $sentemail->recipient_name }}</td>
+                                    <td>{{ $sentemail->recipient_email }}</td>
                                     <td class="text-center"> 
                                         <a href="{{ route('admin.sendcustommail.view', $sentemail->id) }}" class="btn btn-sm btn-success-100 text-success-600 rounded-pill px-24 py-4">View</a>
                                         <form action="{{ route('admin.sendcustommail.delete', $sentemail->id) }}" method="POST" style="display: inline-block;" onsubmit="return confirm('Are you sure you want to delete this sent email?');">
