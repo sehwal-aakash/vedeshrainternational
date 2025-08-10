@@ -31,6 +31,7 @@
                         <input type="text" name="content_type" id="content_type" class="form-control" readonly value="{{ $sentemail->content_type }}" required>
                     </div>
 
+                    @if($sentemail->content_type === 'template')
                     <div id="templateFields">
                         <div class="mb-3">
                             <label for="template_id" class="form-label">Selected Template</label>
@@ -39,16 +40,19 @@
 
                         <div class="mb-3">
                             <label for="template_variables" class="form-label">Template Variables (JSON)</label>
-                            <textarea name="template_variables" id="template_variables" rows="5" class="form-control" placeholder='{"name":"John","offer":"20% Off"}' readonly>{{ $sentemail->template_variables }}</textarea>
+                            <textarea name="template_variables" id="template_variables" rows="5" class="form-control" readonly>{{ $sentemail->template_variables }}</textarea>
                         </div>
                     </div>
+                    @endif
 
+                    @if($sentemail->content_type === 'message')
                     <div id="messageField">
                         <div class="mb-3">
                             <label for="message" class="form-label">Write Message</label>
                             <textarea name="message" id="message" class="form-control richtext" rows="6" readonly>{{ $sentemail->message }}</textarea>
                         </div>
                     </div>
+                    @endif
 
                     {{-- <div class="text-end">
                         <button type="submit" class="btn btn-primary">Send Email</button>
