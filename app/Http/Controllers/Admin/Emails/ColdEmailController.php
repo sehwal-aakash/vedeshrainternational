@@ -61,7 +61,7 @@ class ColdEmailController extends Controller
 
         \Log::info('Email sent successfully.', $data);
 
-        return redirect()->back()->with('success', 'Email sent successfully.');
+        return redirect()->route('admin.sendcustommail.list')->with('success', 'Email sent successfully!');
 
         // return response()->json(['message' => 'Email sent successfully!']); 
     }
@@ -103,7 +103,7 @@ class ColdEmailController extends Controller
         $sentemail = manual_email::findOrFail($id);
         $sentemail->delete();
 
-        return redirect()->route('admin.emails.manual.listemail')->with('success', 'Sent Email deleted successfully!');
+        return redirect()->route('admin.sendcustommail.list')->with('success', 'Sent Email deleted successfully!');
     }
 
 }
