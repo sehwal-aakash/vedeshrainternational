@@ -2,10 +2,11 @@
 
 @section('content')
 <div class="row gy-4">
-    <div class="col-lg-10 mx-auto">
+    <div class="col-lg-12 mx-auto">
         <div class="card">
             <div class="card-header">
                 <h5 class="mb-0">View Send Email</h5>
+                <a href="{{ route('admin.sendcustommail.list') }}" class="btn btn-sm btn-primary-100 text-primary-600 radius-8 px-24 py-4">Back</a>
             </div>
             <div class="card-body">
                 <form action="{{ route('admin.sendcustommail.add.post') }}" method="POST">
