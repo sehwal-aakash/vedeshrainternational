@@ -11,42 +11,40 @@ class EmailTemplateController extends Controller
 {
     public function listemailtemplates(){
         $email_templates = EmailTemplate::all();
-        return view('admin.pages.services.listservices', compact('email_templates'));
+        return view('admin.emails.emailtemplates.listemailtemplate', compact('email_templates'));
     }
 
     public function addemailtemplatepost(Request $request){
         $request->validate([
             'name' => 'required|string|max:255',
-            'slug' => 'required|string|max:255',
-            'title' => 'nullable|string|max:255',
-            'short_description' => 'nullable|string',
-            'icon' => 'nullable|string|max:255', // Validate as string, not image
+            'file_name' => 'required|string|max:255',
+            'required_variables' => 'nullable|string',
+            'subject' => 'required|string|max:255',
         ]);
     
         EmailTemplate::create([
             'name' => $request->name,
-            'slug' => \Str::slug($request->slug),
-            'title' => $request->title,
-            'short_description' => $request->short_description,
-            'icon' => '/assets/img/icons/services/' . $request->icon, // Just save the string (URL or filename)
+            'file_name' => $request->file_name,
+            'required_variables' => $request->required_variables,
+            'subject' => $request->subject,
         ]);
     
-        return redirect()->route('admin.services.list')->with('success', 'Email Template added successfully!');
+        return redirect()->route('admin.emailtemplates.list')->with('success', 'Email Template added successfully!');
     }
 
     public function addemailtemplate(){
-        return view('admin.pages.services.addservices');
+        return view('admin.emails.emailtemplates.addemailtemplate');
     }
 
     public function viewemailtemplate($id){
         $email_template = EmailTemplate::findOrFail($id);
-        return view('admin.pages.services.viewservices', compact('email_template'));
+        return view('admin.emails.emailtemplates.viewemailtemplate', compact('email_template'));
     }
 
     public function editemailtemplate($id)
     {
         $email_template = EmailTemplate::findOrFail($id);
-        return view('admin.pages.services.editservices', compact('email_template'));
+        return view('admin.emails.emailtemplates.editemailtemplate', compact('email_template'));
     }
 
     public function updateemailtemplate(Request $request, $id)
@@ -55,21 +53,19 @@ class EmailTemplateController extends Controller
 
         $request->validate([
             'name' => 'required|string|max:255',
-            'slug' => 'required|string|max:255|unique:services,slug,' . $id,
-            'title' => 'nullable|string|max:255',
-            'short_description' => 'nullable|string',
-            'icon' => 'nullable|string|max:255',
+            'file_name' => 'required|string|max:255',
+            'required_variables' => 'nullable|string',
+            'subject' => 'required|string|max:255',
         ]);
 
         $email_template->update([
             'name' => $request->name,
-            'slug' => \Str::slug($request->slug),
-            'title' => $request->title,
-            'short_description' => $request->short_description,
-            'icon' => '/assets/img/icons/services/' . $request->icon,
+            'file_name' => $request->file_name,
+            'required_variables' => $request->required_variables,
+            'subject' => $request->subject,
         ]);
 
-        return redirect()->route('admin.services.list')->with('success', 'Email Template updated successfully!');
+        return redirect()->route('admin.emailtemplates.list')->with('success', 'Email Template updated successfully!');
     }
 
     public function deleteemailtemplate($id)
@@ -77,6 +73,6 @@ class EmailTemplateController extends Controller
         $email_template = EmailTemplate::findOrFail($id);
         $email_template->delete();
 
-        return redirect()->route('admin.services.list')->with('success', 'Email Template deleted successfully!');
+        return redirect()->route('admin.emailtemplates.list')->with('success', 'Email Template deleted successfully!');
     }
 }

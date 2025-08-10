@@ -11,7 +11,12 @@ class EmailTemplate extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'subject', 'content'];
+    protected $fillable = [
+        'name', 
+        'subject', 
+        'file_name',
+        'required_variables'
+    ];
 
     public function manualEmails()
     {
