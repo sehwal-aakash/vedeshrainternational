@@ -15,6 +15,7 @@ use App\Http\Controllers\Admin\MainPages\MainPagesController;
 use App\Http\Controllers\Admin\Industries\IndustriesController;
 
 use App\Http\Controllers\Admin\Emails\ColdEmailController;
+use App\Http\Controllers\Admin\Emails\EmailTemplateController;
 
 
 Route::get('/', function () {
