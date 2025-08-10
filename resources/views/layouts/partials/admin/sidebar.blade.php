@@ -62,10 +62,10 @@
                 </a>
                 <ul class="sidebar-submenu">
                     <li>
-                    <a href="{{ route('admin.emails.form') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i>Send Email</a>
+                    <a href="{{ route('admin.sendcustommail.send') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i>Send Email</a>
                     </li>
                     <li>
-                    <a href="{{ route('admin.forms.newsletter.list') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>View Sent Emails</a>
+                    <a href="{{ route('admin.sendcustommail.list') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>View Sent Emails</a>
                     </li>
                 </ul>
             </li>
