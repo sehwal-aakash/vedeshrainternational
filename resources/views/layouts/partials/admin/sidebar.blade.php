@@ -65,7 +65,10 @@
                     <a href="{{ route('admin.sendcustommail.send') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i>Send Email</a>
                     </li>
                     <li>
-                    <a href="{{ route('admin.sendcustommail.list') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>View Sent Emails</a>
+                    <a href="{{ route('admin.sendcustommail.list') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>List Sent Emails</a>
+                    </li>
+                    <li>
+                    <a href="{{ route('admin.emailtemplate.list') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>Email Templates</a>
                     </li>
                 </ul>
             </li>
