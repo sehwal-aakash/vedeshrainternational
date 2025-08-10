@@ -1,0 +1,72 @@
+@extends('layouts.adminlayout')
+
+@section('content')
+<div class="row gy-4">
+    <div class="col-lg-10 mx-auto">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">View Send Email</h5>
+            </div>
+            <div class="card-body">
+                <form action="{{ route('admin.sendcustommail.add.post') }}" method="POST">
+                    @csrf
+
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Recipient Name</label>
+                        <input type="text" name="recipient_name" id="name" class="form-control" readonly required value="{{ $sentemail->recipient_name }}">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Recipient Email</label>
+                        <input type="email" name="recipient_email" id="email" class="form-control" readonly required value="{{ $sentemail->recipient_email }}">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" name="subject" id="subject" class="form-control" readonly required value="{{ $sentemail->subject }}" >
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="content_type" class="form-label">Content Type</label>
+                        <input type="text" name="content_type" id="content_type" class="form-control" readonly value="{{ $sentemail->content_type }}" required>
+                        <select class="form-select" name="content_type" id="content_type" required>
+                            <option value="">Select Content Type</option>
+                            <option value="template">Choose Email Template</option>
+                            <option value="message">Write Message</option>
+                        </select>
+                    </div>
+
+                    <div id="templateFields">
+                        <div class="mb-3">
+                            <label for="template_id" class="form-label">Select Template</label>
+                            <input type="text" name="template_id" id="template_id" class="form-control" readonly required>
+                            <select name="template_id" id="template_id" class="form-select">
+                                <option value="">Select Template</option>
+                                @foreach($templates as $template)
+                                    <option value="{{ $template->id }}">{{ $template->title }}</option>
+                                @endforeach
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="template_variables" class="form-label">Template Variables (JSON)</label>
+                            <textarea name="template_variables" id="template_variables" rows="5" class="form-control" placeholder='{"name":"John","offer":"20% Off"}' readonly>{{ $template->template_variables }}</textarea>
+                        </div>
+                    </div>
+
+                    <div id="messageField">
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Write Message</label>
+                            <textarea name="message" id="message" class="form-control richtext" rows="6" readonly>{{ $template->message }}</textarea>
+                        </div>
+                    </div>
+
+                    {{-- <div class="text-end">
+                        <button type="submit" class="btn btn-primary">Send Email</button>
+                    </div> --}}
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection

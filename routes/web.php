@@ -134,12 +134,6 @@ Route::middleware([
 
     // Pages
 
-    // Main Pages
-    // Route::get('/nimdav/pages/mainpages/listmainpages', function () {
-    //     // return view('dashboard');
-    //     return view('admin.pages.mainpages.listmainpages');
-    // })->name('List Main Pages');
-
     // Industry Pages
     Route::get('/nimdav/pages/industries/listindustries', [IndustriesController::class, 'listindustries'])->name('admin.industries.list');
     Route::get('/nimdav/pages/industries/addindustry', [IndustriesController::class, 'addindustry'])->name('admin.industries.add');
@@ -208,10 +202,13 @@ Route::middleware([
         return view('admin.users.listusers');
     })->name('List Users');
 
-    Route::prefix('admin/emails')->name('admin.emails.')->group(function () {
-    Route::get('/send', [ColdEmailController::class, 'form'])->name('form');
-    Route::post('/send', [ColdEmailController::class, 'send'])->name('send');
-});
+
+    // Emails
+    Route::get('/nimdav/emails/sendmail', [ColdEmailController::class, 'sendmail'])->name('admin.sendcustommail.send');
+    Route::get('/nimdav/emails/list', [ColdEmailController::class, 'listmail'])->name('admin.sendcustommail.list');
+    Route::post('/nimdav/emails/send', [ColdEmailController::class, 'sendmailpost'])->name('admin.sendcustommail.add.post');
+    Route::get('/nimdav/emails/view/{id}', [ColdEmailController::class, 'viewsendmail'])->name('admin.sendcustommail.view');
+    Route::delete('/nimdav/emails/delete/{id}', [ColdEmailController::class, 'deletemail'])->name('admin.sendcustommail.delete');
 
 });
 

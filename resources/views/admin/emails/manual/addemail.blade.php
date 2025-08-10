@@ -8,7 +8,7 @@
                 <h5 class="mb-0">Send Email</h5>
             </div>
             <div class="card-body">
-                <form action="{{ route('admin.emails.send') }}" method="POST">
+                <form action="{{ route('admin.sendcustommail.add.post') }}" method="POST">
                     @csrf
 
                     <div class="mb-3">

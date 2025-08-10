@@ -11,7 +11,7 @@ use App\Models\manual_email;
 
 class ColdEmailController extends Controller
 {
-    public function send(Request $request)
+    public function sendmailpost(Request $request)
     {
         $request->validate([
             'recipient_name' => 'required|string|max:255',
@@ -74,9 +74,36 @@ class ColdEmailController extends Controller
         return $template;
     }
 
-    public function form()
-{
-    $templates = EmailTemplate::all();
-    return view('admin.emails.manual.addemail', compact('templates'));
-}
+    public function sendmail(){
+        $templates = EmailTemplate::all();
+        return view('admin.emails.manual.addemail', compact('templates'));
+    }
+
+    public function listemail(){
+        $sentemails = manual_email::all();
+        return view('admin.emails.manual.listemail', compact('sentemails'));
+    }
+
+    public function viewsendmail($id){
+        $sentemail = manual_email::findOrFail($id);
+
+        $templateName = null;
+        if (!empty($sentemail->template_id)) {
+            $template = EmailTemplate::find($sentemail->template_id);
+            $templateName = $template ? $template->name : null;
+        }
+        return view('admin.emails.manual.viewemail', [
+            'sentemail' => $sentemail,
+            'templateName' => $templateName
+        ]);
+    }
+
+    public function deletemail($id)
+    {
+        $sentemail = manual_email::findOrFail($id);
+        $sentemail->delete();
+
+        return redirect()->route('admin.emails.manual.listemail')->with('success', 'Sent Email deleted successfully!');
+    }
+
 }

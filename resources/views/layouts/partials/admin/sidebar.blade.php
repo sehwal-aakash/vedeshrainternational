@@ -62,16 +62,10 @@
                 </a>
                 <ul class="sidebar-submenu">
                     <li>
-                    <a href="{{ route('admin.forms.contact.list') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i>Contact Forms</a>
+                    <a href="{{ route('admin.emails.form') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i>Send Email</a>
                     </li>
                     <li>
-                    <a href="{{ route('admin.forms.newsletter.list') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>Newsletter Forms</a>
-                    </li>
-                    <li>
-                    <a href="{{ route('admin.forms.getquote.list') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>Quote Forms</a>
-                    </li>
-                    <li>
-                    <a href="{{ route('admin.forms.popup.list') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>Popup Forms</a>
+                    <a href="{{ route('admin.forms.newsletter.list') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>View Sent Emails</a>
                     </li>
                 </ul>
             </li>
