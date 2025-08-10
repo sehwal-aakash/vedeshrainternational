@@ -39,14 +39,14 @@
 
                         <div class="mb-3">
                             <label for="template_variables" class="form-label">Template Variables (JSON)</label>
-                            <textarea name="template_variables" id="template_variables" rows="5" class="form-control" placeholder='{"name":"John","offer":"20% Off"}' readonly>{{ $template->template_variables }}</textarea>
+                            <textarea name="template_variables" id="template_variables" rows="5" class="form-control" placeholder='{"name":"John","offer":"20% Off"}' readonly>{{ $sentemail->template_variables }}</textarea>
                         </div>
                     </div>
 
                     <div id="messageField">
                         <div class="mb-3">
                             <label for="message" class="form-label">Write Message</label>
-                            <textarea name="message" id="message" class="form-control richtext" rows="6" readonly>{{ $template->message }}</textarea>
+                            <textarea name="message" id="message" class="form-control richtext" rows="6" readonly>{{ $sentemail->message }}</textarea>
                         </div>
                     </div>
 
