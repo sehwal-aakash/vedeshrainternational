@@ -37,7 +37,7 @@
                                 </tr>
                                 @empty
                                 <tr>
-                                    <td colspan="4">No services found.</td>
+                                    <td colspan="4">No Email Templates found.</td>
                                 </tr>
                                 @endforelse
                             </tbody>
