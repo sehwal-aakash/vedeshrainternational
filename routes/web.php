@@ -212,13 +212,13 @@ Route::middleware([
     Route::delete('/nimdav/emails/delete/{id}', [ColdEmailController::class, 'deletemail'])->name('admin.sendcustommail.delete');
 
     // Email Templates Pages
-    Route::get('/nimdav/pages/emailtemplates/listtemplates', [EmailTemplateController::class, 'listtemplates'])->name('admin.emailtemplates.list');
-    Route::get('/nimdav/pages/emailtemplates/addtemplate', [EmailTemplateController::class, 'addtemplate'])->name('admin.emailtemplates.add');
-    Route::post('/nimdav/pages/emailtemplates/addtemplatepost', [EmailTemplateController::class, 'addtemplatePost'])->name('admin.emailtemplates.add.post');
-    Route::get('/nimdav/pages/emailtemplates/viewtemplate/{id}', [EmailTemplateController::class, 'viewtemplate'])->name('admin.emailtemplates.view');
-    Route::get('/nimdav/pages/emailtemplates/edittemplate/{id}', [EmailTemplateController::class, 'edittemplate'])->name('admin.emailtemplates.edit');
-    Route::post('/nimdav/pages/emailtemplates/updatetemplate/{id}', [EmailTemplateController::class, 'updatetemplate'])->name('admin.emailtemplates.update');
-    Route::delete('/nimdav/pages/emailtemplates/deletetemplate/{id}', [EmailTemplateController::class, 'deletetemplate'])->name('admin.emailtemplates.delete');
+    Route::get('/nimdav/pages/emailtemplates/listtemplates', [EmailTemplateController::class, 'listemailtemplates'])->name('admin.emailtemplates.list');
+    Route::get('/nimdav/pages/emailtemplates/addtemplate', [EmailTemplateController::class, 'addemailtemplate'])->name('admin.emailtemplates.add');
+    Route::post('/nimdav/pages/emailtemplates/addtemplatepost', [EmailTemplateController::class, 'addemailtemplatepost'])->name('admin.emailtemplates.add.post');
+    Route::get('/nimdav/pages/emailtemplates/viewtemplate/{id}', [EmailTemplateController::class, 'viewemailtemplate'])->name('admin.emailtemplates.view');
+    Route::get('/nimdav/pages/emailtemplates/edittemplate/{id}', [EmailTemplateController::class, 'editemailtemplate'])->name('admin.emailtemplates.edit');
+    Route::post('/nimdav/pages/emailtemplates/updatetemplate/{id}', [EmailTemplateController::class, 'updateemailtemplate'])->name('admin.emailtemplates.update');
+    Route::delete('/nimdav/pages/emailtemplates/deletetemplate/{id}', [EmailTemplateController::class, 'deleteemailtemplate'])->name('admin.emailtemplates.delete');
 
 });
 
