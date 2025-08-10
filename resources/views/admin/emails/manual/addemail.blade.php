@@ -41,7 +41,7 @@
                             <select name="template_id" id="template_id" class="form-select">
                                 <option value="">Select Template</option>
                                 @foreach($templates as $template)
-                                    <option value="{{ $template->id }}">{{ $template->title }}</option>
+                                    <option value="{{ $template->id }}">{{ $template->name }}</option>
                                 @endforeach
                             </select>
                         </div>
