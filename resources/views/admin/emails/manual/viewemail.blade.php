@@ -29,23 +29,12 @@
                     <div class="mb-3">
                         <label for="content_type" class="form-label">Content Type</label>
                         <input type="text" name="content_type" id="content_type" class="form-control" readonly value="{{ $sentemail->content_type }}" required>
-                        <select class="form-select" name="content_type" id="content_type" required>
-                            <option value="">Select Content Type</option>
-                            <option value="template">Choose Email Template</option>
-                            <option value="message">Write Message</option>
-                        </select>
                     </div>
 
                     <div id="templateFields">
                         <div class="mb-3">
-                            <label for="template_id" class="form-label">Select Template</label>
-                            <input type="text" name="template_id" id="template_id" class="form-control" readonly required>
-                            <select name="template_id" id="template_id" class="form-select">
-                                <option value="">Select Template</option>
-                                @foreach($templates as $template)
-                                    <option value="{{ $template->id }}">{{ $template->title }}</option>
-                                @endforeach
-                            </select>
+                            <label for="template_id" class="form-label">Selected Template</label>
+                            <input type="text" name="template_id" id="template_id" class="form-control" readonly required value="{{ $templateName}}">
                         </div>
 
                         <div class="mb-3">
