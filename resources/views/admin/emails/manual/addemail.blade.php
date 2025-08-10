@@ -43,7 +43,7 @@
                                 @foreach($templates as $template)
                                     <option 
                                         value="{{ $template->id }}"
-                                        data-variables='{{$template->required_variables)}}'  
+                                        data-variables='{{$template->required_variables}}'  
                                     >{{ $template->name }}</option>
                                 @endforeach
                             </select>
