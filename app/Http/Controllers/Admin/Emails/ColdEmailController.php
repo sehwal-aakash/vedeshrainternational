@@ -79,7 +79,7 @@ class ColdEmailController extends Controller
         return view('admin.emails.manual.addemail', compact('templates'));
     }
 
-    public function listemail(){
+    public function listmail(){
         $sentemails = manual_email::all();
         return view('admin.emails.manual.listemail', compact('sentemails'));
     }
