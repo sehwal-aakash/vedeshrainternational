@@ -41,7 +41,10 @@
                             <select name="template_id" id="template_id" class="form-select">
                                 <option value="">Select Template</option>
                                 @foreach($templates as $template)
-                                    <option value="{{ $template->id }}">{{ $template->name }}</option>
+                                    <option 
+                                        value="{{ $template->id }}"
+                                        data-variables='{{$template->required_variables)}}'  
+                                    >{{ $template->name }}</option>
                                 @endforeach
                             </select>
                         </div>
@@ -96,6 +99,17 @@
         $('.richtext').summernote({
             height: 200,
             placeholder: 'Write your custom email message here...'
+        });
+
+        document.getElementById('template_id').addEventListener('change', function () {
+            const selectedOption = this.options[this.selectedIndex];
+            const variables = selectedOption.getAttribute('data-variables');
+    
+            if (variables) {
+                document.getElementById('template_variables').value = JSON.stringify(JSON.parse(variables), null, 4);
+            } else {
+                document.getElementById('template_variables').value = '';
+            }
         });
     });
 </script>
