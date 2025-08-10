@@ -4,7 +4,7 @@
 <div class="row gy-4">
     <div class="col-lg-12 mx-auto">
         <div class="card">
-            <div class="card-header">
+            <div class="card-header d-flex justify-content-between align-items-center">
                 <h5 class="mb-0">View Send Email</h5>
                 <a href="{{ route('admin.sendcustommail.list') }}" class="btn btn-sm btn-primary-100 text-primary-600 radius-8 px-24 py-4">Back</a>
             </div>
