@@ -62,6 +62,8 @@ class ContactController extends Controller
             'utm_campaign'      => $request->utm_campaign,
             'last_contacted_at' => $request->last_contacted_at,
         ]);
+
+        \Log::info('Contact added successfully.');
     
         return redirect()->route('admin.contacts.contacts.listcontacts')->with('success', 'Contact added successfully!');
     }

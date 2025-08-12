@@ -96,7 +96,7 @@
                             </div>
                             <div class="col-6">
                                 <label for="last_contacted_at" class="form-label">Last Contacted At</label>
-                                <input type="text" name="last_contacted_at" class="form-control" id="last_contacted_at">
+                                <input type="date" name="last_contacted_at" class="form-control datepicker" id="last_contacted_at">
                             </div>
                             <div class="col-12 mt-60">
                                 <button type="submit" class="btn btn-primary-600">Submit</button>
@@ -107,4 +107,18 @@
             </div>
         </div>
     </div>
+@endsection
+
+
+@section('scripts')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.datepicker').datepicker({
+            format: 'yyyy-mm-dd',
+            autoclose: true
+        });
+    });
+</script>
 @endsection
