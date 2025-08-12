@@ -121,12 +121,6 @@ Route::middleware([
         return view('admin.dashboard.index');
     })->name('dashboard');
 
-    // Contacts
-    Route::get('/nimdav/contacts/listcontacts', function () {
-        // return view('dashboard');
-        return view('admin.contacts.contacts.listcontacts');
-    })->name('List Contacts');
-
     // Invoice
     Route::get('/nimdav/invoice/listinvoice', function () {
         // return view('dashboard');
@@ -219,6 +213,15 @@ Route::middleware([
     Route::get('/nimdav/pages/emailtemplates/edittemplate/{id}', [EmailTemplateController::class, 'editemailtemplate'])->name('admin.emailtemplates.edit');
     Route::post('/nimdav/pages/emailtemplates/updatetemplate/{id}', [EmailTemplateController::class, 'updateemailtemplate'])->name('admin.emailtemplates.update');
     Route::delete('/nimdav/pages/emailtemplates/deletetemplate/{id}', [EmailTemplateController::class, 'deleteemailtemplate'])->name('admin.emailtemplates.delete');
+
+    // Contacts
+    Route::get('/nimdav/pages/contacts/listcontacts', [EmailTemplateController::class, 'listcontact'])->name('admin.contacts.list');
+    Route::get('/nimdav/pages/contacts/addcontact', [EmailTemplateController::class, 'addcontact'])->name('admin.contacts.add');
+    Route::post('/nimdav/pages/contacts/addcontactpost', [EmailTemplateController::class, 'addcontactPost'])->name('admin.contacts.add.post');
+    Route::get('/nimdav/pages/contacts/viewcontact/{id}', [EmailTemplateController::class, 'viewcontact'])->name('admin.contacts.view');
+    Route::get('/nimdav/pages/contacts/editcontact/{id}', [EmailTemplateController::class, 'editcontact'])->name('admin.contacts.edit');
+    Route::post('/nimdav/pages/contacts/updatecontact/{id}', [EmailTemplateController::class, 'updatecontact'])->name('admin.contacts.update');
+    Route::delete('/nimdav/pages/contacts/deletecontact/{id}', [EmailTemplateController::class, 'deletecontact'])->name('admin.contacts.delete');
 
 });
 
