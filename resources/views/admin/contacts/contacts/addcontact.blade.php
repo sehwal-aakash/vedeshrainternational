@@ -76,7 +76,7 @@
                             </div>
                             <div class="col-6">
                                 <label for="ip_address" class="form-label">IP Address</label>
-                                <input type="text" name="ip_address" class="form-control" id="ip_address">
+                                <input type="text" name="ip_address" class="form-control" id="ip_address" value="{{ request()->ip() }}" readonly>
                             </div>
                             <div class="col-12">
                                 <label for="notes" class="form-label">Notes</label>
