@@ -32,6 +32,8 @@
     @yield('meta')
     <title>@yield('title')</title>
 
+    
+
     @include('layouts.partials.headerstylescripts')
 
     @yield('styles')

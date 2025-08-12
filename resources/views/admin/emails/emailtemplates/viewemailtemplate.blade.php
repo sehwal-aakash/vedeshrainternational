@@ -9,7 +9,7 @@
                     <a href="{{ route('admin.emailtemplates.list') }}"><span class="btn btn rounded-pill btn-primary-100 text-primary-600 radius-8 px-24 py-4">Back</span></a>
                 </div>
                 <div class="card-body">
-                    <form action="{{ route('admin.emailtemplates.update') }}" method="POST">
+                    <form action="{{ route('admin.emailtemplates.update', $email_template->id) }}" method="POST">
                         @csrf
                         <div class="row gy-3">
                             <div class="col-12">
