@@ -215,13 +215,13 @@ Route::middleware([
     Route::delete('/nimdav/pages/emailtemplates/deletetemplate/{id}', [EmailTemplateController::class, 'deleteemailtemplate'])->name('admin.emailtemplates.delete');
 
     // Contacts
-    Route::get('/nimdav/pages/contacts/listcontacts', [EmailTemplateController::class, 'listcontact'])->name('admin.contacts.list');
-    Route::get('/nimdav/pages/contacts/addcontact', [EmailTemplateController::class, 'addcontact'])->name('admin.contacts.add');
-    Route::post('/nimdav/pages/contacts/addcontactpost', [EmailTemplateController::class, 'addcontactPost'])->name('admin.contacts.add.post');
-    Route::get('/nimdav/pages/contacts/viewcontact/{id}', [EmailTemplateController::class, 'viewcontact'])->name('admin.contacts.view');
-    Route::get('/nimdav/pages/contacts/editcontact/{id}', [EmailTemplateController::class, 'editcontact'])->name('admin.contacts.edit');
-    Route::post('/nimdav/pages/contacts/updatecontact/{id}', [EmailTemplateController::class, 'updatecontact'])->name('admin.contacts.update');
-    Route::delete('/nimdav/pages/contacts/deletecontact/{id}', [EmailTemplateController::class, 'deletecontact'])->name('admin.contacts.delete');
+    Route::get('/nimdav/contacts/listcontacts', [EmailTemplateController::class, 'listcontact'])->name('admin.contacts.list');
+    Route::get('/nimdav/contacts/addcontact', [EmailTemplateController::class, 'addcontact'])->name('admin.contacts.add');
+    Route::post('/nimdav/contacts/addcontactpost', [EmailTemplateController::class, 'addcontactPost'])->name('admin.contacts.add.post');
+    Route::get('/nimdav/contacts/viewcontact/{id}', [EmailTemplateController::class, 'viewcontact'])->name('admin.contacts.view');
+    Route::get('/nimdav/contacts/editcontact/{id}', [EmailTemplateController::class, 'editcontact'])->name('admin.contacts.edit');
+    Route::post('/nimdav/contacts/updatecontact/{id}', [EmailTemplateController::class, 'updatecontact'])->name('admin.contacts.update');
+    Route::delete('/nimdav/contacts/deletecontact/{id}', [EmailTemplateController::class, 'deletecontact'])->name('admin.contacts.delete');
 
 });
 
