@@ -65,7 +65,7 @@ class ContactController extends Controller
 
         \Log::info('Contact added successfully.');
     
-        return redirect()->route('admin.contacts.contacts.listcontacts')->with('success', 'Contact added successfully!');
+        return redirect()->route('admin.contacts.list')->with('success', 'Contact added successfully!');
     }
 
     public function addcontact(){
@@ -135,7 +135,7 @@ class ContactController extends Controller
             'last_contacted_at' => $request->last_contacted_at,
         ]);
 
-        return redirect()->route('admin.contacts.contacts.listcontacts')->with('success', 'Contact updated successfully!');
+        return redirect()->route('admin.contacts.list')->with('success', 'Contact updated successfully!');
     }
 
     public function deletecontact($id)
@@ -143,6 +143,6 @@ class ContactController extends Controller
         $contact = Contacts::findOrFail($id);
         $contact->delete();
 
-        return redirect()->route('admin.contacts.contacts.listcontacts')->with('success', 'Contact deleted successfully!');
+        return redirect()->route('admin.contacts.list')->with('success', 'Contact deleted successfully!');
     }
 }
