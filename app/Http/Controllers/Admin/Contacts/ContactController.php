@@ -11,7 +11,7 @@ class ContactController extends Controller
 {
     public function listcontact(){
         $contacts = Contacts::all();
-        return view('admin.pages.contacts.contacts.listcontacts', compact('contacts'));
+        return view('admin.contacts.contacts.listcontacts', compact('contacts'));
     }
 
     public function addcontactPost(Request $request){
@@ -67,7 +67,7 @@ class ContactController extends Controller
     }
 
     public function addcontact(){
-        return view('admin.pages.services.addservices');
+        return view('admin.contacts.contacts.addcontact');
     }
 
     public function viewcontact($id){
