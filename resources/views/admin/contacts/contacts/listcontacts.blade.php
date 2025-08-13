@@ -28,8 +28,8 @@
                                     <td>{{ $contact->email }}</td>
                                     <td>{{ $contact->phone }}</td>
                                     <td class="text-center"> 
-                                        <a href="{{ route('admin.contact.view', $contact->id) }}" class="btn btn-sm btn-success-100 text-success-600 rounded-pill px-24 py-4">View</a>
-                                        <a href="{{ route('admin.contact.edit', $contact->id) }}" class="btn btn-sm btn-info-100 text-info-600 rounded-pill px-24 py-4">Edit</a>
+                                        <a href="{{ route('admin.contacts.view', $contact->id) }}" class="btn btn-sm btn-success-100 text-success-600 rounded-pill px-24 py-4">View</a>
+                                        <a href="{{ route('admin.contacts.edit', $contact->id) }}" class="btn btn-sm btn-info-100 text-info-600 rounded-pill px-24 py-4">Edit</a>
                                         <form action="{{ route('admin.contact.delete', $contact->id) }}" method="POST" style="display: inline-block;" onsubmit="return confirm('Are you sure you want to contact this service?');">
                                         @csrf
                                         @method('DELETE')
