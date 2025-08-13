@@ -30,7 +30,7 @@
                                     <td class="text-center"> 
                                         <a href="{{ route('admin.contacts.view', $contact->id) }}" class="btn btn-sm btn-success-100 text-success-600 rounded-pill px-24 py-4">View</a>
                                         <a href="{{ route('admin.contacts.edit', $contact->id) }}" class="btn btn-sm btn-info-100 text-info-600 rounded-pill px-24 py-4">Edit</a>
-                                        <form action="{{ route('admin.contact.delete', $contact->id) }}" method="POST" style="display: inline-block;" onsubmit="return confirm('Are you sure you want to contact this service?');">
+                                        <form action="{{ route('admin.contacts.delete', $contact->id) }}" method="POST" style="display: inline-block;" onsubmit="return confirm('Are you sure you want to contact this service?');">
                                         @csrf
                                         @method('DELETE')
                                         <button type="submit" class="bg-danger-focus text-danger-main cursor-pointer px-24 py-4 rounded-pill fw-medium text-sm border-0">Delete</button>
