@@ -11,7 +11,7 @@
                     </a>
                 </div>
                 <div class="card-body">
-                    <form action="{{ route('admin.contacts.update.post', $contact->id) }}" method="POST">
+                    <form action="{{ route('admin.contacts.update', $contact->id) }}" method="POST">
                         @csrf
                         <div class="row gy-3">
                             <div class="col-6">
