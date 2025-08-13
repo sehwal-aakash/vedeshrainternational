@@ -94,6 +94,21 @@
                 </ul>
             </li>
 
+            <li class="dropdown">
+                <a  href="javascript:void(0)">
+                    <iconify-icon icon="hugeicons:invoice-03" class="menu-icon"></iconify-icon>
+                    <span>Users</span>
+                </a>
+                <ul class="sidebar-submenu">
+                    <li>
+                    <a href="{{ route('admin.forms.contact.list') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List Users</a>
+                    </li>
+                    <li>
+                    <a href="{{ route('admin.forms.newsletter.list') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>Add User</a>
+                    </li>
+                </ul>
+            </li>
+
             <li class="sidebar-menu-group-title">Pages</li>
 
             <li class="dropdown">
