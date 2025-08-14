@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 use App\Models\Contacts;
+use App\Models\User;
 
 class ContactController extends Controller
 {
@@ -69,7 +70,9 @@ class ContactController extends Controller
     }
 
     public function addcontact(){
-        return view('admin.contacts.contacts.addcontact');
+        $users = User::select('id', 'name')->get();
+        return view('admin.contacts.contacts.addcontact', compact('users'));
+
     }
 
     public function viewcontact($id){

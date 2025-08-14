@@ -72,7 +72,14 @@
                             </div>
                             <div class="col-6">
                                 <label for="assigned_to" class="form-label">Assigned to</label>
-                                <input type="text" name="assigned_to" class="form-control" id="assigned_to">
+                                <select name="assigned_to" id="assigned_to" class="form-control">
+                                    <option value="">Select User</option>
+                                    @foreach($users as $user)
+                                        <option value="{{ $user->name }}" userid="{{ $user->id }}">
+                                            {{ $user->name }}
+                                        </option>
+                                    @endforeach
+                                </select>
                             </div>
                             <div class="col-6">
                                 <label for="ip_address" class="form-label">IP Address</label>
