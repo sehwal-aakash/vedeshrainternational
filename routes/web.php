@@ -242,6 +242,10 @@ Route::get('/locations.kml', function () {
     return redirect('/', 301);
 });
 
+Route::get('/contact-us', function () {
+    return redirect('/contact', 301);
+});
+
 
 
 // Admin URLs
