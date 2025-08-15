@@ -20,6 +20,11 @@
                             </div>
 
                             <div class="col-12">
+                                <label for="slug" class="form-label">Slug</label>
+                                <input type="text" name="slug" class="form-control" id="slug" required>
+                            </div>
+
+                            <div class="col-12">
                                 <label for="excerpt" class="form-label">Excerpt</label>
                                 <textarea name="excerpt" class="form-control" id="excerpt" rows="3"></textarea>
                             </div>
