@@ -11,7 +11,7 @@
                     </a>
                 </div>
                 <div class="card-body">
-                    <form action="{{ route('admin.blogs.add.post') }}" method="POST" enctype="multipart/form-data">
+                    <form action="{{ route('admin.blogs.add.post') }}" method="POST">
                         @csrf
                         <div class="row gy-3">
                             <div class="col-12">
@@ -31,7 +31,7 @@
 
                             <div class="col-12">
                                 <label for="featured_image" class="form-label">Featured Image</label>
-                                <input type="file" name="featured_image" class="form-control" id="featured_image">
+                                <input type="text" name="featured_image" class="form-control" id="featured_image">
                             </div>
 
                             <div class="col-6">
