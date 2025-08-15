@@ -16,6 +16,8 @@ use App\Http\Controllers\Admin\Industries\IndustriesController;
 
 use App\Http\Controllers\Admin\Contacts\ContactController;
 
+use App\Http\Controllers\Admin\Blogs\BlogController;
+
 use App\Http\Controllers\Admin\Emails\ColdEmailController;
 use App\Http\Controllers\Admin\Emails\EmailTemplateController;
 
@@ -227,13 +229,13 @@ Route::middleware([
 
 
     // Blogs
-    Route::get('/nimdav/blogs/listblogs', [ContactController::class, 'listblogs'])->name('admin.blogs.list');
-    Route::get('/nimdav/blogs/addblog', [ContactController::class, 'addblog'])->name('admin.blogs.add');
-    Route::post('/nimdav/blogs/addblogpost', [ContactController::class, 'addblogPost'])->name('admin.blogs.add.post');
-    Route::get('/nimdav/blogs/viewblog/{id}', [ContactController::class, 'viewblog'])->name('admin.blogs.view');
-    Route::get('/nimdav/blogs/editblog/{id}', [ContactController::class, 'editblog'])->name('admin.blogs.edit');
-    Route::post('/nimdav/blogs/updateblog/{id}', [ContactController::class, 'updateblog'])->name('admin.blogs.update');
-    Route::delete('/nimdav/blogs/deleteblog/{id}', [ContactController::class, 'deleteblog'])->name('admin.blogs.delete');
+    Route::get('/nimdav/blogs/listblogs', [BlogController::class, 'listblogs'])->name('admin.blogs.list');
+    Route::get('/nimdav/blogs/addblog', [BlogController::class, 'addblog'])->name('admin.blogs.add');
+    Route::post('/nimdav/blogs/addblogpost', [BlogController::class, 'addblogPost'])->name('admin.blogs.add.post');
+    Route::get('/nimdav/blogs/viewblog/{id}', [BlogController::class, 'viewblog'])->name('admin.blogs.view');
+    Route::get('/nimdav/blogs/editblog/{id}', [BlogController::class, 'editblog'])->name('admin.blogs.edit');
+    Route::post('/nimdav/blogs/updateblog/{id}', [BlogController::class, 'updateblog'])->name('admin.blogs.update');
+    Route::delete('/nimdav/blogs/deleteblog/{id}', [BlogController::class, 'deleteblog'])->name('admin.blogs.delete');
 
 });
 
