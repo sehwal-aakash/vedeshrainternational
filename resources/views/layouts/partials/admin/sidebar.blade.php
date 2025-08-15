@@ -195,10 +195,10 @@
                 </a>
                 <ul class="sidebar-submenu">
                     <li>
-                    <a href=""><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List Blog Posts</a>
+                    <a href="{{ route('admin.blogs.list') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List Blog Posts</a>
                     </li>
                     <li>
-                    <a href=""><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>Add Blog Post</a>
+                    <a href="{{ route('admin.blogs.add') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>Add Blog Post</a>
                     </li>
                 </ul>
             </li>

@@ -225,6 +225,16 @@ Route::middleware([
     Route::post('/nimdav/contacts/updatecontact/{id}', [ContactController::class, 'updatecontact'])->name('admin.contacts.update');
     Route::delete('/nimdav/contacts/deletecontact/{id}', [ContactController::class, 'deletecontact'])->name('admin.contacts.delete');
 
+
+    // Blogs
+    Route::get('/nimdav/blogs/listblogs', [ContactController::class, 'listblogs'])->name('admin.blogs.list');
+    Route::get('/nimdav/blogs/addblog', [ContactController::class, 'addblog'])->name('admin.blogs.add');
+    Route::post('/nimdav/blogs/addblogpost', [ContactController::class, 'addblogPost'])->name('admin.blogs.add.post');
+    Route::get('/nimdav/blogs/viewblog/{id}', [ContactController::class, 'viewblog'])->name('admin.blogs.view');
+    Route::get('/nimdav/blogs/editblog/{id}', [ContactController::class, 'editblog'])->name('admin.blogs.edit');
+    Route::post('/nimdav/blogs/updateblog/{id}', [ContactController::class, 'updateblog'])->name('admin.blogs.update');
+    Route::delete('/nimdav/blogs/deleteblog/{id}', [ContactController::class, 'deleteblog'])->name('admin.blogs.delete');
+
 });
 
 
