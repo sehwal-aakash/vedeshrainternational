@@ -38,7 +38,7 @@
                                 @empty
                                 <tr>
                                     <td></td>
-                                    <td colspan="4">No blogs found.</td>
+                                    <td colspan="3">No blogs found.</td>
                                 </tr>
                                 @endforelse
                             </tbody>
