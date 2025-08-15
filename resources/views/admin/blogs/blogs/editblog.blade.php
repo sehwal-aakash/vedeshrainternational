@@ -22,6 +22,11 @@
                             </div>
 
                             <div class="col-12">
+                                <label for="slug" class="form-label">Slug</label>
+                                <input type="text" name="slug" class="form-control" id="slug" value="{{ old('slug', $blog->slug) }}" required>
+                            </div>
+
+                            <div class="col-12">
                                 <label for="excerpt" class="form-label">Excerpt</label>
                                 <textarea name="excerpt" class="form-control" id="excerpt" rows="3">{{ old('excerpt', $blog->excerpt) }}</textarea>
                             </div>
@@ -38,7 +43,7 @@
                                         <img src="{{ asset($blog->featured_image) }}" alt="Featured Image" width="200" class="rounded">
                                     </div>
                                 @endif
-                                <input type="file" name="featured_image" class="form-control" id="featured_image">
+                                <input type="text" name="featured_image" class="form-control" id="featured_image">
                             </div>
 
                             <div class="col-6">

@@ -22,6 +22,11 @@
                             </div>
 
                             <div class="col-12">
+                                <label for="title" class="form-label">Slug</label>
+                                <input type="text" name="slug" class="form-control" id="slug" value="{{ old('slug', $blog->slug) }}" readonly required>
+                            </div>
+
+                            <div class="col-12">
                                 <label for="excerpt" class="form-label">Excerpt</label>
                                 <textarea name="excerpt" class="form-control" id="excerpt" rows="3" readonly>{{ old('excerpt', $blog->excerpt) }}</textarea>
                             </div>
