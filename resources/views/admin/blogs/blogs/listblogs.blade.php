@@ -6,7 +6,7 @@
             <div class="card basic-data-table">
                 <div class="card-header d-flex justify-content-between align-items-center">
                     <h5 class="card-title mb-0">List Blogs</h5>
-                    <a href="{{ route('admin.blogs.list') }}" class="btn btn-sm btn-primary-100 text-primary-600 rounded-pill px-24 py-4">Add Blog</a>
+                    <a href="{{ route('admin.blogs.add') }}" class="btn btn-sm btn-primary-100 text-primary-600 rounded-pill px-24 py-4">Add Blog</a>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">

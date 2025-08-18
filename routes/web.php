@@ -17,6 +17,7 @@ use App\Http\Controllers\Admin\Industries\IndustriesController;
 use App\Http\Controllers\Admin\Contacts\ContactController;
 
 use App\Http\Controllers\Admin\Blogs\BlogController;
+use App\Http\Controllers\Admin\Blogs\BlogCategoryController;
 
 use App\Http\Controllers\Admin\Emails\ColdEmailController;
 use App\Http\Controllers\Admin\Emails\EmailTemplateController;
@@ -236,6 +237,15 @@ Route::middleware([
     Route::get('/nimdav/blogs/editblog/{id}', [BlogController::class, 'editblog'])->name('admin.blogs.edit');
     Route::post('/nimdav/blogs/updateblog/{id}', [BlogController::class, 'updateblog'])->name('admin.blogs.update');
     Route::delete('/nimdav/blogs/deleteblog/{id}', [BlogController::class, 'deleteblog'])->name('admin.blogs.delete');
+
+    // Blogs
+    Route::get('/nimdav/blogcategory/listblogcategory', [BlogCategoryController::class, 'listblogcategory'])->name('admin.blogcategory.list');
+    Route::get('/nimdav/blogcategory/addblogcategory', [BlogCategoryController::class, 'addblogcategory'])->name('admin.blogcategory.add');
+    Route::post('/nimdav/blogcategory/addblogcategorypost', [BlogCategoryController::class, 'addblogcategorypost'])->name('admin.blogcategory.add.post');
+    Route::get('/nimdav/blogcategory/viewblogcategory/{id}', [BlogCategoryController::class, 'viewblogcategory'])->name('admin.blogcategory.view');
+    Route::get('/nimdav/blogcategory/editblogcategory/{id}', [BlogCategoryController::class, 'editblogcategory'])->name('admin.blogcategory.edit');
+    Route::post('/nimdav/blogcategory/updateblogcategory/{id}', [BlogCategoryController::class, 'updateblogcategory'])->name('admin.blogcategory.update');
+    Route::delete('/nimdav/blogcategory/deleteblogcategory/{id}', [BlogCategorygController::class, 'deleteblogcategory'])->name('admin.blogcategory.delete');
 
 });
 
