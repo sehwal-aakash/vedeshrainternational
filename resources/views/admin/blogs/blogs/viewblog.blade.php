@@ -88,7 +88,7 @@
 
                             <div class="col-6">
                                 <label for="is_featured" class="form-label">Featured?</label>
-                                <input type="text" name="is_featured" class="form-control" id="is_featured" readonly value="{{ old('is_featured', $blog->is_featured) == 0 ? 'No' : 'Yes') }}" readonly>
+                                <input type="text" name="is_featured" class="form-control" id="is_featured" value="{{ old('is_featured', $blog->is_featured) == 0 ? 'No' : 'Yes' }}" readonly>
                             </div>
 
                             <div class="col-6">
