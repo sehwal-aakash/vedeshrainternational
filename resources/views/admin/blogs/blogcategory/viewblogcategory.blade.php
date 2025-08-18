@@ -6,12 +6,12 @@
         <div class="card">
             <div class="card-header d-flex justify-content-between align-items-center">
                 <h5 class="card-title mb-0">Edit Blog Category</h5>
-                <a href="{{ route('admin.blogcategories.list') }}">
+                <a href="{{ route('admin.blogcategory.list') }}">
                     <span class="btn btn rounded-pill btn-primary-100 text-primary-600 radius-8 px-24 py-4">Back</span>
                 </a>
             </div>
             <div class="card-body">
-                <form action="{{ route('admin.blogcategories.update', $blogcategory->id) }}" method="POST">
+                <form action="{{ route('admin.blogcategory.update', $blogcategory->id) }}" method="POST">
                     @csrf
                     {{-- @method('PUT') --}}
 
