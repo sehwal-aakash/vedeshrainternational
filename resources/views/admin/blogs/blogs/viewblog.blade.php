@@ -53,7 +53,7 @@
 
                             <div class="col-6">
                                 <label for="category_id" class="form-label">Category</label>
-                                <input type="number" name="category_id" class="form-control" id="category_id" value="{{ old('category_id', $blog->category_id) }}" readonly>
+                                <input type="text" name="category_id" class="form-control" id="category_id" value="{{ $categorytitle }}" categoryid="{{ old('category_id', $blog->category_id) }}" readonly>
                             </div>
 
                             <div class="col-12">

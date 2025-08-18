@@ -46,7 +46,14 @@
 
                             <div class="col-6">
                                 <label for="category_id" class="form-label">Category</label>
-                                <input type="number" name="category_id" class="form-control" id="category_id">
+                                <select name="category_id" id="category_id" class="form-control">
+                                    <option value="">Select Category</option>
+                                    @foreach($blogcategories as $category)
+                                        <option value="{{ $category->id }}" {{ old('category_id') == $category->id ? 'selected' : '' }}>
+                                            {{ $category->title }}
+                                        </option>
+                                    @endforeach
+                                </select>
                             </div>
 
                             <div class="col-12">

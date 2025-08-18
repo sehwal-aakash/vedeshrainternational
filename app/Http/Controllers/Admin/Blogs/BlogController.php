@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 use App\Models\Blog;
+use App\Models\BlogCategory;
 
 class BlogController extends Controller
 {
@@ -54,20 +55,25 @@ class BlogController extends Controller
     }
 
     public function addblog(){
-        return view('admin.blogs.blogs.addblog');
+        $blogcategories = BlogCategory::all();
+        return view('admin.blogs.blogs.addblog', compact('blogcategories'));
     }
 
     // Show a single blog post
     public function viewblog($id)
     {
         $blog = Blog::findOrFail($id);
-        return view('admin.blogs.blogs.viewblog', compact('blog'));
+        $categoryid = $blog->category_id;
+        $category = BlogCategory::findOrFail($categoryid);
+        $categorytitle = $category->title;
+        return view('admin.blogs.blogs.viewblog', compact('blog', 'categorytitle'));
     }
 
     public function editblog($id)
     {
         $blog = Blog::findOrFail($id);
-        return view('admin.blogs.blogs.editblog', compact('blog'));
+        $blogcategories = BlogCategory::all();
+        return view('admin.blogs.blogs.editblog', compact('blog', 'blogcategories'));
     }
 
     // Update a blog post
