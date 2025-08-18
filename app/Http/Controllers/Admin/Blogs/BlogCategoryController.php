@@ -20,7 +20,7 @@ class BlogCategoryController extends Controller
     public function addblogcategory()
     {
         $blogcategories = BlogCategory::all();
-        return view('admin.blogs.blogcategory.addblogcategory');
+        return view('admin.blogs.blogcategory.addblogcategory', compact('blogcategories'));
     }
 
     // Store a new blog category
