@@ -13,7 +13,7 @@
                 <div class="card-body">
                     <form action="{{ route('admin.blogs.update', $blog->id) }}" method="POST" enctype="multipart/form-data">
                         @csrf
-                        @method('PUT')
+                        {{-- @method('PUT') --}}
 
                         <div class="row gy-3">
                             <div class="col-12">
