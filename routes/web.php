@@ -281,11 +281,11 @@ Route::get('/contact-us', function () {
     return redirect('/contact', 301);
 });
 
-foreach (Redirections::all() as $redirect) {
-    Route::get($redirect->from_url, function () use ($redirect) {
-        return redirect($redirect->to_url, 301);
-    });
-}
+// foreach (Redirections::all() as $redirect) {
+//     Route::get($redirect->from_url, function () use ($redirect) {
+//         return redirect($redirect->to_url, 301);
+//     });
+// }
 
 
 // Admin URLs
