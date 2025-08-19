@@ -10,11 +10,15 @@ use App\Http\Controllers\Forms\PopupFormController;
 use App\Models\Services;
 use App\Models\Industries;
 
+use App\Models\Redirections;
+
 use App\Http\Controllers\Admin\Services\ServicesController;
 use App\Http\Controllers\Admin\MainPages\MainPagesController;
 use App\Http\Controllers\Admin\Industries\IndustriesController;
 
 use App\Http\Controllers\Admin\Contacts\ContactController;
+
+use App\Http\Controllers\Admin\Redirections\RedirectionsController;
 
 use App\Http\Controllers\Admin\Blogs\BlogController;
 use App\Http\Controllers\Admin\Blogs\BlogCategoryController;
@@ -247,6 +251,15 @@ Route::middleware([
     Route::post('/nimdav/blogcategory/updateblogcategory/{id}', [BlogCategoryController::class, 'updateblogcategory'])->name('admin.blogcategory.update');
     Route::delete('/nimdav/blogcategory/deleteblogcategory/{id}', [BlogCategorygController::class, 'deleteblogcategory'])->name('admin.blogcategory.delete');
 
+    // Redirections
+    Route::get('/nimdav/redirections/listredirections', [RedirectionsController::class, 'listredirections'])->name('admin.redirections.list');
+    Route::get('/nimdav/redirections/addredirection', [RedirectionsController::class, 'addredirection'])->name('admin.redirections.add');
+    Route::post('/nimdav/redirections/addredirectionpost', [RedirectionsController::class, 'addredirectionpost'])->name('admin.redirections.add.post');
+    Route::get('/nimdav/redirections/viewredirection/{id}', [RedirectionsController::class, 'viewredirection'])->name('admin.redirections.view');
+    Route::get('/nimdav/redirections/editredirection/{id}', [RedirectionsController::class, 'editredirection'])->name('admin.redirections.edit');
+    Route::post('/nimdav/redirections/updateredirection/{id}', [RedirectionsController::class, 'updateredirection'])->name('admin.redirections.update');
+    Route::delete('/nimdav/redirections/deleteredirection/{id}', [RedirectionsController::class, 'deleteredirection'])->name('admin.redirections.delete');
+
 });
 
 
@@ -268,6 +281,11 @@ Route::get('/contact-us', function () {
     return redirect('/contact', 301);
 });
 
+foreach (Redirections::all() as $redirect) {
+    Route::get($redirect->from_url, function () use ($redirect) {
+        return redirect($redirect->to_url, 301);
+    });
+}
 
 
 // Admin URLs

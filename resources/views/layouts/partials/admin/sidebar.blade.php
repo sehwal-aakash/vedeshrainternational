@@ -218,6 +218,21 @@
                 </ul>
             </li>
 
+            <li class="dropdown">
+                <a  href="javascript:void(0)">
+                    <iconify-icon icon="hugeicons:invoice-03" class="menu-icon"></iconify-icon>
+                    <span>Redirections</span>
+                </a>
+                <ul class="sidebar-submenu">
+                    <li>
+                    <a href="{{ route('admin.redirections.list') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List Redirections</a>
+                    </li>
+                    <li>
+                    <a href="{{ route('admin.redirections.add') }}"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>Add Redirection</a>
+                    </li>
+                </ul>
+            </li>
+
             <li class="sidebar-menu-group-title">Locations</li>
 
             <li class="dropdown">
