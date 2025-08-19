@@ -239,7 +239,7 @@
                 <a  href="javascript:void(0)">
                     <iconify-icon icon="hugeicons:invoice-03" class="menu-icon"></iconify-icon>
                     <span>Regions</span>
-                </a>
+                </a> 
                 <ul class="sidebar-submenu">
                     <li>
                     <a href=""><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List Regions</a>
