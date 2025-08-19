@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('redirection_from');
             $table->string('redirection_to');
-            $table->timestamps();
+            $table->timestamps(); 
         });
     }
 
