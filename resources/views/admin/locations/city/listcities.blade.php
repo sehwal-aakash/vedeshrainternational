@@ -10,33 +10,41 @@
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
-                        <table class="table bordered-table mb-0" id="dataTable" data-page-length='10'>
+                        <table class="table bordered-table mb-0">
                             <thead>
                                 <tr>
                                     <th scope="col">S No.</th>
                                     <th scope="col">City Name</th>
-                                    {{-- <th scope="col">Service Slug</th> --}}
+                                    <th scope="col">State Name</th>
+                                    <th scope="col">Country Name</th>
                                     <th scope="col" class="text-center">Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @forelse($cities as $city)
-                                <tr>
-                                    <td>{{ $loop->iteration }}</td>
-                                    <td>{{ $city->name }}</td>
-                                    {{-- <td>{{ $city->slug }}</td> --}}
-                                    <td class="text-center"> 
-                                        <a href="{{ route('admin.cities.view', $city->id) }}" class="btn btn-sm btn-success-100 text-success-600 rounded-pill px-24 py-4">View</a>
-                                        </form>
-                                    </td>
-                                </tr>
+                                @forelse($cities as $index => $city)
+                                    <tr>
+                                        {{-- Correct serial number across pages --}}
+                                        <td>{{ ($cities->currentPage() - 1) * $cities->perPage() + $loop->iteration }}</td>
+                                        <td>{{ $city->name }}</td>
+                                        <td>{{ $city->state->name ?? '-' }}</td>
+                                        <td>{{ $city->country->name ?? '-' }}</td>
+                                        <td class="text-center">
+                                            <a href="{{ route('admin.cities.view', $city->id) }}"
+                                                class="btn btn-sm btn-success-100 text-success-600 rounded-pill px-24 py-4">View</a>
+                                        </td>
+                                    </tr>
                                 @empty
-                                <tr>
-                                    <td colspan="4">No cities found.</td>
-                                </tr>
+                                    <tr>
+                                        <td colspan="5">No cities found.</td>
+                                    </tr>
                                 @endforelse
                             </tbody>
                         </table>
+                    </div>
+
+                    {{-- Laravel pagination links --}}
+                    <div class="mt-3">
+                        {{ $cities->links() }}
                     </div>
                 </div>
             </div><!-- card end -->
