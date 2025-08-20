@@ -10,12 +10,12 @@ use App\Models\Countries;
 class CountryController extends Controller
 {
     public function listcountries(){
-        $countries = Countries::paginate(20);
+        $countries = Countries::with(['region', 'subregion'])->paginate(20);
         return view('admin.locations.countries.listcountries', compact('countries'));
     }
 
     public function viewcountries($id){
-        $country = Countries::findOrFail($id);
+        $country = Countries::with(['region', 'subregion'])->findOrFail($id);
         return view('admin.locations.countries.viewcountries', compact('country'));
     }
 }
