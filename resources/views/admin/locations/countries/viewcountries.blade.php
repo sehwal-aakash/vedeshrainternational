@@ -45,13 +45,11 @@
 
                         <div class="col-6">
                             <label class="form-label">Region</label>
-                            <input type="text" class="form-control" readonly
-                                value="{{ optional($country->region)->name ?? '-' }}">
+                            <input type="text" class="form-control" readonly value="{{ $country->region ?? '-' }}">
                         </div>
                         <div class="col-6">
                             <label class="form-label">Subregion</label>
-                            <input type="text" class="form-control" readonly
-                                value="{{ optional($country->subregion)->name ?? '-' }}">
+                            <input type="text" class="form-control" readonly value="{{ $country->subregion ?? '-' }}">
                         </div>
 
                         <div class="col-12">

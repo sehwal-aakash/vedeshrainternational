@@ -30,8 +30,8 @@
                                         <td>{{ $country->name }}</td>
                                         <td>{{ $country->iso2 }}</td>
                                         <td>{{ $country->iso3 }}</td>
-                                        <td>{{ optional($country->region)->name ?? '-' }}</td>
-                                        <td>{{ optional($country->subregion)->name ?? '-' }}</td>
+                                        <td>{{ $country->region ?? '-' }}</td>
+                                        <td>{{ $country->subregion ?? '-' }}</td>
                                         <td class="text-center">
                                             <a href="{{ route('admin.countries.view', $country->id) }}"
                                                 class="btn btn-sm btn-success-100 text-success-600 rounded-pill px-24 py-4">View</a>
