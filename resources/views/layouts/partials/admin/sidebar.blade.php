@@ -242,11 +242,26 @@
                 </a> 
                 <ul class="sidebar-submenu">
                     <li>
-                    <a href=""><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List Regions</a>
+                    <a href="{{ route('admin.regions.list') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List Regions</a>
                     </li>
-                    <li>
+                    {{-- <li>
                     <a href=""><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>Add Regions</a>
+                    </li> --}}
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a  href="javascript:void(0)">
+                    <iconify-icon icon="hugeicons:invoice-03" class="menu-icon"></iconify-icon>
+                    <span>SubRegions</span>
+                </a> 
+                <ul class="sidebar-submenu">
+                    <li>
+                    <a href="{{ route('admin.subregions.list') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List SubRegions</a>
                     </li>
+                    {{-- <li>
+                    <a href=""><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>Add Regions</a>
+                    </li> --}}
                 </ul>
             </li>
 
@@ -257,11 +272,11 @@
                 </a>
                 <ul class="sidebar-submenu">
                     <li>
-                    <a href=""><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List Countries</a>
+                    <a href="{{ route('admin.countries.list') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List Countries</a>
                     </li>
-                    <li>
+                    {{-- <li>
                     <a href=""><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>Add Country</a>
-                    </li>
+                    </li> --}}
                 </ul>
             </li>
 
@@ -272,11 +287,11 @@
                 </a>
                 <ul class="sidebar-submenu">
                     <li>
-                    <a href=""><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List States</a>
+                    <a href="{{ route('admin.states.list') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List States</a>
                     </li>
-                    <li>
+                    {{-- <li>
                     <a href=""><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>Add State</a>
-                    </li>
+                    </li> --}}
                 </ul>
             </li>
 
@@ -287,15 +302,15 @@
                 </a>
                 <ul class="sidebar-submenu">
                     <li>
-                    <a href=""><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List Cities</a>
+                    <a href="{{ route('admin.cities.list') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> List Cities</a>
                     </li>
-                    <li>
+                    {{-- <li>
                     <a href=""><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>Add City</a>
-                    </li>
+                    </li> --}}
                 </ul>
             </li>
 
-            <li class="dropdown">
+            {{-- <li class="dropdown">
                 <a  href="javascript:void(0)">
                     <iconify-icon icon="hugeicons:invoice-03" class="menu-icon"></iconify-icon>
                     <span>Towns</span>
@@ -308,9 +323,9 @@
                     <a href=""><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>Add Town</a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
-            <li class="dropdown">
+            {{-- <li class="dropdown">
                 <a  href="javascript:void(0)">
                     <iconify-icon icon="hugeicons:invoice-03" class="menu-icon"></iconify-icon>
                     <span>Villages</span>
@@ -323,7 +338,7 @@
                     <a href=""><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i>Add Village</a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
         </ul>
     </div>
 </aside>

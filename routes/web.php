@@ -26,6 +26,12 @@ use App\Http\Controllers\Admin\Blogs\BlogCategoryController;
 use App\Http\Controllers\Admin\Emails\ColdEmailController;
 use App\Http\Controllers\Admin\Emails\EmailTemplateController;
 
+use App\Http\Controllers\Admin\Locations\CityController;
+use App\Http\Controllers\Admin\Locations\StateController;
+use App\Http\Controllers\Admin\Locations\CountryController;
+use App\Http\Controllers\Admin\Locations\SubRegionController;
+use App\Http\Controllers\Admin\Locations\RegionController;
+
 
 Route::get('/', function () {
     return view('content.pages.mainpages.home');
@@ -260,6 +266,28 @@ Route::middleware([
     Route::post('/nimdav/redirections/updateredirection/{id}', [RedirectionsController::class, 'updateredirection'])->name('admin.redirections.update');
     Route::delete('/nimdav/redirections/deleteredirection/{id}', [RedirectionsController::class, 'deleteredirection'])->name('admin.redirections.delete');
 
+    // Locations
+
+    // City
+    Route::get('/nimdav/locations/city/listcities', [CityController::class, 'listcities'])->name('admin.cities.list');
+    Route::get('/nimdav/locations/city/viewcities', [CityController::class, 'viewcities'])->name('admin.cities.view');
+
+    // State
+    Route::get('/nimdav/locations/state/liststates', [StateController::class, 'liststates'])->name('admin.states.list');
+    Route::get('/nimdav/locations/state/viewstates', [StateController::class, 'viewstates'])->name('admin.states.view');
+
+    // Country
+    Route::get('/nimdav/locations/country/listcountries', [CountryController::class, 'listcountries'])->name('admin.countries.list');
+    Route::get('/nimdav/locations/country/viewcountries', [CountryController::class, 'viewcountries'])->name('admin.countries.view');
+
+    // Sub Regions
+    Route::get('/nimdav/locations/subregions/listsubregions', [SubRegionController::class, 'listsubregions'])->name('admin.subregions.list');
+    Route::get('/nimdav/locations/subregions/viewsubregions', [SubRegionController::class, 'viewsubregions'])->name('admin.subregions.view');
+
+    // Regions
+    Route::get('/nimdav/locations/regions/listregions', [RegionController::class, 'listregions'])->name('admin.regions.list');
+    Route::get('/nimdav/locations/regions/viewregions', [RegionController::class, 'viewregions'])->name('admin.regions.view');
+
 });
 
 
@@ -281,11 +309,11 @@ Route::get('/contact-us', function () {
     return redirect('/contact', 301);
 });
 
-foreach (Redirections::all() as $redirect) {
-    Route::get($redirect->from_url, function () use ($redirect) {
-        return redirect($redirect->to_url, 301);
-    });
-}
+// foreach (Redirections::all() as $redirect) {
+//     Route::get($redirect->from_url, function () use ($redirect) {
+//         return redirect($redirect->to_url, 301);
+//     });
+// }
 
 
 // Admin URLs
