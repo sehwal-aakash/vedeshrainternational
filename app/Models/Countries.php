@@ -5,6 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+use App\Models\Regions;
+use App\Models\SubRegions;
+
 class Countries extends Model
 {
     use HasFactory;
@@ -64,11 +67,11 @@ class Countries extends Model
     // Relationships
     public function region()
     {
-        return $this->belongsTo(Region::class, 'region_id');
+        return $this->belongsTo(Regions::class, 'region_id');
     }
 
     public function subregion()
     {
-        return $this->belongsTo(SubRegion::class, 'subregion_id');
+        return $this->belongsTo(SubRegions::class, 'subregion_id');
     }
 }
