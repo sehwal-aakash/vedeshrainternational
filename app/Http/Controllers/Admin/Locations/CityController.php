@@ -18,7 +18,7 @@ class CityController extends Controller
         return view('admin.locations.city.listcities', compact('cities'));
     }
 
-    public function viewcity($id)
+    public function viewcities($id)
     {
         // Load city with its state & country
         $city = Cities::with(['state:id,name', 'country:id,name'])
