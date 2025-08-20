@@ -270,23 +270,23 @@ Route::middleware([
 
     // City
     Route::get('/nimdav/locations/city/listcities', [CityController::class, 'listcities'])->name('admin.cities.list');
-    Route::get('/nimdav/locations/city/viewcities', [CityController::class, 'viewcities'])->name('admin.cities.view');
+    Route::get('/nimdav/locations/city/viewcities/{id}', [CityController::class, 'viewcities'])->name('admin.cities.view');
 
     // State
     Route::get('/nimdav/locations/state/liststates', [StateController::class, 'liststates'])->name('admin.states.list');
-    Route::get('/nimdav/locations/state/viewstates', [StateController::class, 'viewstates'])->name('admin.states.view');
+    Route::get('/nimdav/locations/state/viewstates/{id}', [StateController::class, 'viewstates'])->name('admin.states.view');
 
     // Country
     Route::get('/nimdav/locations/country/listcountries', [CountryController::class, 'listcountries'])->name('admin.countries.list');
-    Route::get('/nimdav/locations/country/viewcountries', [CountryController::class, 'viewcountries'])->name('admin.countries.view');
+    Route::get('/nimdav/locations/country/viewcountries/{id}', [CountryController::class, 'viewcountries'])->name('admin.countries.view');
 
     // Sub Regions
     Route::get('/nimdav/locations/subregions/listsubregions', [SubRegionController::class, 'listsubregions'])->name('admin.subregions.list');
-    Route::get('/nimdav/locations/subregions/viewsubregions', [SubRegionController::class, 'viewsubregions'])->name('admin.subregions.view');
+    Route::get('/nimdav/locations/subregions/viewsubregions/{id}', [SubRegionController::class, 'viewsubregions'])->name('admin.subregions.view');
 
     // Regions
     Route::get('/nimdav/locations/regions/listregions', [RegionController::class, 'listregions'])->name('admin.regions.list');
-    Route::get('/nimdav/locations/regions/viewregions', [RegionController::class, 'viewregions'])->name('admin.regions.view');
+    Route::get('/nimdav/locations/regions/viewregions/{id}', [RegionController::class, 'viewregions'])->name('admin.regions.view');
 
 });
 
