@@ -10,12 +10,12 @@ use App\Models\SubRegions;
 class SubRegionController extends Controller
 {
     public function listsubregions(){
-        $subregions = SubRegions::all();
+        $subregions = SubRegions::with(['region', 'countries'])->get();
         return view('admin.locations.subregions.listsubregions', compact('subregions'));
     }
 
     public function viewsubregions($id){
-        $subregion = SubRegions::findOrFail($id);
+        $subregion = SubRegions::with(['region', 'countries'])->findOrFail($id);
         return view('admin.locations.subregions.viewsubregions', compact('subregion'));
     }
 }

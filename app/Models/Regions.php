@@ -5,8 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-use App\Model\SubRegions;
-use App\Model\Countries;
+use App\Models\SubRegions;
+use App\Models\Countries;
 
 class Regions extends Model
 {

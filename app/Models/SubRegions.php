@@ -4,8 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-use App\Model\Regions;
-use App\Model\Countries;
+use App\Models\Regions;
+use App\Models\Countries;
 
 class SubRegions extends Model
 {

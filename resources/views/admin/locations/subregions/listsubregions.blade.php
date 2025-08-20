@@ -15,25 +15,27 @@
                                 <tr>
                                     <th scope="col">S No.</th>
                                     <th scope="col">Sub Region Name</th>
-                                    {{-- <th scope="col">Service Slug</th> --}}
+                                    <th scope="col">Region Name</th>
+                                    <th scope="col">No. of Countries</th>
                                     <th scope="col" class="text-center">Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 @forelse($subregions as $subregion)
-                                <tr>
-                                    <td>{{ $loop->iteration }}</td>
-                                    <td>{{ $subregion->name }}</td>
-                                    {{-- <td>{{ $city->slug }}</td> --}}
-                                    <td class="text-center"> 
-                                        <a href="{{ route('admin.subregions.view', $subregion->id) }}" class="btn btn-sm btn-success-100 text-success-600 rounded-pill px-24 py-4">View</a>
-                                        </form>
-                                    </td>
-                                </tr>
+                                    <tr>
+                                        <td>{{ $loop->iteration }}</td>
+                                        <td>{{ $subregion->name }}</td>
+                                        <td>{{ $subregion->region->name ?? 'N/A' }}</td>
+                                        <td>{{ $subregion->countries->count() }}</td>
+                                        <td class="text-center">
+                                            <a href="{{ route('admin.subregions.view', $subregion->id) }}"
+                                                class="btn btn-sm btn-success-100 text-success-600 rounded-pill px-24 py-4">View</a>
+                                        </td>
+                                    </tr>
                                 @empty
-                                <tr>
-                                    <td colspan="4">No subregions found.</td>
-                                </tr>
+                                    <tr>
+                                        <td colspan="5">No subregions found.</td>
+                                    </tr>
                                 @endforelse
                             </tbody>
                         </table>
