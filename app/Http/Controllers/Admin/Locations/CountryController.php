@@ -10,7 +10,7 @@ use App\Models\Countries;
 class CountryController extends Controller
 {
     public function listcountries(){
-        $countries = Countries::all();
+        $countries = Countries::paginate(20);
         return view('admin.locations.countries.listcountries', compact('countries'));
     }
 
