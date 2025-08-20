@@ -6,7 +6,7 @@
             <div class="card basic-data-table">
                 <div class="card-header d-flex justify-content-between align-items-center">
                     <h5 class="card-title mb-0">List States</h5>
-                    {{-- <a href="{{ route('admin.cities.add') }}" class="btn btn-sm btn-primary-100 text-primary-600 rounded-pill px-24 py-4">Add Service</a> --}}
+                    {{-- <a href="{{ route('admin.states.add') }}" class="btn btn-sm btn-primary-100 text-primary-600 rounded-pill px-24 py-4">Add State</a> --}}
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
@@ -15,25 +15,29 @@
                                 <tr>
                                     <th scope="col">S No.</th>
                                     <th scope="col">State Name</th>
-                                    {{-- <th scope="col">Service Slug</th> --}}
+                                    <th scope="col">Parent State</th>
+                                    <th scope="col">Country</th>
+                                    <th scope="col">Child States Count</th>
                                     <th scope="col" class="text-center">Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 @forelse($states as $state)
-                                <tr>
-                                    <td>{{ $loop->iteration }}</td>
-                                    <td>{{ $state->name }}</td>
-                                    {{-- <td>{{ $city->slug }}</td> --}}
-                                    <td class="text-center"> 
-                                        <a href="{{ route('admin.states.view', $state->id) }}" class="btn btn-sm btn-success-100 text-success-600 rounded-pill px-24 py-4">View</a>
-                                        </form>
-                                    </td>
-                                </tr>
+                                    <tr>
+                                        <td>{{ $loop->iteration }}</td>
+                                        <td>{{ $state->name }}</td>
+                                        <td>{{ $state->parent ? $state->parent->name : '-' }}</td>
+                                        <td>{{ $state->country ? $state->country->name : '-' }}</td>
+                                        <td>{{ $state->children->count() }}</td>
+                                        <td class="text-center">
+                                            <a href="{{ route('admin.states.view', $state->id) }}"
+                                                class="btn btn-sm btn-success-100 text-success-600 rounded-pill px-24 py-4">View</a>
+                                        </td>
+                                    </tr>
                                 @empty
-                                <tr>
-                                    <td colspan="4">No states found.</td>
-                                </tr>
+                                    <tr>
+                                        <td colspan="6">No states found.</td>
+                                    </tr>
                                 @endforelse
                             </tbody>
                         </table>

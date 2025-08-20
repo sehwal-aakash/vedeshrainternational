@@ -10,12 +10,12 @@ use App\Models\States;
 class StateController extends Controller
 {
     public function liststates(){
-        $states = States::all();
+        $states = States::with('country')->get();
         return view('admin.locations.states.liststates', compact('states'));
     }
 
     public function viewstates($id){
-        $state = States::findOrFail($id);
+        $state = States::with(['country', 'children'])->findOrFail($id);
         return view('admin.locations.states.viewstates', compact('state'));
     }
 }

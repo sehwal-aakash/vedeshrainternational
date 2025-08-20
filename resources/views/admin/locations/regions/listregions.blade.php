@@ -15,25 +15,30 @@
                                 <tr>
                                     <th scope="col">S No.</th>
                                     <th scope="col">Region Name</th>
+                                    <th scope="col">Sub Regions</th>
+                                    <th scope="col">Countries</th>
                                     {{-- <th scope="col">Service Slug</th> --}}
                                     <th scope="col" class="text-center">Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 @forelse($regions as $region)
-                                <tr>
-                                    <td>{{ $loop->iteration }}</td>
-                                    <td>{{ $region->name }}</td>
-                                    {{-- <td>{{ $city->slug }}</td> --}}
-                                    <td class="text-center"> 
-                                        <a href="{{ route('admin.regions.view', $region->id) }}" class="btn btn-sm btn-success-100 text-success-600 rounded-pill px-24 py-4">View</a>
-                                        </form>
-                                    </td>
-                                </tr>
+                                    <tr>
+                                        <td>{{ $loop->iteration }}</td>
+                                        <td>{{ $region->name }}</td>
+                                        <td>{{ $region->subRegions->count() }}</td>
+                                        <td>{{ $region->countries->count() }}</td>
+                                        {{-- <td>{{ $city->slug }}</td> --}}
+                                        <td class="text-center">
+                                            <a href="{{ route('admin.regions.view', $region->id) }}"
+                                                class="btn btn-sm btn-success-100 text-success-600 rounded-pill px-24 py-4">View</a>
+                                            </form>
+                                        </td>
+                                    </tr>
                                 @empty
-                                <tr>
-                                    <td colspan="4">No regions found.</td>
-                                </tr>
+                                    <tr>
+                                        <td colspan="4">No regions found.</td>
+                                    </tr>
                                 @endforelse
                             </tbody>
                         </table>
