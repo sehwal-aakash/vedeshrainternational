@@ -18,6 +18,8 @@ use App\Http\Controllers\Admin\Industries\IndustriesController;
 
 use App\Http\Controllers\Admin\Contacts\ContactController;
 
+use App\Http\Controllers\Admin\Locations\LocationController;
+
 use App\Http\Controllers\Admin\Redirections\RedirectionsController;
 
 use App\Http\Controllers\Admin\Blogs\BlogController;
@@ -266,7 +268,19 @@ Route::middleware([
     Route::post('/nimdav/redirections/updateredirection/{id}', [RedirectionsController::class, 'updateredirection'])->name('admin.redirections.update');
     Route::delete('/nimdav/redirections/deleteredirection/{id}', [RedirectionsController::class, 'deleteredirection'])->name('admin.redirections.delete');
 
+
+
     // Locations
+
+    // Location
+    Route::get('/nimdav/pages/locations/listlocations', [LocationController::class, 'listlocations'])->name('admin.locations.list');
+    Route::get('/nimdav/pages/locations/addservice', [LocationController::class, 'addlocation'])->name('admin.locations.add');
+    Route::post('/nimdav/pages/locations/addservicepost', [LocationController::class, 'addlocationPost'])->name('admin.locations.add.post');
+    Route::get('/nimdav/pages/locations/viewservice/{id}', [LocationController::class, 'viewlocation'])->name('admin.locations.view');
+    Route::get('/nimdav/pages/locations/editservice/{id}', [LocationController::class, 'editlocation'])->name('admin.locations.edit');
+    Route::post('/nimdav/pages/locations/updateservice/{id}', [LocationController::class, 'updatelocation'])->name('admin.locations.update');
+    Route::delete('/nimdav/pages/locations/deleteservice/{id}', [LocationController::class, 'deletelocation'])->name('admin.locations.delete');
+    Route::get('/nimdav/pages/locations/getpages/{pageType}', [LocationController::class, 'getPages'])->name('admin.locations.getPages');
 
     // City
     Route::get('/nimdav/locations/city/listcities', [CityController::class, 'listcities'])->name('admin.cities.list');
@@ -287,6 +301,8 @@ Route::middleware([
     // Regions
     Route::get('/nimdav/locations/regions/listregions', [RegionController::class, 'listregions'])->name('admin.regions.list');
     Route::get('/nimdav/locations/regions/viewregions/{id}', [RegionController::class, 'viewregions'])->name('admin.regions.view');
+
+
 
 });
 
