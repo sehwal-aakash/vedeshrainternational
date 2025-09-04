@@ -52,6 +52,9 @@ Route::get('/services/{slug}', function ($slug) {
     abort(404); // Return 404 if the view doesn't exist
 })->name('services.dynamic');
 
+Route::get('/web-design-services-in-{region}', [RegionController::class, 'webDesignServices'])
+    ->name('web.design.services.region');
+
 Route::get('/industries', [IndustriesController::class, 'listindustriesfrontend'])->name('admin.industries.list');
 
 Route::get('/industries/{slug}', function ($slug) {
