@@ -120,6 +120,9 @@ class LocationController extends Controller
     public function webDesignServices($slug){
         // First, try to find the slug in Regions
         $location = Regions::where('slug', $slug)->first();
+        \Log::info('$location');
+        \Log::info($location);
+
 
         // If not found, try Subregions
         if (!$location) {
