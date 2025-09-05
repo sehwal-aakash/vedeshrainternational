@@ -7,6 +7,41 @@ Disallow:
 User-agent: googlebot-mobile
 Allow: /
 Disallow:
+
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: BingAI
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
 User-agent: MSNBot
 Disallow:
 User-agent: Slurp
@@ -20,8 +55,6 @@ Disallow:
 User-agent: Nutch
 Disallow:
 User-agent: ia_archiver
-Disallow:
-User-agent: baiduspider
 Disallow:
 User-agent: naverbot
 Disallow:
@@ -37,4 +70,5 @@ User-agent: *
 Disallow:
 Disallow: /cgi-bin/
 Disallow: /login
+Disallow: /nimdav
 Sitemap: https://vedeshra.com/sitemap.xml
