@@ -34,7 +34,7 @@
                                 <a href="tel:+911169311084"><i class="fa-solid fa-phone"></i></a>
                             </div>
                             <div class="announcement-bar-content-box">
-                                <a href="tel:+911169311084">+1 (213) 4447 693</a>
+                                <a href="tel:+911169311084">+91-11-6931-1084</a>
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@
                     @include('layouts.partials.navigationmenu')
                 </div>
                 <div class="desktopquotebuttonbox">
-                    <a href="/get-quote/" class="button">Get a Quote</a>
+                    <a href="{{ route('get-quote') }}" class="button">Get a Quote</a>
                 </div>
             </div>
         </div>

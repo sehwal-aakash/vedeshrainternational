@@ -79,7 +79,7 @@ Route::get('/contact', function () {
 
 Route::get('/get-quote', function () {
     return view('content.pages.mainpages.getquote');
-});
+})->name('get-quote');
 
 Route::get('/terms-of-use', function () {
     return view('content.pages.mainpages.termsofuse');
