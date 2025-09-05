@@ -433,11 +433,13 @@
     }
 
     body.services-detail-page .imagewithtextcontent p,
+    body .imagewithtextcontent p,
     body.industries-detail-page .imagewithtextcontentbox p{
         font-size: 20px;
     }
 
     body.services-detail-page .imagewithtextcontentbox h2,
+    body .imagewithtextcontentbox h2,
     body.industries-detail-page .imagewithtextcontentbox h2{
         font-size: 32px;
     }
