@@ -76,7 +76,7 @@
                 <div class="innerherocontentbox">
                     <h1>Elevate Your Online Presence with Expert Web Development in {{ $location }}!</h1>
                     <div class="innerherocontent">
-                        <p>In the bustling digital marketplace of {location}, your website is your most critical asset—it's
+                        <p>In the bustling digital marketplace of {$location}, your website is your most critical asset—it's
                             your 24/7 salesperson, brand ambassador, and primary engine for growth. At Vedeshra
                             Technologies, we don't just build websites; we craft powerful digital experiences. We specialize
                             in world-class <strong>custom web development</strong> designed to captivate your audience and
@@ -93,7 +93,7 @@
                             performance, intuitive navigation, and search engine optimization from the ground up. We build a
                             scalable digital asset that not only meets your current needs but also grows with your business.
                         </p>
-                        <p><strong>Ready to transform your digital footprint in {location}? Let's build a website that
+                        <p><strong>Ready to transform your digital footprint in {$location}? Let's build a website that
                                 delivers results.</strong></p>
                     </div>
                     <div class="innerherobutton">
