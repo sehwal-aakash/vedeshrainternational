@@ -19,15 +19,15 @@ class RegionController extends Controller
         return view('admin.locations.regions.viewregions', compact('region'));
     }
 
-    public function webDesignServices($region)
+    public function webDesignServices($slug)
     {
-        // Fetch region by name (or slug if you store slugs)
-        $region = Regions::where('name', $region)->firstOrFail();
+        // Fetch region by slug
+        $region = Regions::where('slug', $slug)->firstOrFail();
 
         // Pass the region name as "location" variable
         return view('content.pages.locations.services.web-design-and-development', [
-            'location' => $region->name,
-            'region' => $region
+            'location' => $region->name, // Name for display
+            'region' => $region           // Full region object if needed
         ]);
     }
 }
