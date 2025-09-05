@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 use App\Models\Locations;
+use App\Models\Regions;
+use App\Models\SubRegions;
 
 class LocationController extends Controller
 {
@@ -117,11 +119,11 @@ class LocationController extends Controller
 
     public function webDesignServices($slug){
         // First, try to find the slug in Regions
-        $location = Region::where('slug', $slug)->first();
+        $location = Regions::where('slug', $slug)->first();
 
         // If not found, try Subregions
         if (!$location) {
-            $location = Subregion::where('slug', $slug)->first();
+            $location = Subregions::where('slug', $slug)->first();
         }
 
         // If still not found, abort 404
