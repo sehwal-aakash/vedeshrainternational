@@ -23,18 +23,22 @@ class SubRegionController extends Controller
     public function webDesignServices($subregion)
     {
         // Fetch subregion by name (or slug if you store slugs)
-        $subregion = SubRegions::get()->firstWhere(function ($item) use ($subregion) {
+        // $subregion = SubRegions::get()->firstWhere(function ($item) use ($subregion) {
+        //     return Str::slug($item->name) === $subregion;
+        // });
+
+        $subregionModel = SubRegions::get()->first(function ($item) use ($subregion) {
             return Str::slug($item->name) === $subregion;
         });
 
-        if (! $subregion) {
+        if (! $subregionModel) {
             abort(404);
         }
 
         // Pass the subregion name as "location" variable
         return view('content.pages.locations.services.web-design-and-development', [
-            'location' => $subregion->name,
-            'subregion' => $subregion
+            'location' => $subregionModel->name,   // Original DB value (e.g. "Middle East & Africa")
+            'subregion' => $subregionModel
         ]);
     }
 }
