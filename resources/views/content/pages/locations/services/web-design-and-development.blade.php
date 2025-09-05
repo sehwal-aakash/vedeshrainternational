@@ -51,7 +51,7 @@
   "logo": "https://vedeshra.com/assets/img/logo/vedeshra_logo_180w_tr.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+12134447693",
+    "telephone": "+911169311084",
     "contactType": "customer service",
     "email": "sales@vedeshra.com",
     "areaServed": "{{$location}}",

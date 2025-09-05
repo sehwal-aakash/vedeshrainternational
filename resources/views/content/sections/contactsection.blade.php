@@ -10,7 +10,8 @@
                         In Your Mind?
                     </h2>
                     <p class="content">
-                        Reach out to us for any Questions, Support, or Collaboration opportunities. Our Team is eager to assist and provide the information you will need
+                        Reach out to us for any Questions, Support, or Collaboration opportunities. Our Team is eager to
+                        assist and provide the information you will need
                     </p>
                 </div>
                 <div class="contactaddressiconboxcontainer">
@@ -21,7 +22,7 @@
                         <div class="contactaddressflexcontentbox">
                             <p class="subcontent">For urgent help</p>
                             <p class="maincontactbox">
-                                <a href="tel:+12134447693">+1-(737)-4436-593</a>
+                                <a href="tel:+911169311084">+91-11-6931-1084</a>
                             </p>
                         </div>
                     </div>

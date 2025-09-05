@@ -5,27 +5,30 @@
 @endsection
 
 @section('meta')
-<meta name="title" content="PPC Advertising Services | Vedeshra Technologies: Maximize ROI with Paid Ads">
-<meta name="description" content="Get expert PPC advertising services from Vedeshra Technologies. We create high-performing paid ad campaigns to drive traffic, leads, and conversions for your business.">
-<meta name="robots" content="index, follow">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="language" content="English">
-<meta name="author" content="Vedeshra Technologies LLC">
+    <meta name="title" content="PPC Advertising Services | Vedeshra Technologies: Maximize ROI with Paid Ads">
+    <meta name="description"
+        content="Get expert PPC advertising services from Vedeshra Technologies. We create high-performing paid ad campaigns to drive traffic, leads, and conversions for your business.">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Vedeshra Technologies LLC">
 
-<link rel="canonical" href="https://vedeshra.com/services/ppc-advertising/" />
+    <link rel="canonical" href="https://vedeshra.com/services/ppc-advertising/" />
 
-<meta property="og:title" content="PPC Advertising Services | Vedeshra Technologies">
-<meta property="og:site_name" content="Vedeshra Technologies">
-<meta property="og:url" content="https://vedeshra.com/services/ppc-advertising/">
-<meta property="og:description" content="Vedeshra Technologies offers expert PPC advertising services, including Google Ads, Bing Ads, and social media paid campaigns. Get more leads with strategic paid marketing.">
-<meta property="og:type" content="website">
+    <meta property="og:title" content="PPC Advertising Services | Vedeshra Technologies">
+    <meta property="og:site_name" content="Vedeshra Technologies">
+    <meta property="og:url" content="https://vedeshra.com/services/ppc-advertising/">
+    <meta property="og:description"
+        content="Vedeshra Technologies offers expert PPC advertising services, including Google Ads, Bing Ads, and social media paid campaigns. Get more leads with strategic paid marketing.">
+    <meta property="og:type" content="website">
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="PPC Advertising Services | Vedeshra Technologies">
-<meta name="twitter:description" content="Boost your online presence with expert PPC advertising from Vedeshra Technologies. Get high-converting campaigns tailored to your business needs.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PPC Advertising Services | Vedeshra Technologies">
+    <meta name="twitter:description"
+        content="Boost your online presence with expert PPC advertising from Vedeshra Technologies. Get high-converting campaigns tailored to your business needs.">
 
 
-<script type="application/ld+json">
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -47,7 +50,7 @@
   "logo": "https://vedeshra.com/assets/img/logo/vedeshra_logo_180w_tr.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+12134447693",
+    "telephone": "+911169311084",
     "contactType": "customer service",
     "email": "sales@vedeshra.com",
     "areaServed": ["US", "GB", "CA", "AF"],
@@ -73,10 +76,21 @@
                 <div class="innerherocontentbox">
                     <h1>Maximize ROI with Expert PPC Advertising</h1>
                     <div class="innerherocontent">
-                        <p>At <strong>Vedeshra Technologies,</strong> we specialize in <strong>high-converting Pay-Per-Click (PPC) advertising</strong> campaigns designed to drive <strong>targeted traffic, increase conversions, and maximize ROI.</strong> Our <strong>data-driven PPC strategies </strong> ensure your brand reaches the <strong>right audience at the right time, </strong> leading to <strong> higher engagement and sales.</strong></p>
-                        <p>We create <strong> custom PPC strategies </strong> to your business goals, whether you're looking for <strong> Google Ads, Bing Ads, Facebook Ads, LinkedIn Ads, or eCommerce PPC. </strong> Our team of <strong> PPC experts</strong> ensures your ads are optimized with <strong> high-intent keywords, compelling ad copy, and strategic bidding </strong> to deliver the best results.</p>
-                        <p>By leveraging <strong>A/B testing, audience targeting, and real-time performance tracking, </strong> we continuously optimize your campaigns to ensure <strong> lower cost-per-click (CPC), higher quality scores, and improved ad placements. </strong></p>
-                        <p><strong>Let  Vedeshra Technologies help you scale your business with high-impact PPC advertising that drives results.</strong></p>
+                        <p>At <strong>Vedeshra Technologies,</strong> we specialize in <strong>high-converting Pay-Per-Click
+                                (PPC) advertising</strong> campaigns designed to drive <strong>targeted traffic, increase
+                                conversions, and maximize ROI.</strong> Our <strong>data-driven PPC strategies </strong>
+                            ensure your brand reaches the <strong>right audience at the right time, </strong> leading to
+                            <strong> higher engagement and sales.</strong></p>
+                        <p>We create <strong> custom PPC strategies </strong> to your business goals, whether you're looking
+                            for <strong> Google Ads, Bing Ads, Facebook Ads, LinkedIn Ads, or eCommerce PPC. </strong> Our
+                            team of <strong> PPC experts</strong> ensures your ads are optimized with <strong> high-intent
+                                keywords, compelling ad copy, and strategic bidding </strong> to deliver the best results.
+                        </p>
+                        <p>By leveraging <strong>A/B testing, audience targeting, and real-time performance tracking,
+                            </strong> we continuously optimize your campaigns to ensure <strong> lower cost-per-click (CPC),
+                                higher quality scores, and improved ad placements. </strong></p>
+                        <p><strong>Let Vedeshra Technologies help you scale your business with high-impact PPC advertising
+                                that drives results.</strong></p>
                     </div>
                     <div class="innerherobutton">
                         <a href="{{ route('contact') }}/" class="button">Get Started</a>
@@ -96,7 +110,8 @@
                 <div class="four-column-flex-item-box">
                     <div class="four-column-flex-item">
                         <div class="four-column-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/data-driven-approach.png" loading="eager" fetchpriority="high" alt="Data Driven Strategy Image">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/data-driven-approach.png"
+                                loading="eager" fetchpriority="high" alt="Data Driven Strategy Image">
                         </div>
                         <div class="four-column-content-box">
                             <h3>Data-Driven Strategies</h3>
@@ -107,7 +122,8 @@
                 <div class="four-column-flex-item-box">
                     <div class="four-column-flex-item">
                         <div class="four-column-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/multi-platform-expertise.png" loading="eager" fetchpriority="high" alt="Multi Platform Expertise Image">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/multi-platform-expertise.png"
+                                loading="eager" fetchpriority="high" alt="Multi Platform Expertise Image">
                         </div>
                         <div class="four-column-content-box">
                             <h3>Multi-Platform Expertise</h3>
@@ -118,7 +134,8 @@
                 <div class="four-column-flex-item-box">
                     <div class="four-column-flex-item">
                         <div class="four-column-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/optimize-ad-spend.png" loading="eager" fetchpriority="high" alt="Optimize Ad Spend Image">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/optimize-ad-spend.png"
+                                loading="eager" fetchpriority="high" alt="Optimize Ad Spend Image">
                         </div>
                         <div class="four-column-content-box">
                             <h3>Optimized Ad Spend</h3>
@@ -129,7 +146,8 @@
                 <div class="four-column-flex-item-box">
                     <div class="four-column-flex-item">
                         <div class="four-column-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/monitoring.png" loading="eager" fetchpriority="high" alt="Monitoring Image">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/monitoring.png" loading="eager"
+                                fetchpriority="high" alt="Monitoring Image">
                         </div>
                         <div class="four-column-content-box">
                             <h3>Continuous Monitoring & Optimization</h3>
@@ -146,14 +164,23 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/ppc-services-img-05.png" loading="lazy" alt="Targetted PPC Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/ppc-services-img-05.png" loading="lazy"
+                        alt="Targetted PPC Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Boost Conversions with Targeted PPC Ads</h2>
                     <div class="imagewithtextcontent">
-                        <p>At Vedeshra Technologies, we craft highly targeted PPC campaigns designed to drive qualified traffic and maximize conversions. By leveraging data-driven insights, audience targeting, and keyword research, we ensure that your ads reach the right users at the right time, leading to higher engagement and ROI.</p>
-                        <p>Our PPC experts optimize every aspect of your campaign, from ad copy and bidding strategies to landing page optimization. With a focus on Google Quality Score, ad relevance, and user intent, we help reduce cost-per-acquisition (CPA) while improving your ad ranking and click-through rate (CTR).</p>
-                        <p>Whether it’s search, display, shopping, or remarketing ads, we ensure high visibility and smart budget use. At Vedeshra Technologies, we optimize campaigns in real-time to deliver results that drive growth and profitability.</p>
+                        <p>At Vedeshra Technologies, we craft highly targeted PPC campaigns designed to drive qualified
+                            traffic and maximize conversions. By leveraging data-driven insights, audience targeting, and
+                            keyword research, we ensure that your ads reach the right users at the right time, leading to
+                            higher engagement and ROI.</p>
+                        <p>Our PPC experts optimize every aspect of your campaign, from ad copy and bidding strategies to
+                            landing page optimization. With a focus on Google Quality Score, ad relevance, and user intent,
+                            we help reduce cost-per-acquisition (CPA) while improving your ad ranking and click-through rate
+                            (CTR).</p>
+                        <p>Whether it’s search, display, shopping, or remarketing ads, we ensure high visibility and smart
+                            budget use. At Vedeshra Technologies, we optimize campaigns in real-time to deliver results that
+                            drive growth and profitability.</p>
                     </div>
                 </div>
             </div>
@@ -165,73 +192,89 @@
         <div class="container">
             <div class="sectiontitlebox">
                 <h2>Comprehensive PPC Advertising Services</h2>
-                <p>At Vedeshra Technologies, we offer full-service PPC management tailored to your business goals. From Google Ads and Social Media Advertising to Remarketing and eCommerce PPC, our experts create and manage highly effective campaigns that drive conversions and maximize ROI.</p>
+                <p>At Vedeshra Technologies, we offer full-service PPC management tailored to your business goals. From
+                    Google Ads and Social Media Advertising to Remarketing and eCommerce PPC, our experts create and manage
+                    highly effective campaigns that drive conversions and maximize ROI.</p>
             </div>
 
             <div class="inner-services-grid-box">
                 <div class="inner-services-grid-item-box">
                     <div class="inner-services-grid-item">
                         <div class="inner-services-grid-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/ads-management.png" loading="lazy" alt="Ads Management Image">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/ads-management.png" loading="lazy"
+                                alt="Ads Management Image">
                         </div>
                         <div class="inner-services-grid-content-box">
                             <h3>Google Ads Management</h3>
-                            <p>Our Google Ads experts create high-converting search, display, and shopping campaigns that increase visibility and drive targeted traffic, ensuring maximum return on investment (ROI).</p>
+                            <p>Our Google Ads experts create high-converting search, display, and shopping campaigns that
+                                increase visibility and drive targeted traffic, ensuring maximum return on investment (ROI).
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="inner-services-grid-item-box">
                     <div class="inner-services-grid-item">
                         <div class="inner-services-grid-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/social-media-advertising.png" loading="lazy" alt="Social Media Advertising Image">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/social-media-advertising.png"
+                                loading="lazy" alt="Social Media Advertising Image">
                         </div>
                         <div class="inner-services-grid-content-box">
                             <h3>Social Media Advertising</h3>
-                            <p> We design and manage Facebook, Instagram, LinkedIn, and Twitter Ads, using precise audience targeting and engaging ad creatives to increase brand awareness and lead generation.</p>
+                            <p> We design and manage Facebook, Instagram, LinkedIn, and Twitter Ads, using precise audience
+                                targeting and engaging ad creatives to increase brand awareness and lead generation.</p>
                         </div>
                     </div>
                 </div>
                 <div class="inner-services-grid-item-box">
                     <div class="inner-services-grid-item">
                         <div class="inner-services-grid-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/ppc-compaigns.png" loading="lazy" alt="PPC Compaigns Icon">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/ppc-compaigns.png" loading="lazy"
+                                alt="PPC Compaigns Icon">
                         </div>
                         <div class="inner-services-grid-content-box">
                             <h3>Ecommerce PPC Campaigns</h3>
-                            <p>Boost your online store sales with Google Shopping Ads, Amazon Ads, and dynamic remarketing campaigns that drive qualified traffic and higher conversion rates.</p>
+                            <p>Boost your online store sales with Google Shopping Ads, Amazon Ads, and dynamic remarketing
+                                campaigns that drive qualified traffic and higher conversion rates.</p>
                         </div>
                     </div>
                 </div>
                 <div class="inner-services-grid-item-box">
                     <div class="inner-services-grid-item">
                         <div class="inner-services-grid-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/remarketing.png" loading="lazy" alt="Remarketing Icon">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/remarketing.png" loading="lazy"
+                                alt="Remarketing Icon">
                         </div>
                         <div class="inner-services-grid-content-box">
                             <h3>Remarketing & Retargeting</h3>
-                            <p>Stay top-of-mind with potential customers by using advanced retargeting strategies that re-engage visitors and convert abandoned traffic into loyal customers.</p>
+                            <p>Stay top-of-mind with potential customers by using advanced retargeting strategies that
+                                re-engage visitors and convert abandoned traffic into loyal customers.</p>
                         </div>
                     </div>
                 </div>
                 <div class="inner-services-grid-item-box">
                     <div class="inner-services-grid-item">
                         <div class="inner-services-grid-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/landing-page-optimization.png" loading="lazy" alt="Landing Page Optimization Icon">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/landing-page-optimization.png"
+                                loading="lazy" alt="Landing Page Optimization Icon">
                         </div>
                         <div class="inner-services-grid-content-box">
                             <h3>Landing Page Optimization</h3>
-                            <p>We create and optimize high-converting landing pages that improve Quality Score, lower CPC, and enhance user experience, leading to higher ad performance.</p>
+                            <p>We create and optimize high-converting landing pages that improve Quality Score, lower CPC,
+                                and enhance user experience, leading to higher ad performance.</p>
                         </div>
                     </div>
                 </div>
                 <div class="inner-services-grid-item-box">
                     <div class="inner-services-grid-item">
                         <div class="inner-services-grid-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/performance.png" loading="lazy" alt="Performance Icon">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/performance.png" loading="lazy"
+                                alt="Performance Icon">
                         </div>
                         <div class="inner-services-grid-content-box">
                             <h3>PPC Performance Tracking & Reporting</h3>
-                            <p>Our real-time analytics and detailed reports provide insights into campaign performance, allowing us to refine bidding strategies, ad creatives, and targeting for maximum efficiency.</p>
+                            <p>Our real-time analytics and detailed reports provide insights into campaign performance,
+                                allowing us to refine bidding strategies, ad creatives, and targeting for maximum
+                                efficiency.</p>
                         </div>
                     </div>
                 </div>
@@ -244,32 +287,39 @@
         <div class="container">
             <div class="sectiontitlebox">
                 <h2>Powerful PPC Tools for Maximum Performance</h2>
-                <p>At Vedeshra Technologies, we utilize industry-leading PPC tools to optimize campaigns, track performance, and maximize return on ad spend (ROAS). These tools help us with keyword research, bid management, ad performance analysis, and A/B testing to ensure high-converting PPC campaigns.</p>
+                <p>At Vedeshra Technologies, we utilize industry-leading PPC tools to optimize campaigns, track performance,
+                    and maximize return on ad spend (ROAS). These tools help us with keyword research, bid management, ad
+                    performance analysis, and A/B testing to ensure high-converting PPC campaigns.</p>
             </div>
             <div class="tools-flex-box">
                 <div class="tools-flex-item-box">
                     <div class="tools-flex-image-box">
-                        <img src="https://vedeshra.com/assets/img/icons/tools/ahrefs-tools-image.png" loading="lazy" alt="Ahref Logo">
+                        <img src="https://vedeshra.com/assets/img/icons/tools/ahrefs-tools-image.png" loading="lazy"
+                            alt="Ahref Logo">
                     </div>
                 </div>
                 <div class="tools-flex-item-box">
                     <div class="tools-flex-image-box">
-                        <img src="https://vedeshra.com/assets/img/icons/tools/google-analytics-tools-image.png" loading="lazy" alt="Google Analytics Logo">
+                        <img src="https://vedeshra.com/assets/img/icons/tools/google-analytics-tools-image.png"
+                            loading="lazy" alt="Google Analytics Logo">
                     </div>
                 </div>
                 <div class="tools-flex-item-box">
                     <div class="tools-flex-image-box">
-                        <img src="https://vedeshra.com/assets/img/icons/tools/google-tools-image.png" loading="lazy" alt="Google Search Console Logo">
+                        <img src="https://vedeshra.com/assets/img/icons/tools/google-tools-image.png" loading="lazy"
+                            alt="Google Search Console Logo">
                     </div>
                 </div>
                 <div class="tools-flex-item-box">
                     <div class="tools-flex-image-box">
-                        <img src="https://vedeshra.com/assets/img/icons/tools/moz-tools-image.png" loading="lazy" alt="MOZ Logo">
+                        <img src="https://vedeshra.com/assets/img/icons/tools/moz-tools-image.png" loading="lazy"
+                            alt="MOZ Logo">
                     </div>
                 </div>
                 <div class="tools-flex-item-box">
                     <div class="tools-flex-image-box">
-                        <img src="https://vedeshra.com/assets/img/icons/tools/semrush-tools-img.png" loading="lazy" alt="Semrush Logo">
+                        <img src="https://vedeshra.com/assets/img/icons/tools/semrush-tools-img.png" loading="lazy"
+                            alt="Semrush Logo">
                     </div>
                 </div>
             </div>
@@ -301,13 +351,21 @@
                 <div class="imagewithtextcontentbox">
                     <h2>Drive Results with Expert PPC Management</h2>
                     <div class="imagewithtextcontent">
-                        <p>At Vedeshra Technologies, we take a data-driven approach to PPC management, ensuring that every campaign is optimized for maximum performance. From keyword research and bid strategies to ad copy optimization and A/B testing, we refine every aspect of your Google Ads and social media ad campaigns.</p>
-                        <p>Our real-time performance tracking and continuous optimization help lower cost-per-click (CPC) while increasing click-through rates (CTR) and conversions. Whether you're targeting search, display, shopping, or remarketing ads, our expert PPC strategies will help you achieve higher ROI and business growth.</p>
-                        <p>We focus on delivering not just clicks, but meaningful results—helping your business gain visibility, attract the right audience, and convert them into loyal customers.</p>
+                        <p>At Vedeshra Technologies, we take a data-driven approach to PPC management, ensuring that every
+                            campaign is optimized for maximum performance. From keyword research and bid strategies to ad
+                            copy optimization and A/B testing, we refine every aspect of your Google Ads and social media ad
+                            campaigns.</p>
+                        <p>Our real-time performance tracking and continuous optimization help lower cost-per-click (CPC)
+                            while increasing click-through rates (CTR) and conversions. Whether you're targeting search,
+                            display, shopping, or remarketing ads, our expert PPC strategies will help you achieve higher
+                            ROI and business growth.</p>
+                        <p>We focus on delivering not just clicks, but meaningful results—helping your business gain
+                            visibility, attract the right audience, and convert them into loyal customers.</p>
                     </div>
                 </div>
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/ppc-services-img-03.png" loading="lazy" alt="SEO Services Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/ppc-services-img-03.png" loading="lazy"
+                        alt="SEO Services Vector Image">
                 </div>
             </div>
         </div>
@@ -327,7 +385,8 @@
                         </div>
                         <div class="strategy-content-box">
                             <h3>Business & Audience Research</h3>
-                            <p>We analyze your business goals, target audience, and competitors to build a custom PPC strategy that aligns with your objectives.</p>
+                            <p>We analyze your business goals, target audience, and competitors to build a custom PPC
+                                strategy that aligns with your objectives.</p>
                         </div>
                     </div>
                 </div>
@@ -338,7 +397,8 @@
                         </div>
                         <div class="strategy-content-box">
                             <h3> Keyword Research & Selection</h3>
-                            <p>Using advanced keyword research tools, we identify high-intent, low-cost, and competitive keywords to target the right audience.</p>
+                            <p>Using advanced keyword research tools, we identify high-intent, low-cost, and competitive
+                                keywords to target the right audience.</p>
                         </div>
                     </div>
                 </div>
@@ -349,7 +409,8 @@
                         </div>
                         <div class="strategy-content-box">
                             <h3>Ad Copy & Creative Development</h3>
-                            <p>We craft compelling ad copy, engaging visuals, and high-converting landing pages to increase click-through rates (CTR).</p>
+                            <p>We craft compelling ad copy, engaging visuals, and high-converting landing pages to increase
+                                click-through rates (CTR).</p>
                         </div>
                     </div>
                 </div>
@@ -360,7 +421,8 @@
                         </div>
                         <div class="strategy-content-box">
                             <h3>Campaign Setup & Bidding Strategy</h3>
-                            <p>Our experts configure the right bidding model (CPC, CPM, CPA) to optimize ad spend and maximize returns.</strong></p>
+                            <p>Our experts configure the right bidding model (CPC, CPM, CPA) to optimize ad spend and
+                                maximize returns.</strong></p>
                         </div>
                     </div>
                 </div>
@@ -371,7 +433,8 @@
                         </div>
                         <div class="strategy-content-box">
                             <h3>Performance Tracking & Analytics</h3>
-                            <p>With real-time tracking tools, we monitor ad performance, analyze data, and make data-driven decisions.</p>
+                            <p>With real-time tracking tools, we monitor ad performance, analyze data, and make data-driven
+                                decisions.</p>
                         </div>
                     </div>
                 </div>
@@ -382,7 +445,8 @@
                         </div>
                         <div class="strategy-content-box">
                             <h3>A/B Testing & Optimization</h3>
-                            <p>We continuously test ad variations, landing pages, and bid strategies to improve conversion rates and reduce costs.</p>
+                            <p>We continuously test ad variations, landing pages, and bid strategies to improve conversion
+                                rates and reduce costs.</p>
                         </div>
                     </div>
                 </div>
@@ -393,7 +457,8 @@
                         </div>
                         <div class="strategy-content-box">
                             <h3>Scaling & Continuous Improvement</h3>
-                            <p>Based on campaign performance, we scale successful ads, refine underperforming ones, and ensure consistent growth.</p>
+                            <p>Based on campaign performance, we scale successful ads, refine underperforming ones, and
+                                ensure consistent growth.</p>
                         </div>
                     </div>
                 </div>
@@ -406,7 +471,9 @@
         <div class="container">
             <div class="sectiontitlebox">
                 <h2>Advanced PPC Technologies & Frameworks</h2>
-                <p>At Vedeshra Technologies, we leverage the latest PPC technologies and frameworks to ensure your ads achieve maximum reach, engagement, and conversions. Our expertise in bid automation, audience targeting, and data analytics allows us to run cost-effective and high-ROI campaigns across multiple platforms.</p>
+                <p>At Vedeshra Technologies, we leverage the latest PPC technologies and frameworks to ensure your ads
+                    achieve maximum reach, engagement, and conversions. Our expertise in bid automation, audience targeting,
+                    and data analytics allows us to run cost-effective and high-ROI campaigns across multiple platforms.</p>
             </div>
             <div class="technology-grid-box">
                 <div class="technology-grid-item-box">
@@ -417,7 +484,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/html-technology-icon.png" loading="lazy" alt="HTML Technology Icon">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/html-technology-icon.png"
+                                        loading="lazy" alt="HTML Technology Icon">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>HTML</p>
@@ -427,7 +495,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/css-technology-icon.png" loading="lazy" alt="CSS Technology Icon">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/css-technology-icon.png"
+                                        loading="lazy" alt="CSS Technology Icon">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>CSS</p>
@@ -437,7 +506,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/js-technology-icon.png" loading="lazy" alt="JS Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/js-technology-icon.png"
+                                        loading="lazy" alt="JS Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>JavaScript</p>
@@ -447,7 +517,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/json-technology-icon.png" loading="lazy" alt="JSON-LD Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/json-technology-icon.png"
+                                        loading="lazy" alt="JSON-LD Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>JSON-LD</p>
@@ -457,7 +528,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/xml-technology-icon.png" loading="lazy" alt="XML Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/xml-technology-icon.png"
+                                        loading="lazy" alt="XML Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>XML</p>
@@ -474,7 +546,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/gsc-technology-icon.png" loading="lazy" alt="Google Search Console Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/gsc-technology-icon.png"
+                                        loading="lazy" alt="Google Search Console Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>Google Search Console</p>
@@ -484,7 +557,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/analytics-technology-icon.png" loading="lazy" alt="Google Analytics Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/analytics-technology-icon.png"
+                                        loading="lazy" alt="Google Analytics Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>Google Analytics 4</p>
@@ -494,7 +568,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/ahref-technology-icon.png" loading="lazy" alt="Ahref Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/ahref-technology-icon.png"
+                                        loading="lazy" alt="Ahref Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>Ahrefs</p>
@@ -504,7 +579,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/semrush-technology-icon.png" loading="lazy" alt="Semrush Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/semrush-technology-icon.png"
+                                        loading="lazy" alt="Semrush Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>Semrush</p>
@@ -514,7 +590,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/surfer-technology-icon.png" loading="lazy" alt="Surfer SEO Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/surfer-technology-icon.png"
+                                        loading="lazy" alt="Surfer SEO Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>Surfer SEO</p>
@@ -531,7 +608,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/nextjs-technology-icon.png" loading="lazy" alt="Next JS Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/nextjs-technology-icon.png"
+                                        loading="lazy" alt="Next JS Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>Next.js</p>
@@ -541,7 +619,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/nuxt-technology-icon.png" loading="lazy" alt="Nuxt JS Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/nuxt-technology-icon.png"
+                                        loading="lazy" alt="Nuxt JS Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>Nuxt.js</p>
@@ -551,7 +630,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/gatsby-technology-icon.png" loading="lazy" alt="Gatsby Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/gatsby-technology-icon.png"
+                                        loading="lazy" alt="Gatsby Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>Gatsby</p>
@@ -561,7 +641,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/amp-technology-icon.png" loading="lazy" alt="AMP Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/amp-technology-icon.png"
+                                        loading="lazy" alt="AMP Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>AMP (Accelerated Mobile Pages)</p>
@@ -571,7 +652,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/schema-technology-icon.png" loading="lazy" alt="Schema Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/schema-technology-icon.png"
+                                        loading="lazy" alt="Schema Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>Schema.org</p>
@@ -588,7 +670,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/redis-technology-icon.png" loading="lazy" alt="Redis Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/redis-technology-icon.png"
+                                        loading="lazy" alt="Redis Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>Redis</p>
@@ -598,7 +681,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/mongodb-technology-icon.png" loading="lazy" alt="MongoDB Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/mongodb-technology-icon.png"
+                                        loading="lazy" alt="MongoDB Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>MongoDB</p>
@@ -608,7 +692,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/sqlite-technology-icon.png" loading="lazy" alt="SQLite Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/sqlite-technology-icon.png"
+                                        loading="lazy" alt="SQLite Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>SQLite</p>
@@ -618,7 +703,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/cloudflare-technology-icon.png" loading="lazy" alt="Cloudflare Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/cloudflare-technology-icon.png"
+                                        loading="lazy" alt="Cloudflare Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>Cloudflare CDN</p>
@@ -628,7 +714,8 @@
                         <div class="technology-grid-content-item-box">
                             <div class="technology-grid-content-flex-box">
                                 <div class="technology-grid-content-icon-box">
-                                    <img src="https://vedeshra.com/assets/img/icons/technology/awscloudfront-technology-icon.png" loading="lazy" alt="AWS Cloudfront Technology Logo">
+                                    <img src="https://vedeshra.com/assets/img/icons/technology/awscloudfront-technology-icon.png"
+                                        loading="lazy" alt="AWS Cloudfront Technology Logo">
                                 </div>
                                 <div class="technology-grid-content-paragraph-box">
                                     <p>AWS CloudFront</p>
@@ -649,20 +736,26 @@
         <div class="container">
             <div class="sectiontitlebox">
                 <h2>Expand your reach and maximize ROI with industry-leading PPC platforms.</h2>
-                <p>At Vedeshra Technologies, we manage data-driven PPC campaigns across multiple platforms to help businesses achieve higher conversions and lower ad costs. Our expertise in platform-specific strategies, audience targeting, and ad optimization ensures that your campaigns deliver the best results possible.</p>
+                <p>At Vedeshra Technologies, we manage data-driven PPC campaigns across multiple platforms to help
+                    businesses achieve higher conversions and lower ad costs. Our expertise in platform-specific strategies,
+                    audience targeting, and ad optimization ensures that your campaigns deliver the best results possible.
+                </p>
             </div>
 
             <div class="platform-grid-box">
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/google-ads-ppc.png" loading="lazy" alt="Google Ads Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/google-ads-ppc.png" loading="lazy"
+                                alt="Google Ads Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>Google Ads</h3>
                             <div class="platformgridcontent">
                                 <p>
-                                    Run highly targeted search, display, shopping, and YouTube ads with Google Ads, ensuring maximum reach and conversions. Our experts optimize campaigns for high-quality leads and lower cost-per-click (CPC).
+                                    Run highly targeted search, display, shopping, and YouTube ads with Google Ads, ensuring
+                                    maximum reach and conversions. Our experts optimize campaigns for high-quality leads and
+                                    lower cost-per-click (CPC).
                                 </p>
                             </div>
                         </div>
@@ -671,13 +764,16 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/bing-ads-ppc.png" loading="lazy" alt="Microsoft(Bing) Advertising Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/bing-ads-ppc.png" loading="lazy"
+                                alt="Microsoft(Bing) Advertising Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>Microsoft Ads (Bing Ads)</h3>
                             <div class="platformgridcontent">
                                 <p>
-                                    Expand your business reach with Bing and Yahoo advertising. Our PPC specialists optimize Bing Ads to target high-intent users, ensuring cost-effective ad placements and higher returns.
+                                    Expand your business reach with Bing and Yahoo advertising. Our PPC specialists optimize
+                                    Bing Ads to target high-intent users, ensuring cost-effective ad placements and higher
+                                    returns.
                                 </p>
                             </div>
                         </div>
@@ -686,13 +782,16 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/facebook-ads-ppc.png" loading="lazy" alt="Facebook Ads Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/facebook-ads-ppc.png" loading="lazy"
+                                alt="Facebook Ads Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>Facebook Ads</h3>
                             <div class="platformgridcontent">
                                 <p>
-                                    Leverage Facebook's vast audience with data-driven ad strategies. Our experts create engaging carousel ads, video ads, and lead generation campaigns to boost brand awareness and conversions.
+                                    Leverage Facebook's vast audience with data-driven ad strategies. Our experts create
+                                    engaging carousel ads, video ads, and lead generation campaigns to boost brand awareness
+                                    and conversions.
                                 </p>
                             </div>
                         </div>
@@ -701,13 +800,16 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/instagram-ads-ppc.png" loading="lazy" alt="Instagram Ads Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/instagram-ads-ppc.png"
+                                loading="lazy" alt="Instagram Ads Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>Instagram Ads</h3>
                             <div class="platformgridcontent">
                                 <p>
-                                    Tap into the power of visual storytelling with Instagram Ads. We craft visually compelling ad creatives and use advanced targeting options to engage potential customers effectively.
+                                    Tap into the power of visual storytelling with Instagram Ads. We craft visually
+                                    compelling ad creatives and use advanced targeting options to engage potential customers
+                                    effectively.
                                 </p>
                             </div>
                         </div>
@@ -716,13 +818,16 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/linkedin-ads-ppc.png" loading="lazy" alt="Linkedin Ads Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/linkedin-ads-ppc.png" loading="lazy"
+                                alt="Linkedin Ads Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>LinkedIn Ads</h3>
                             <div class="platformgridcontent">
                                 <p>
-                                    Ideal for B2B marketing, LinkedIn Ads help businesses target decision-makers and professionals. We optimize sponsored content, InMail campaigns, and text ads for high-quality lead generation.
+                                    Ideal for B2B marketing, LinkedIn Ads help businesses target decision-makers and
+                                    professionals. We optimize sponsored content, InMail campaigns, and text ads for
+                                    high-quality lead generation.
                                 </p>
                             </div>
                         </div>
@@ -731,13 +836,15 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/twitter-ads-ppc.png" loading="lazy" alt="Twitter Advertising Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/twitter-ads-ppc.png" loading="lazy"
+                                alt="Twitter Advertising Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>Twitter Ads</h3>
                             <div class="platformgridcontent">
                                 <p>
-                                    Boost brand engagement and visibility with Twitter Ads. Our PPC team creates high-impact promoted tweets, video ads, and trend campaigns to capture audience attention.
+                                    Boost brand engagement and visibility with Twitter Ads. Our PPC team creates high-impact
+                                    promoted tweets, video ads, and trend campaigns to capture audience attention.
                                 </p>
                             </div>
                         </div>
@@ -746,13 +853,15 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/youtube-ads-ppc.png" loading="lazy" alt="Youtube Advertising Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/youtube-ads-ppc.png" loading="lazy"
+                                alt="Youtube Advertising Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>YouTube Ads</h3>
                             <div class="platformgridcontent">
                                 <p>
-                                    Run video advertising campaigns on the world's second-largest search engine. We optimize skippable and non-skippable ads, ensuring maximum audience engagement.
+                                    Run video advertising campaigns on the world's second-largest search engine. We optimize
+                                    skippable and non-skippable ads, ensuring maximum audience engagement.
                                 </p>
                             </div>
                         </div>
@@ -761,13 +870,15 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/amazon-ads-ppc.png" loading="lazy" alt="Amazon Advertising Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/amazon-ads-ppc.png" loading="lazy"
+                                alt="Amazon Advertising Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>Amazon Ads</h3>
                             <div class="platformgridcontent">
                                 <p>
-                                    For Ecommerce businesses, Amazon Ads drive higher product visibility and sales. We create and optimize sponsored product ads, brand ads, and display ads for maximum ROI.
+                                    For Ecommerce businesses, Amazon Ads drive higher product visibility and sales. We
+                                    create and optimize sponsored product ads, brand ads, and display ads for maximum ROI.
                                 </p>
                             </div>
                         </div>
@@ -776,13 +887,16 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/custom-ppc.png" loading="lazy" alt="Custom PPC Advertising Icon">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/custom-ppc.png" loading="lazy"
+                                alt="Custom PPC Advertising Icon">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>Custom PPC Campaigns</h3>
                             <div class="platformgridcontent">
                                 <p>
-                                    Every business is unique! At Vedeshra Technologies, we design tailored PPC advertising strategies to suit specific business needs, ensuring highly targeted traffic and better conversions.
+                                    Every business is unique! At Vedeshra Technologies, we design tailored PPC advertising
+                                    strategies to suit specific business needs, ensuring highly targeted traffic and better
+                                    conversions.
                                 </p>
                             </div>
                         </div>
@@ -800,7 +914,8 @@
         <div class="container">
             <div class="sectiontitlebox">
                 <h2>Frequently Asked Questions About PPC Advertising</h2>
-                <p>Get clear answers to your PPC queries and discover how Vedeshra Technologies can drive maximum ROI for your business.</p>
+                <p>Get clear answers to your PPC queries and discover how Vedeshra Technologies can drive maximum ROI for
+                    your business.</p>
             </div>
 
             <div class="faq-accordion-container">
@@ -812,7 +927,10 @@
                         </div>
                     </div>
                     <div class="faq-accordion-answer">
-                        <p>PPC (Pay-Per-Click) advertising is a digital marketing strategy where advertisers pay only when users click on their ads. Platforms like Google Ads, Bing Ads, and social media channels allow businesses to target specific keywords, demographics, and audiences to drive targeted traffic and conversions.</p>
+                        <p>PPC (Pay-Per-Click) advertising is a digital marketing strategy where advertisers pay only when
+                            users click on their ads. Platforms like Google Ads, Bing Ads, and social media channels allow
+                            businesses to target specific keywords, demographics, and audiences to drive targeted traffic
+                            and conversions.</p>
                     </div>
                 </div>
                 <div class="faq-accordion-item">
@@ -823,7 +941,9 @@
                         </div>
                     </div>
                     <div class="faq-accordion-answer">
-                        <p>At Vedeshra Technologies, we specialize in highly optimized PPC campaigns designed to reduce ad spend, increase conversions, and maximize ROI. Our data-driven approach, expert bid strategies, and continuous optimization ensure that your campaigns perform at their best.</p>
+                        <p>At Vedeshra Technologies, we specialize in highly optimized PPC campaigns designed to reduce ad
+                            spend, increase conversions, and maximize ROI. Our data-driven approach, expert bid strategies,
+                            and continuous optimization ensure that your campaigns perform at their best.</p>
                     </div>
                 </div>
                 <div class="faq-accordion-item">
@@ -834,7 +954,9 @@
                         </div>
                     </div>
                     <div class="faq-accordion-answer">
-                        <p>We manage PPC campaigns on Google Ads, Bing Ads, Facebook, Instagram, LinkedIn, Twitter, and YouTube. Our experts tailor strategies to each platform's audience behavior to drive maximum engagement and results.</p>
+                        <p>We manage PPC campaigns on Google Ads, Bing Ads, Facebook, Instagram, LinkedIn, Twitter, and
+                            YouTube. Our experts tailor strategies to each platform's audience behavior to drive maximum
+                            engagement and results.</p>
                     </div>
                 </div>
                 <div class="faq-accordion-item">
@@ -846,7 +968,9 @@
                     </div>
                     <div class="faq-accordion-answer">
                         <p>
-                            The budget depends on your industry, competition, and business goals. At Vedeshra Technologies, we create custom PPC strategies to help you get the most out of your ad spend while ensuring maximum ROI.
+                            The budget depends on your industry, competition, and business goals. At Vedeshra Technologies,
+                            we create custom PPC strategies to help you get the most out of your ad spend while ensuring
+                            maximum ROI.
                         </p>
                     </div>
                 </div>
@@ -858,7 +982,9 @@
                         </div>
                     </div>
                     <div class="faq-accordion-answer">
-                        <p>PPC advertising delivers instant visibility, and you can start seeing results within days. However, continuous optimization, testing, and bid adjustments improve performance over time, leading to lower costs and higher conversions.</p>
+                        <p>PPC advertising delivers instant visibility, and you can start seeing results within days.
+                            However, continuous optimization, testing, and bid adjustments improve performance over time,
+                            leading to lower costs and higher conversions.</p>
                     </div>
                 </div>
                 <div class="faq-accordion-item">
@@ -869,11 +995,12 @@
                         </div>
                     </div>
                     <div class="faq-accordion-answer">
-                        <p>Yes! We offer detailed performance tracking, analytics reports, and campaign insights so you can see how your ads are performing, track conversions, and make data-driven decisions to scale your business.</p>
+                        <p>Yes! We offer detailed performance tracking, analytics reports, and campaign insights so you can
+                            see how your ads are performing, track conversions, and make data-driven decisions to scale your
+                            business.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 @endsection

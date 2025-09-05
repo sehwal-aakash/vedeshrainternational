@@ -1,30 +1,35 @@
 @extends('layouts/commonLayout')
 
-@section('title') Copywriting Services | Vedeshra Technologies: Persuasive & High-Converting Copy @endsection
+@section('title')
+    Copywriting Services | Vedeshra Technologies: Persuasive & High-Converting Copy
+@endsection
 
 @section('meta')
-<meta name="title" content="Copywriting Services | Vedeshra Technologies: Persuasive & High-Converting Copy">
-<meta name="description" content="Drive results with Vedeshra Technologies’ expert copywriting services. We craft persuasive, brand-aligned content that engages audiences and boosts conversions.">
-<meta name="robots" content="index, follow">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="language" content="English">
-<meta name="revisit-after" content="7 days">
-<meta name="author" content="Vedeshra Technologies LLC">
+    <meta name="title" content="Copywriting Services | Vedeshra Technologies: Persuasive & High-Converting Copy">
+    <meta name="description"
+        content="Drive results with Vedeshra Technologies’ expert copywriting services. We craft persuasive, brand-aligned content that engages audiences and boosts conversions.">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="author" content="Vedeshra Technologies LLC">
 
-<link rel="canonical" href="https://vedeshra.com/services/copywriting/" />
+    <link rel="canonical" href="https://vedeshra.com/services/copywriting/" />
 
-<meta property="og:title" content="Copywriting Services | Vedeshra Technologies">
-<meta property="og:site_name" content="Vedeshra Technologies">
-<meta property="og:url" content="https://vedeshra.com/services/copywriting/">
-<meta property="og:description" content="Vedeshra Technologies delivers high-impact copywriting services for websites, ads, landing pages, and more. Engage your audience and inspire action with every word.">
-<meta property="og:type" content="website">
+    <meta property="og:title" content="Copywriting Services | Vedeshra Technologies">
+    <meta property="og:site_name" content="Vedeshra Technologies">
+    <meta property="og:url" content="https://vedeshra.com/services/copywriting/">
+    <meta property="og:description"
+        content="Vedeshra Technologies delivers high-impact copywriting services for websites, ads, landing pages, and more. Engage your audience and inspire action with every word.">
+    <meta property="og:type" content="website">
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Copywriting Services | Vedeshra Technologies">
-<meta name="twitter:description" content="Boost your brand’s performance with Vedeshra Technologies’ copywriting services. We write compelling, conversion-focused copy tailored to your audience and goals.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Copywriting Services | Vedeshra Technologies">
+    <meta name="twitter:description"
+        content="Boost your brand’s performance with Vedeshra Technologies’ copywriting services. We write compelling, conversion-focused copy tailored to your audience and goals.">
 
 
-<script type="application/ld+json">
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -46,7 +51,7 @@
   "logo": "https://vedeshra.com/assets/img/logo/vedeshra_logo_180w_tr.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+12134447693",
+    "telephone": "+911169311084",
     "contactType": "customer service",
     "email": "sales@vedeshra.com",
     "areaServed": ["US", "GB", "CA", "AF"],
@@ -73,9 +78,19 @@
                 <div class="innerherocontentbox">
                     <h1>Expert Copywriting Services to Elevate Your Brand Voice & Drive Conversions</h1>
                     <div class="innerherocontent">
-                        <p>At Vedeshra Technologies, we specialize in creating powerful, persuasive copy that doesn't just communicate—but captivates. Our copywriting services are designed to speak directly to your audience, embody your brand voice, and inspire action. Whether it's a website landing page, product description, email campaign, or social media ad, we ensure every word earns its place and delivers results.</p>
-                        <p>From SEO-optimized blog posts that climb search rankings to conversion-driven sales copy that boosts revenue, our writing is backed by research, creativity, and strategic intent. We tailor each piece to align with your business goals and audience behavior, turning casual readers into loyal customers.</p>
-                        <p>In a noisy digital world, the right words can cut through the clutter and leave a lasting impression. That's why we don't just write — we craft narratives that connect, persuade, and convert. Whether you're launching a new product or redefining your brand story, our copy brings clarity, emotion, and purpose to your message.</p>
+                        <p>At Vedeshra Technologies, we specialize in creating powerful, persuasive copy that doesn't just
+                            communicate—but captivates. Our copywriting services are designed to speak directly to your
+                            audience, embody your brand voice, and inspire action. Whether it's a website landing page,
+                            product description, email campaign, or social media ad, we ensure every word earns its place
+                            and delivers results.</p>
+                        <p>From SEO-optimized blog posts that climb search rankings to conversion-driven sales copy that
+                            boosts revenue, our writing is backed by research, creativity, and strategic intent. We tailor
+                            each piece to align with your business goals and audience behavior, turning casual readers into
+                            loyal customers.</p>
+                        <p>In a noisy digital world, the right words can cut through the clutter and leave a lasting
+                            impression. That's why we don't just write — we craft narratives that connect, persuade, and
+                            convert. Whether you're launching a new product or redefining your brand story, our copy brings
+                            clarity, emotion, and purpose to your message.</p>
                         <p><strong>Let's give your brand a voice that not only speaks — but sells.</strong></p>
                     </div>
                     <div class="innerherobutton">
@@ -96,7 +111,8 @@
                 <div class="four-column-flex-item-box">
                     <div class="four-column-flex-item">
                         <div class="four-column-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/web-design.png" loading="lazy" alt="Web Design Image">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/web-design.png" loading="lazy"
+                                alt="Web Design Image">
                         </div>
                         <div class="four-column-content-box">
                             <h3>Experienced Copywriters</h3>
@@ -107,7 +123,8 @@
                 <div class="four-column-flex-item-box">
                     <div class="four-column-flex-item">
                         <div class="four-column-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/responsive.png" loading="lazy" alt="Responsive Image">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/responsive.png" loading="lazy"
+                                alt="Responsive Image">
                         </div>
                         <div class="four-column-content-box">
                             <h3>SEO-Optimized Copy</h3>
@@ -118,7 +135,8 @@
                 <div class="four-column-flex-item-box">
                     <div class="four-column-flex-item">
                         <div class="four-column-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/good-feedback.png" loading="lazy" alt="Good Feedback Image">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/good-feedback.png" loading="lazy"
+                                alt="Good Feedback Image">
                         </div>
                         <div class="four-column-content-box">
                             <h3>Persuasive & Engaging Content</h3>
@@ -129,7 +147,8 @@
                 <div class="four-column-flex-item-box">
                     <div class="four-column-flex-item">
                         <div class="four-column-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/conversion.png" loading="lazy" alt="Conversion Image">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/conversion.png" loading="lazy"
+                                alt="Conversion Image">
                         </div>
                         <div class="four-column-content-box">
                             <h3>Versatile Writing Styles</h3>
@@ -146,14 +165,27 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/copywriting-img-01.png" loading="lazy" alt="Copywriting Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/copywriting-img-01.png" loading="lazy"
+                        alt="Copywriting Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Transform Your Brand with Persuasive Copywriting</h2>
                     <div class="imagewithtextcontent">
-                        <p>Effective copywriting services go beyond just writing — they tell your brand's story in a way that resonates with your target audience. At Vedeshra Technologies, we specialize in creating persuasive, high-impact copy that strengthens your brand authority, builds trust, and drives meaningful engagement. Whether you're launching a new product or refreshing your website, our words are crafted to make your message unforgettable.</p>
-                        <p>Our team of expert SEO copywriters blends creativity with conversion strategies to produce content that connects emotionally and prompts action. From sales pages and landing pages to email campaigns and social media ads, we write content that not only informs but also converts. With a clear brand voice and audience-focused approach, we help increase engagement, boost click-through rates, and turn readers into loyal customers.</p>
-                        <p>Every piece of copy we deliver is SEO-optimized to improve your visibility in search engines. By incorporating relevant keywords naturally into the content, we ensure better search engine rankings, more organic traffic, and increased reach for your business. With Vedeshra Technologies, you're not just getting words — you're getting strategic messaging that drives growth.</p>
+                        <p>Effective copywriting services go beyond just writing — they tell your brand's story in a way
+                            that resonates with your target audience. At Vedeshra Technologies, we specialize in creating
+                            persuasive, high-impact copy that strengthens your brand authority, builds trust, and drives
+                            meaningful engagement. Whether you're launching a new product or refreshing your website, our
+                            words are crafted to make your message unforgettable.</p>
+                        <p>Our team of expert SEO copywriters blends creativity with conversion strategies to produce
+                            content that connects emotionally and prompts action. From sales pages and landing pages to
+                            email campaigns and social media ads, we write content that not only informs but also converts.
+                            With a clear brand voice and audience-focused approach, we help increase engagement, boost
+                            click-through rates, and turn readers into loyal customers.</p>
+                        <p>Every piece of copy we deliver is SEO-optimized to improve your visibility in search engines. By
+                            incorporating relevant keywords naturally into the content, we ensure better search engine
+                            rankings, more organic traffic, and increased reach for your business. With Vedeshra
+                            Technologies, you're not just getting words — you're getting strategic messaging that drives
+                            growth.</p>
                     </div>
                 </div>
             </div>
@@ -165,73 +197,91 @@
         <div class="container">
             <div class="sectiontitlebox">
                 <h2>Expert Copywriting Services to Elevate Your Brand</h2>
-                <p>At <strong>Vedeshra Technologies</strong>, we leverage industry-leading copywriting tools and content strategies to craft impactful, results-driven copy. These tools enable us to deliver content that is not only engaging and persuasive but also optimized for performance, ensuring maximum reach and conversion for your business.</p>
+                <p>At <strong>Vedeshra Technologies</strong>, we leverage industry-leading copywriting tools and content
+                    strategies to craft impactful, results-driven copy. These tools enable us to deliver content that is not
+                    only engaging and persuasive but also optimized for performance, ensuring maximum reach and conversion
+                    for your business.</p>
             </div>
 
             <div class="inner-services-grid-box">
                 <div class="inner-services-grid-item-box">
                     <div class="inner-services-grid-item">
                         <div class="inner-services-grid-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/front-end-programming.png" loading="lazy" alt="Front End Designing Image">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/front-end-programming.png"
+                                loading="lazy" alt="Front End Designing Image">
                         </div>
                         <div class="inner-services-grid-content-box">
                             <h3>Website Copywriting</h3>
-                            <p>Clear, engaging, and SEO-friendly website content that attracts visitors and keeps them engaged. Our web copy ensures your brand message is powerful and persuasive, leading to better conversions.</p>
+                            <p>Clear, engaging, and SEO-friendly website content that attracts visitors and keeps them
+                                engaged. Our web copy ensures your brand message is powerful and persuasive, leading to
+                                better conversions.</p>
                         </div>
                     </div>
                 </div>
                 <div class="inner-services-grid-item-box">
                     <div class="inner-services-grid-item">
                         <div class="inner-services-grid-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/web.png" loading="lazy" alt="Ecommerce Designing Image">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/web.png" loading="lazy"
+                                alt="Ecommerce Designing Image">
                         </div>
                         <div class="inner-services-grid-content-box">
                             <h3>SEO Content Writing</h3>
-                            <p>High-quality, keyword-optimized content that ranks on search engines and drives organic traffic. We create blogs, articles, and landing pages that blend creativity with SEO strategies for maximum impact.</p>
+                            <p>High-quality, keyword-optimized content that ranks on search engines and drives organic
+                                traffic. We create blogs, articles, and landing pages that blend creativity with SEO
+                                strategies for maximum impact.</p>
                         </div>
                     </div>
                 </div>
                 <div class="inner-services-grid-item-box">
                     <div class="inner-services-grid-item">
                         <div class="inner-services-grid-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/ui-ux.png" loading="lazy" alt="UI UX Design Icon">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/ui-ux.png" loading="lazy"
+                                alt="UI UX Design Icon">
                         </div>
                         <div class="inner-services-grid-content-box">
                             <h3>Product Descriptions & E-commerce Copy</h3>
-                            <p>Compelling and conversion-driven product descriptions that highlight key features, benefits, and unique selling points to increase online sales and engagement.</p>
+                            <p>Compelling and conversion-driven product descriptions that highlight key features, benefits,
+                                and unique selling points to increase online sales and engagement.</p>
                         </div>
                     </div>
                 </div>
                 <div class="inner-services-grid-item-box">
                     <div class="inner-services-grid-item">
                         <div class="inner-services-grid-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/web-maintenance.png" loading="lazy" alt="Website Maintenance Icon">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/web-maintenance.png" loading="lazy"
+                                alt="Website Maintenance Icon">
                         </div>
                         <div class="inner-services-grid-content-box">
                             <h3>Social Media Copywriting</h3>
-                            <p>Crafting engaging, concise, and impactful social media posts that boost brand visibility, engagement, and audience interaction across multiple platforms like Instagram, Facebook, LinkedIn, and Twitter.</p>
+                            <p>Crafting engaging, concise, and impactful social media posts that boost brand visibility,
+                                engagement, and audience interaction across multiple platforms like Instagram, Facebook,
+                                LinkedIn, and Twitter.</p>
                         </div>
                     </div>
                 </div>
                 <div class="inner-services-grid-item-box">
                     <div class="inner-services-grid-item">
                         <div class="inner-services-grid-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/seo.png" loading="lazy" alt="SEO Icon">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/seo.png" loading="lazy"
+                                alt="SEO Icon">
                         </div>
                         <div class="inner-services-grid-content-box">
                             <h3>Ad Copy & Sales Copywriting</h3>
-                            <p>Persuasive and high-converting ad copy for Google Ads, social media campaigns, and PPC advertisements that maximize click-through rates (CTR) and drive customer action.</p>
+                            <p>Persuasive and high-converting ad copy for Google Ads, social media campaigns, and PPC
+                                advertisements that maximize click-through rates (CTR) and drive customer action.</p>
                         </div>
                     </div>
                 </div>
                 <div class="inner-services-grid-item-box">
                     <div class="inner-services-grid-item">
                         <div class="inner-services-grid-icon-box">
-                            <img src="https://vedeshra.com/assets/img/icons/innerpages/cms-icon.png" loading="lazy" alt="CMS Icon">
+                            <img src="https://vedeshra.com/assets/img/icons/innerpages/cms-icon.png" loading="lazy"
+                                alt="CMS Icon">
                         </div>
                         <div class="inner-services-grid-content-box">
                             <h3>Email & Newsletter Copywriting</h3>
-                            <p>Strategic email campaigns with compelling subject lines, persuasive messaging, and strong calls-to-action (CTAs) to improve open rates and customer engagement.</p>
+                            <p>Strategic email campaigns with compelling subject lines, persuasive messaging, and strong
+                                calls-to-action (CTAs) to improve open rates and customer engagement.</p>
                         </div>
                     </div>
                 </div>
@@ -244,32 +294,39 @@
         <div class="container">
             <div class="sectiontitlebox">
                 <h2>Powerful Tools for High-Impact Copywriting</h2>
-                <p>At Vedeshra Technologies, we leverage advanced copywriting tools to ensure flawless, engaging, and SEO-optimized content. These tools help refine messaging, enhance readability, and maximize conversions.</p>
+                <p>At Vedeshra Technologies, we leverage advanced copywriting tools to ensure flawless, engaging, and
+                    SEO-optimized content. These tools help refine messaging, enhance readability, and maximize conversions.
+                </p>
             </div>
             <div class="tools-flex-box">
                 <div class="tools-flex-item-box">
                     <div class="tools-flex-image-box">
-                        <img src="https://vedeshra.com/assets/img/icons/tools/figma.png" loading="lazy" alt="Grammarly Logo">
+                        <img src="https://vedeshra.com/assets/img/icons/tools/figma.png" loading="lazy"
+                            alt="Grammarly Logo">
                     </div>
                 </div>
                 <div class="tools-flex-item-box">
                     <div class="tools-flex-image-box">
-                        <img src="https://vedeshra.com/assets/img/icons/tools/adobe-xd.png" loading="lazy" alt="Hemingway Editor Logo">
+                        <img src="https://vedeshra.com/assets/img/icons/tools/adobe-xd.png" loading="lazy"
+                            alt="Hemingway Editor Logo">
                     </div>
                 </div>
                 <div class="tools-flex-item-box">
                     <div class="tools-flex-image-box">
-                        <img src="https://vedeshra.com/assets/img/icons/tools/sketch.png" loading="lazy" alt="SurferSEO Logo">
+                        <img src="https://vedeshra.com/assets/img/icons/tools/sketch.png" loading="lazy"
+                            alt="SurferSEO Logo">
                     </div>
                 </div>
                 <div class="tools-flex-item-box">
                     <div class="tools-flex-image-box">
-                        <img src="https://vedeshra.com/assets/img/icons/tools/invision.png" loading="lazy" alt="Copy.ai Logo">
+                        <img src="https://vedeshra.com/assets/img/icons/tools/invision.png" loading="lazy"
+                            alt="Copy.ai Logo">
                     </div>
                 </div>
                 <div class="tools-flex-item-box">
                     <div class="tools-flex-image-box">
-                        <img src="https://vedeshra.com/assets/img/icons/tools/google-web-designer.png" loading="lazy" alt="CoSchedule Headline Analyzer Logo">
+                        <img src="https://vedeshra.com/assets/img/icons/tools/google-web-designer.png" loading="lazy"
+                            alt="CoSchedule Headline Analyzer Logo">
                     </div>
                 </div>
             </div>
@@ -301,12 +358,19 @@
                 <div class="imagewithtextcontentbox">
                     <h2>Crafting Words That Inspire, Influence, and Convert</h2>
                     <div class="imagewithtextcontent">
-                        <p>Effective copywriting is more than just writing—it's about telling a compelling story, evoking emotions, and guiding users towards action. Whether it's website content, advertisements, or social media campaigns, well-crafted copy helps businesses establish trust, build authority, and drive conversions.</p>
-                        <p>At Vedeshra Technologies, we create clear, concise, and conversion-focused copy tailored to your audience and industry. We blend creativity with strategy to ensure that every word serves a purpose—whether to educate, persuade, or inspire action. From engaging headlines to impactful calls-to-action, we help brands communicate with clarity, consistency, and confidence.</p>
+                        <p>Effective copywriting is more than just writing—it's about telling a compelling story, evoking
+                            emotions, and guiding users towards action. Whether it's website content, advertisements, or
+                            social media campaigns, well-crafted copy helps businesses establish trust, build authority, and
+                            drive conversions.</p>
+                        <p>At Vedeshra Technologies, we create clear, concise, and conversion-focused copy tailored to your
+                            audience and industry. We blend creativity with strategy to ensure that every word serves a
+                            purpose—whether to educate, persuade, or inspire action. From engaging headlines to impactful
+                            calls-to-action, we help brands communicate with clarity, consistency, and confidence.</p>
                     </div>
                 </div>
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/copywriting-img-02.png" loading="lazy" alt="Copywriting Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/copywriting-img-02.png" loading="lazy"
+                        alt="Copywriting Vector Image">
                 </div>
             </div>
         </div>
@@ -326,7 +390,9 @@
                         </div>
                         <div class="strategy-content-box">
                             <h3>Research & Audience Analysis</h3>
-                            <p>Before crafting a single word, we dive deep into your audience's needs, preferences, and pain points. By understanding their behaviors and motivations, we create copy that resonates and drives action.</p>
+                            <p>Before crafting a single word, we dive deep into your audience's needs, preferences, and pain
+                                points. By understanding their behaviors and motivations, we create copy that resonates and
+                                drives action.</p>
                         </div>
                     </div>
                 </div>
@@ -337,7 +403,9 @@
                         </div>
                         <div class="strategy-content-box">
                             <h3>Competitor & Market Study</h3>
-                            <p>We conduct a competitive analysis to identify content gaps, industry trends, and unique angles that differentiate your brand, ensuring you stand out in the crowded digital space.</p>
+                            <p>We conduct a competitive analysis to identify content gaps, industry trends, and unique
+                                angles that differentiate your brand, ensuring you stand out in the crowded digital space.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -348,7 +416,9 @@
                         </div>
                         <div class="strategy-content-box">
                             <h3>Defining Brand Voice & Messaging</h3>
-                            <p>Your brand voice is what makes you recognizable and relatable. Whether it's professional, conversational, or witty, we ensure your copy maintains a consistent tone across all platforms.</p>
+                            <p>Your brand voice is what makes you recognizable and relatable. Whether it's professional,
+                                conversational, or witty, we ensure your copy maintains a consistent tone across all
+                                platforms.</p>
                         </div>
                     </div>
                 </div>
@@ -359,7 +429,8 @@
                         </div>
                         <div class="strategy-content-box">
                             <h3>Keyword Optimization & SEO Copywriting</h3>
-                            <p>We seamlessly integrate high-value keywords into your content, ensuring it is search-engine-friendly while maintaining readability and engagement for your audience.</p>
+                            <p>We seamlessly integrate high-value keywords into your content, ensuring it is
+                                search-engine-friendly while maintaining readability and engagement for your audience.</p>
                         </div>
                     </div>
                 </div>
@@ -370,7 +441,8 @@
                         </div>
                         <div class="strategy-content-box">
                             <h3>Content Structuring & Storytelling</h3>
-                            <p>Compelling storytelling forms the backbone of great copy. We structure content with clear messaging, engaging narratives, and strategic CTAs to guide readers towards conversion.</p>
+                            <p>Compelling storytelling forms the backbone of great copy. We structure content with clear
+                                messaging, engaging narratives, and strategic CTAs to guide readers towards conversion.</p>
                         </div>
                     </div>
                 </div>
@@ -381,7 +453,8 @@
                         </div>
                         <div class="strategy-content-box">
                             <h3>Editing & Proofreading for Perfection</h3>
-                            <p>Our copy goes through multiple quality checks to eliminate errors, refine language, and ensure clarity, grammar accuracy, and persuasiveness.</p>
+                            <p>Our copy goes through multiple quality checks to eliminate errors, refine language, and
+                                ensure clarity, grammar accuracy, and persuasiveness.</p>
                         </div>
                     </div>
                 </div>
@@ -392,7 +465,8 @@
                         </div>
                         <div class="strategy-content-box">
                             <h3>Testing & Performance Analysis</h3>
-                            <p>We analyze engagement metrics, A/B test variations, and refine content based on real-time data to maximize effectiveness and conversion rates.</p>
+                            <p>We analyze engagement metrics, A/B test variations, and refine content based on real-time
+                                data to maximize effectiveness and conversion rates.</p>
                         </div>
                     </div>
                 </div>
@@ -411,14 +485,18 @@
         <div class="container">
             <div class="sectiontitlebox">
                 <h2>Boost Your Brand with Strategic Copywriting Across Multiple Platforms</h2>
-                <p>At <strong>Vedeshra Technologies</strong>, we craft compelling, SEO-optimized, and conversion-focused content tailored for different digital platforms. Whether it's for websites, social media, advertising, or email marketing, our expert copywriters ensure engaging, persuasive, and brand-aligned content that drives results.</p>
+                <p>At <strong>Vedeshra Technologies</strong>, we craft compelling, SEO-optimized, and conversion-focused
+                    content tailored for different digital platforms. Whether it's for websites, social media, advertising,
+                    or email marketing, our expert copywriters ensure engaging, persuasive, and brand-aligned content that
+                    drives results.</p>
             </div>
 
             <div class="platform-grid-box">
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/shopify-logo.png" loading="lazy" alt="Shopify Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/shopify-logo.png" loading="lazy"
+                                alt="Shopify Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>Website Copywriting</h3>
@@ -439,7 +517,8 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/woocommerce-logo.png" loading="lazy" alt="Woocommerce Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/woocommerce-logo.png" loading="lazy"
+                                alt="Woocommerce Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>E-commerce Copywriting</h3>
@@ -460,7 +539,8 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/wix-logo.png" loading="lazy" alt="Wix Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/wix-logo.png" loading="lazy"
+                                alt="Wix Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>Social Media Copywriting</h3>
@@ -481,7 +561,8 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/magento-logo.png" loading="lazy" alt="Magento Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/magento-logo.png" loading="lazy"
+                                alt="Magento Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>Blog & Article Writing</h3>
@@ -502,7 +583,8 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/webflow-logo.png" loading="lazy" alt="Webflow Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/webflow-logo.png" loading="lazy"
+                                alt="Webflow Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>Email Marketing Copywriting</h3>
@@ -523,7 +605,8 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/joomla-logo.png" loading="lazy" alt="Joomla Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/joomla-logo.png" loading="lazy"
+                                alt="Joomla Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>Ad Copywriting (Google, Facebook, LinkedIn Ads)</h3>
@@ -544,7 +627,8 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/drupal-logo.png" loading="lazy" alt="Drupal Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/drupal-logo.png" loading="lazy"
+                                alt="Drupal Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>Press Release Writing</h3>
@@ -565,7 +649,8 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/squarespace-logo.png" loading="lazy" alt="Squarespace Logo">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/squarespace-logo.png" loading="lazy"
+                                alt="Squarespace Logo">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>Sales & Landing Page Copy</h3>
@@ -586,7 +671,8 @@
                 <div class="platform-grid-item-box">
                     <div class="platform-grid-item">
                         <div class="platformgridicon">
-                            <img src="https://vedeshra.com/assets/img/icons/platforms/custom-web-development.png" loading="lazy" alt="Custom Web Development Icon">
+                            <img src="https://vedeshra.com/assets/img/icons/platforms/custom-web-development.png"
+                                loading="lazy" alt="Custom Web Development Icon">
                         </div>
                         <div class="platformgridcontentbox">
                             <h3>Whitepapers & Case Studies</h3>
@@ -617,14 +703,25 @@
         <div class="container">
             <div class="imagewithtextflexbox">
                 <div class="imagewithtextfleximagebox">
-                    <img src="https://vedeshra.com/assets/img/vectorimages/copywriting-img-03.png" loading="lazy" alt="Copywriting  Vector Image">
+                    <img src="https://vedeshra.com/assets/img/vectorimages/copywriting-img-03.png" loading="lazy"
+                        alt="Copywriting  Vector Image">
                 </div>
                 <div class="imagewithtextcontentbox">
                     <h2>Data-driven insights to establish authority</h2>
                     <div class="imagewithtextcontent">
-                        <p>At <strong> Vedeshra Technologies,</strong> we believe that powerful copy is the backbone of every successful marketing campaign. Our copywriting services are built on the foundation of strategy, creativity, and audience insight. Whether you're looking to elevate your website, launch a campaign, or build brand awareness, we deliver copy that informs, inspires, and converts.</p>
-                        <p>Our approach is rooted in understanding your brand voice and customer journey. We don't just write — we craft messages that speak to your audience's needs, pain points, and aspirations. From compelling product descriptions and engaging email sequences to persuasive landing pages, we ensure every word serves a purpose.</p>
-                        <p>In a digital landscape full of noise, your content must stand out. That's why our copywriting is always SEO-optimized, conversion-focused, and emotionally resonant. Let us help you transform your brand's communication into a powerful tool that drives visibility, credibility, and consistent growth.</p>
+                        <p>At <strong> Vedeshra Technologies,</strong> we believe that powerful copy is the backbone of
+                            every successful marketing campaign. Our copywriting services are built on the foundation of
+                            strategy, creativity, and audience insight. Whether you're looking to elevate your website,
+                            launch a campaign, or build brand awareness, we deliver copy that informs, inspires, and
+                            converts.</p>
+                        <p>Our approach is rooted in understanding your brand voice and customer journey. We don't just
+                            write — we craft messages that speak to your audience's needs, pain points, and aspirations.
+                            From compelling product descriptions and engaging email sequences to persuasive landing pages,
+                            we ensure every word serves a purpose.</p>
+                        <p>In a digital landscape full of noise, your content must stand out. That's why our copywriting is
+                            always SEO-optimized, conversion-focused, and emotionally resonant. Let us help you transform
+                            your brand's communication into a powerful tool that drives visibility, credibility, and
+                            consistent growth.</p>
                     </div>
                 </div>
             </div>
@@ -636,7 +733,9 @@
         <div class="container">
             <div class="sectiontitlebox">
                 <h2>Your Copywriting Questions, Answered!</h2>
-                <p>At <strong>Vedeshra Technologies,</strong> we believe in transparency and clarity when it comes to <strong>website design and development.</strong> Below are some frequently asked questions to help you understand our <strong>web design services, process, and technologies. </strong></p>
+                <p>At <strong>Vedeshra Technologies,</strong> we believe in transparency and clarity when it comes to
+                    <strong>website design and development.</strong> Below are some frequently asked questions to help you
+                    understand our <strong>web design services, process, and technologies. </strong></p>
             </div>
 
             <div class="faq-accordion-container">
@@ -648,7 +747,9 @@
                         </div>
                     </div>
                     <div class="faq-accordion-answer">
-                        <p>Copywriting is the art of crafting persuasive and engaging content that drives actions like purchases, sign-ups, or brand awareness. Well-structured copy can improve conversion rates, enhance brand reputation, and boost SEO performance.</p>
+                        <p>Copywriting is the art of crafting persuasive and engaging content that drives actions like
+                            purchases, sign-ups, or brand awareness. Well-structured copy can improve conversion rates,
+                            enhance brand reputation, and boost SEO performance.</p>
                     </div>
                 </div>
                 <div class="faq-accordion-item">
@@ -678,7 +779,8 @@
                         </div>
                     </div>
                     <div class="faq-accordion-answer">
-                        <p>Before starting, we conduct a brand analysis, study your existing content, and discuss your brand tone, target audience, and messaging goals to ensure consistency across all platforms.</p>
+                        <p>Before starting, we conduct a brand analysis, study your existing content, and discuss your brand
+                            tone, target audience, and messaging goals to ensure consistency across all platforms.</p>
                     </div>
                 </div>
                 <div class="faq-accordion-item">
@@ -689,7 +791,8 @@
                         </div>
                     </div>
                     <div class="faq-accordion-answer">
-                        <p>Absolutely! We integrate high-value keywords, meta descriptions, internal linking, and structured formatting to make your content search-engine friendly while maintaining readability.</p>
+                        <p>Absolutely! We integrate high-value keywords, meta descriptions, internal linking, and structured
+                            formatting to make your content search-engine friendly while maintaining readability.</p>
                     </div>
                 </div>
                 <div class="faq-accordion-item">
@@ -719,11 +822,13 @@
                         </div>
                     </div>
                     <div class="faq-accordion-answer">
-                        <p>Simply <a href="{{ route('contact') }}"> <strong> contact us through our website</strong></a> or <a href="/get-quote/"> <strong> fill out the inquiry form,</strong></a> and our team will get in touch to discuss your requirements, provide a strategy, and deliver high-impact content that drives results!</p>
+                        <p>Simply <a href="{{ route('contact') }}"> <strong> contact us through our website</strong></a> or
+                            <a href="/get-quote/"> <strong> fill out the inquiry form,</strong></a> and our team will get
+                            in touch to discuss your requirements, provide a strategy, and deliver high-impact content that
+                            drives results!</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 @endsection

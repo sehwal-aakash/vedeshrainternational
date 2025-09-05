@@ -1,30 +1,35 @@
 @extends('layouts/commonLayout')
 
-@section('title') Terms of Use | Vedeshra Technologies @endsection
+@section('title')
+    Terms of Use | Vedeshra Technologies
+@endsection
 
 @section('meta')
-<meta name="title" content="Terms of Use | Vedeshra Technologies: Website Usage Policy">
-<meta name="description" content="Review the Terms of Use for Vedeshra Technologies. Learn about your rights, responsibilities, and our policies when using our website and services.">
-<meta name="robots" content="index, follow">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="language" content="English">
-<meta name="revisit-after" content="365 days">
-<meta name="author" content="Vedeshra Technologies LLC">
+    <meta name="title" content="Terms of Use | Vedeshra Technologies: Website Usage Policy">
+    <meta name="description"
+        content="Review the Terms of Use for Vedeshra Technologies. Learn about your rights, responsibilities, and our policies when using our website and services.">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="365 days">
+    <meta name="author" content="Vedeshra Technologies LLC">
 
-<link rel="canonical" href="https://vedeshra.com/terms-of-use/" />
+    <link rel="canonical" href="https://vedeshra.com/terms-of-use/" />
 
-<meta property="og:title" content="Terms of Use | Vedeshra Technologies">
-<meta property="og:site_name" content="Vedeshra Technologies">
-<meta property="og:url" content="https://vedeshra.com/terms-of-use/">
-<meta property="og:description" content="Understand the terms governing your access to Vedeshra Technologies' website, including usage guidelines, policies, and legal considerations.">
-<meta property="og:type" content="website">
+    <meta property="og:title" content="Terms of Use | Vedeshra Technologies">
+    <meta property="og:site_name" content="Vedeshra Technologies">
+    <meta property="og:url" content="https://vedeshra.com/terms-of-use/">
+    <meta property="og:description"
+        content="Understand the terms governing your access to Vedeshra Technologies' website, including usage guidelines, policies, and legal considerations.">
+    <meta property="og:type" content="website">
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Terms of Use | Vedeshra Technologies">
-<meta name="twitter:description" content="Explore the terms and policies governing your interaction with Vedeshra Technologies' website. Stay informed about your rights and obligations.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Terms of Use | Vedeshra Technologies">
+    <meta name="twitter:description"
+        content="Explore the terms and policies governing your interaction with Vedeshra Technologies' website. Stay informed about your rights and obligations.">
 
 
-<script type="application/ld+json">
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "TermsOfService",
@@ -39,7 +44,7 @@
   "logo": "https://vedeshra.com/assets/img/logo/vedeshra_logo_180w_tr.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+12134447693",
+    "telephone": "+911169311084",
     "contactType": "customer service",
     "email": "sales@vedeshra.com",
     "areaServed": ["US", "GB", "CA", "AF"],
@@ -59,7 +64,8 @@
 
 @section('content')
     {{-- Banner Section --}}
-    <section class="sectionbannersection section" style=" background-image: url('/assets/img/bannerimages/refund-policy-banner.jpg'); ">
+    <section class="sectionbannersection section"
+        style=" background-image: url('/assets/img/bannerimages/refund-policy-banner.jpg'); ">
         <div class="container">
             <h1 class="bannertitle">Terms of Use</h1>
             <p class="bannercontent">
