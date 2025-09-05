@@ -20,20 +20,18 @@ class SubRegionController extends Controller
         return view('admin.locations.subregions.viewsubregions', compact('subregion'));
     }
 
-    public function webDesignServices($subregion)
+    public function webDesignServices($subregionSlug)
     {
-        // Find the record where slug(name) === requested slug
-        $subregionModel = SubRegions::all()->first(function ($item) use ($subregion) {
-            return Str::slug($item->name) === $subregion;
-        });
+        // Convert the slug 'northern-america' back to 'Northern America'
+        $subregionName = ucwords(str_replace('-', ' ', $subregionSlug));
 
-        if (! $subregionModel) {
-            abort(404);
-        }
+        // Fetch subregion by the reconstructed name
+        $subregion = SubRegions::where('name', $subregionName)->firstOrFail();
 
+        // The rest of your code remains the same
         return view('content.pages.locations.services.web-design-and-development', [
-            'location' => $subregionModel->name,   // "Northern America"
-            'subregion' => $subregionModel
+            'location' => $subregion->name,
+            'subregion' => $subregion
         ]);
     }
 }

@@ -56,7 +56,6 @@ Route::get('/web-design-services-in-{region}', [RegionController::class, 'webDes
     ->name('web.design.services.region');
 
 Route::get('/web-design-services-in-{subregion}', [SubRegionController::class, 'webDesignServices'])
-    ->where('subregion', '[a-z0-9-]+')
     ->name('web.design.services.subregion');
 
 Route::get('/industries', [IndustriesController::class, 'listindustriesfrontend'])->name('admin.industries.list');
