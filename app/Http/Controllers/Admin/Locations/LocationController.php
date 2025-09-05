@@ -114,4 +114,24 @@ class LocationController extends Controller
 
         return response()->json($pages);
     }
+
+    public function webDesignServices($slug){
+        // First, try to find the slug in Regions
+        $location = Region::where('slug', $slug)->first();
+
+        // If not found, try Subregions
+        if (!$location) {
+            $location = Subregion::where('slug', $slug)->first();
+        }
+
+        // If still not found, abort 404
+        if (!$location) {
+            abort(404);
+        }
+
+        return view('content.pages.locations.services.web-design-and-development', [
+            'location' => $location->name,
+            'slug' => $location->slug,
+        ]);
+    }
 }
